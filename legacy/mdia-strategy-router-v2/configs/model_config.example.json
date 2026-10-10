@@ -1,0 +1,14 @@
+{
+  "api_base": "https://api.siliconflow.cn/v1",
+  "api_key_env": "MDIA_API_KEY",
+  "models": [
+    "Qwen/Qwen3.5-9B",
+    "Pro/zai-org/GLM-5",
+    "Qwen/Qwen3.5-35B-A3B",
+    "Pro/moonshotai/Kimi-K2.5",
+    "deepseek-ai/DeepSeek-V3"
+  ],
+  "temperature": 0,
+  "enable_thinking": false
+}
+

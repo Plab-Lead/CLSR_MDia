@@ -1,0 +1,25 @@
+benchmark,benchmark_label,method,n,accuracy,mean_completion_tokens,is_mdia_routed_v2
+bfcl,BFCL v3,raw,75,0.6266666666666667,54.413333333333334,False
+bfcl,BFCL v3,raw CoT,75,0.6266666666666667,119.58666666666667,False
+bfcl,BFCL v3,SoT,75,0.5733333333333334,113.61333333333333,False
+bfcl,BFCL v3,CoD,75,0.5066666666666667,98.88,False
+bfcl,BFCL v3,MDia,75,0.5733333333333334,76.68,False
+livecodebench_output,LiveCodeBench-output,raw,40,0.125,75.075,False
+livecodebench_output,LiveCodeBench-output,raw CoT,40,0.15,314.6,False
+livecodebench_output,LiveCodeBench-output,SoT,40,0.15,194.9,False
+livecodebench_output,LiveCodeBench-output,CoD,40,0.2,209.1,False
+livecodebench_output,LiveCodeBench-output,MDia,40,0.15,160.325,False
+multihop_rag,MultiHopRAG,raw,60,0.8166666666666667,11.216666666666667,False
+multihop_rag,MultiHopRAG,raw CoT,60,0.9,98.75,False
+multihop_rag,MultiHopRAG,SoT,60,0.8333333333333334,91.03333333333333,False
+multihop_rag,MultiHopRAG,CoD,60,0.9,65.93333333333334,False
+multihop_rag,MultiHopRAG,MDia,60,0.8833333333333333,70.53333333333333,False
+musr,MuSR,raw,60,0.4666666666666667,51.083333333333336,False
+musr,MuSR,raw CoT,60,0.5166666666666667,177.98333333333332,False
+musr,MuSR,SoT,60,0.5,174.41666666666666,False
+musr,MuSR,CoD,60,0.4666666666666667,136.73333333333332,False
+musr,MuSR,MDia,60,0.45,186.33333333333334,False
+bfcl,BFCL v3,MDia-Routed-v2,75,0.72,36.24,True
+livecodebench_output,LiveCodeBench-output,MDia-Routed-v2,40,0.225,24.2,True
+multihop_rag,MultiHopRAG,MDia-Routed-v2,60,0.9666666666666667,7.816666666666666,True
+musr,MuSR,MDia-Routed-v2,60,0.55,35.983333333333334,True

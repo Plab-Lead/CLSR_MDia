@@ -1,0 +1,5 @@
+accuracy,benchmark,best_baseline_accuracy,lowest_baseline_completion_tokens,mean_completion_tokens,mean_total_tokens,method,n,official_win,parse_rate
+0.72,bfcl,0.6266666666666667,54.413333333333334,36.24,328.05333333333334,MDia-Routed-v2,75,True,0.9866666666666667
+0.225,livecodebench_output,0.2,75.075,24.2,475.1,MDia-Routed-v2,40,True,1.0
+0.9666666666666667,multihop_rag,0.9,11.216666666666667,7.816666666666666,264.31666666666666,MDia-Routed-v2,60,True,1.0
+0.55,musr,0.5166666666666667,51.083333333333336,35.983333333333334,1103.75,MDia-Routed-v2,60,True,0.8166666666666667

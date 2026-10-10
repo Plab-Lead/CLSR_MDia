@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "run_id": "toy-clsr",
+  "seed": 7,
+  "output_dir": "../runs",
+  "dataset": {
+    "adapter": "jsonl",
+    "path": "../examples/toy/tasks.jsonl",
+    "strict_split_isolation": true
+  },
+  "provider": {
+    "kind": "replay",
+    "model": "toy-clsr-backbone",
+    "revision": "synthetic-v1",
+    "replay_default_text": "A",
+    "max_tokens": 64,
+    "temperature": 0.0,
+    "seed": 7
+  },
+  "evaluator": {
+    "kind": "exact_match",
+    "evaluator_id": "toy-exact-match-v1",
+    "case_sensitive": false,
+    "strip": true,
+    "normalize_whitespace": true,
+    "official": false
+  },
+  "community": {
+    "preset": "clsr",
+    "creators": ["toy-clsr-backbone"],
+    "speakers": ["toy-clsr-backbone"],
+    "listeners": ["toy-clsr-backbone"],
+    "homogeneous": true
+  },
+  "creation": {
+    "top_k_per_task": 1,
+    "enforce_speaker_diversity": false,
+    "minimum_correct_traces": 1
+  },
+  "evolution": {
+    "max_generations": 1,
+    "saturation_patience": 1,
+    "minimum_improvement": 0.0,
+    "inherit_previous_generation": true,
+    "enable_horizontal_borrowing": false,
+    "include_failure_summaries": true
+  },
+  "selection": {
+    "minimum_support": 1,
+    "max_cards": 2,
+    "minimum_speakers": 1,
+    "pareto_metrics": ["accuracy", "tokens"],
+    "enforce_creator_diversity": false
+  },
+  "routing": {
+    "policy": "utility",
+    "mode": "single",
+    "token_budget": 256,
+    "max_steps": 1,
+    "max_dialects": 1,
+    "accuracy_weight": 1.0,
+    "token_penalty": 0.001,
+    "parse_failure_penalty": 0.25,
+    "raw_fallback_when_unroutable": true
+  },
+  "rules": {
+    "enabled": false,
+    "familywise_fdr": 0.05,
+    "bootstrap_samples": 200,
+    "permutation_samples": 200,
+    "seed": 7
+  },
+  "metadata": {
+    "fixture": true,
+    "method_contract": "CLSR homogeneous-agent special case of MDia"
+  }
+}

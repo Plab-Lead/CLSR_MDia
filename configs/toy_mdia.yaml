@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "run_id": "toy-mdia",
+  "seed": 7,
+  "output_dir": "../runs",
+  "dataset": {
+    "adapter": "jsonl",
+    "path": "../examples/toy/tasks.jsonl",
+    "strict_split_isolation": true
+  },
+  "provider": {
+    "kind": "replay",
+    "model": "toy-model-a",
+    "revision": "synthetic-v1",
+    "replay_default_text": "A",
+    "max_tokens": 64,
+    "temperature": 0.0,
+    "seed": 7
+  },
+  "evaluator": {
+    "kind": "exact_match",
+    "evaluator_id": "toy-exact-match-v1",
+    "case_sensitive": false,
+    "strip": true,
+    "normalize_whitespace": true,
+    "official": false
+  },
+  "community": {
+    "preset": "mdia",
+    "creators": ["toy-model-a", "toy-model-b"],
+    "speakers": ["toy-model-a", "toy-model-b"],
+    "listeners": ["toy-model-a", "toy-model-b"],
+    "homogeneous": false
+  },
+  "creation": {
+    "top_k_per_task": 2,
+    "enforce_speaker_diversity": true,
+    "minimum_correct_traces": 1
+  },
+  "evolution": {
+    "max_generations": 2,
+    "saturation_patience": 1,
+    "minimum_improvement": 0.0,
+    "inherit_previous_generation": true,
+    "enable_horizontal_borrowing": true,
+    "include_failure_summaries": true
+  },
+  "selection": {
+    "minimum_support": 1,
+    "max_cards": 4,
+    "minimum_speakers": 1,
+    "pareto_metrics": ["accuracy", "tokens"],
+    "enforce_creator_diversity": true
+  },
+  "routing": {
+    "policy": "utility",
+    "mode": "single",
+    "token_budget": 256,
+    "max_steps": 1,
+    "max_dialects": 2,
+    "accuracy_weight": 1.0,
+    "token_penalty": 0.001,
+    "parse_failure_penalty": 0.25,
+    "raw_fallback_when_unroutable": true
+  },
+  "rules": {
+    "enabled": true,
+    "familywise_fdr": 0.05,
+    "bootstrap_samples": 200,
+    "permutation_samples": 200,
+    "seed": 7
+  },
+  "metadata": {
+    "fixture": true,
+    "redistributable": true,
+    "claim_scope": "offline integration only"
+  }
+}

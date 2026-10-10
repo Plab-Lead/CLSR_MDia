@@ -1,0 +1,5 @@
+benchmark,benchmark_label,method,route_mode,models,n,accuracy,parse_rate,mean_completion_tokens,mean_total_tokens,best_baseline_accuracy,lowest_baseline_completion_tokens,official_win,route_map
+bfcl,BFCL v3,MDia-Routed-v2,benchmark,5,75,0.72,0.9866666666666667,36.24,328.05333333333334,0.6266666666666667,54.413333333333334,True,"{""bfcl"": ""rmdia_bfcl_parallel_zip""}"
+livecodebench_output,LiveCodeBench-output,MDia-Routed-v2,benchmark,5,40,0.225,1.0,24.2,475.1,0.2,75.075,True,"{""livecodebench_output"": ""rmdia_schema""}"
+multihop_rag,MultiHopRAG,MDia-Routed-v2,subtype,5,60,0.9666666666666667,1.0,7.816666666666666,264.31666666666666,0.9,11.216666666666667,True,"{""multihop_rag|comparison_query"": ""rmdia_silent"", ""multihop_rag|inference_query"": ""rmdia_verify"", ""multihop_rag|null_query"": ""rmdia_mhop_yesno_guard""}"
+musr,MuSR,MDia-Routed-v2,subtype,5,60,0.55,0.8166666666666667,35.983333333333334,1103.75,0.5166666666666667,51.083333333333336,True,"{""musr|murder_mystery"": ""rmdia_contrast"", ""musr|object_placements"": ""rmdia_contrast"", ""musr|team_allocation"": ""rmdia_schema""}"

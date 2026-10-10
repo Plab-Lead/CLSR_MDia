@@ -1,0 +1,8 @@
+{"task_id":"toy-induction-01","split":"induction","query":"Return the letter A.","gold":"A","metadata":{"benchmark":"toy","task_family":"exact","difficulty":"easy","answer_format":"short"}}
+{"task_id":"toy-induction-02","split":"induction","query":"Choose A from [A, B]. Return one letter.","gold":"A","metadata":{"benchmark":"toy","task_family":"choice","difficulty":"easy","answer_format":"short"}}
+{"task_id":"toy-evolution-01","split":"evolution_validation","query":"The required output token is A. Return it.","gold":"A","metadata":{"benchmark":"toy","task_family":"exact","difficulty":"easy","answer_format":"short"}}
+{"task_id":"toy-evolution-02","split":"evolution_validation","query":"Which option is alphabetically first: A or B? Return the option.","gold":"A","metadata":{"benchmark":"toy","task_family":"choice","difficulty":"easy","answer_format":"short"}}
+{"task_id":"toy-router-01","split":"router_validation","query":"Respond with A and no explanation.","gold":"A","metadata":{"benchmark":"toy","task_family":"exact","difficulty":"easy","answer_format":"short"}}
+{"task_id":"toy-router-02","split":"router_validation","query":"Select the correct marker: A. Return only the marker.","gold":"A","metadata":{"benchmark":"toy","task_family":"choice","difficulty":"easy","answer_format":"short"}}
+{"task_id":"toy-test-01","split":"test","query":"For this held-out example, output A.","gold":"A","metadata":{"benchmark":"toy","task_family":"exact","difficulty":"easy","answer_format":"short"}}
+{"task_id":"toy-test-02","split":"test","query":"The answer contract requires the single letter A.","gold":"A","metadata":{"benchmark":"toy","task_family":"choice","difficulty":"easy","answer_format":"short"}}

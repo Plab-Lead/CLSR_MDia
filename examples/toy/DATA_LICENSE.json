@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0",
+  "title": "MDia synthetic offline fixture",
+  "synthetic": true,
+  "license": "CC0-1.0",
+  "source": "Created specifically for the MDia reference pipeline; contains no benchmark-derived text.",
+  "files": [
+    "tasks.jsonl"
+  ]
+}

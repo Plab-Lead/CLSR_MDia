@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, cite the software and the relevant MDia or CLSR paper."
+title: "Machine Dialectology (MDia)"
+type: software
+authors:
+  - family-names: Pei
+    given-names: Zhengqi
+  - family-names: Huang
+    given-names: Qingming
+  - family-names: Wang
+    given-names: Shuhui
+version: 1.0.0
+date-released: 2026-07-30
+repository-code: "https://github.com/pzqpzq/LSF_MDia"
+url: "https://github.com/pzqpzq/LSF_MDia"
+license: MIT
+references:
+  - type: article
+    title: "When LLMs Develop Languages: Symbolic Communication for Efficient Multi-Agent Reasoning"
+    authors:
+      - family-names: Pei
+        given-names: Zhengqi
+      - family-names: Huang
+        given-names: Qingming
+      - family-names: Wang
+        given-names: Shuhui
+    year: 2026
+    url: "https://arxiv.org/abs/2606.29354"

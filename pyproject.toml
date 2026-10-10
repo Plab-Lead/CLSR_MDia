@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mdia"
+version = "1.0.0"
+description = "MDia-first reference pipeline for creating, evolving, profiling, and routing machine dialects"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "Zhengqi Pei" }]
+dependencies = [
+  "pydantic>=2.7,<3",
+  "PyYAML>=6.0,<7",
+]
+
+[project.optional-dependencies]
+analysis = [
+  "numpy>=1.26,<3",
+  "scipy>=1.11,<2",
+]
+dev = [
+  "mypy>=1.10,<2",
+  "pytest>=8,<9",
+  "pytest-cov>=5,<7",
+  "ruff>=0.6,<1",
+  "types-PyYAML>=6.0",
+]
+
+[project.scripts]
+mdia = "mdia.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 110
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.10"
+packages = ["mdia"]
+warn_unused_configs = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+check_untyped_defs = true
+disallow_untyped_defs = true
+no_implicit_optional = true

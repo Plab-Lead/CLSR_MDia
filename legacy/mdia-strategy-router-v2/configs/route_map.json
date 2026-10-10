@@ -1,0 +1,21 @@
+{
+  "bfcl": {
+    "_default": "rmdia_bfcl_parallel_zip"
+  },
+  "livecodebench_output": {
+    "_default": "rmdia_schema"
+  },
+  "multihop_rag": {
+    "comparison_query": "rmdia_silent",
+    "inference_query": "rmdia_verify",
+    "null_query": "rmdia_mhop_yesno_guard",
+    "_default": "rmdia_verify"
+  },
+  "musr": {
+    "murder_mystery": "rmdia_contrast",
+    "object_placements": "rmdia_contrast",
+    "team_allocation": "rmdia_schema",
+    "_default": "rmdia_contrast"
+  }
+}
+
