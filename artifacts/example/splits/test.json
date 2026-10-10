@@ -1,0 +1,32 @@
+{
+  "content_hash": "b0c48042aa2eecf4132171441cc337ff061c1aaa19d29f1452c82dad9a08d0ea",
+  "records": [
+    {
+      "content_hash": "de224e7519a628ab13cff6e2cebc68a6fff6f2baca513af2261cedf584d18192",
+      "gold": "A",
+      "metadata": {
+        "answer_format": "short",
+        "benchmark": "toy",
+        "difficulty": "easy",
+        "task_family": "exact"
+      },
+      "query": "For this held-out example, output A.",
+      "split": "test",
+      "task_id": "toy-test-01"
+    },
+    {
+      "content_hash": "8221b5d3df10cc74a43af0e7d685400268cd11c8523d7e1b7c909022d842d059",
+      "gold": "A",
+      "metadata": {
+        "answer_format": "short",
+        "benchmark": "toy",
+        "difficulty": "easy",
+        "task_family": "choice"
+      },
+      "query": "The answer contract requires the single letter A.",
+      "split": "test",
+      "task_id": "toy-test-02"
+    }
+  ],
+  "split": "test"
+}

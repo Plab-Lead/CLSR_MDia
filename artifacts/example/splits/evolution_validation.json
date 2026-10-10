@@ -1,0 +1,32 @@
+{
+  "content_hash": "fa28634eed938c2e35063495a95dbae4ce661e64db437c3e349761b21c66cf0f",
+  "records": [
+    {
+      "content_hash": "28e0b3e81c821c31d5a04559f469df82b5874e59b0585149ffda3cb274cc563e",
+      "gold": "A",
+      "metadata": {
+        "answer_format": "short",
+        "benchmark": "toy",
+        "difficulty": "easy",
+        "task_family": "exact"
+      },
+      "query": "The required output token is A. Return it.",
+      "split": "evolution_validation",
+      "task_id": "toy-evolution-01"
+    },
+    {
+      "content_hash": "76145b3bc375d83e3d0a7666208ce6b7b523affcd243bcf2831292a8d687af78",
+      "gold": "A",
+      "metadata": {
+        "answer_format": "short",
+        "benchmark": "toy",
+        "difficulty": "easy",
+        "task_family": "choice"
+      },
+      "query": "Which option is alphabetically first: A or B? Return the option.",
+      "split": "evolution_validation",
+      "task_id": "toy-evolution-02"
+    }
+  ],
+  "split": "evolution_validation"
+}

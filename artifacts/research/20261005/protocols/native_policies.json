@@ -1,0 +1,208 @@
+[
+  {
+    "kind": "single",
+    "model": "deepseek-ai/DeepSeek-V4-Flash",
+    "benchmark": "cruxeval",
+    "task_family": "code_output",
+    "method": "card",
+    "card_ids": [
+      "bab155fa2ce42e9a91d4ca26a4761070ed6fbed5b3e2bcca98bd63347f50390b"
+    ],
+    "params": {
+      "temperature": 0.2,
+      "max_tokens": 2048,
+      "enable_thinking": false,
+      "stream": true
+    },
+    "source_split": "deployment_adaptation",
+    "operating_point": "cruxeval-visible-state16-20260925-v1_python_state",
+    "schema_version": "mdia-system-v2",
+    "id": "22f27388ab6ad7c8b1fab9730a34c5931b3f42f4d0a8fc99f42980cf323d9cba",
+    "original_policy_file_sha256": "1bc4b684214ceff9fecc268f3338935da480abd4aa89ffc520afc39b8d8045c9"
+  },
+  {
+    "kind": "single",
+    "model": "deepseek-ai/DeepSeek-V4-Flash",
+    "benchmark": "multihop",
+    "task_family": "provided_evidence",
+    "method": "card",
+    "card_ids": [
+      "f44dec8c173ac4ef78d2504337ccab52bcbcee092fb3d6036ed8bada9e55f547"
+    ],
+    "params": {
+      "temperature": 0.2,
+      "max_tokens": 8192,
+      "enable_thinking": false,
+      "stream": true
+    },
+    "source_split": "deployment_adaptation",
+    "operating_point": "parent_8192",
+    "schema_version": "mdia-system-v2",
+    "id": "2a8ec4a8d20eb96fabedafbfdcc70583e54f03f74aecc399d4c79b5697dda0a3",
+    "original_policy_file_sha256": "4903643dc9803bb4034c65c9df631ecb143a30a2b0921ce56ee2908a2ffb53cc"
+  },
+  {
+    "kind": "single",
+    "model": "deepseek-ai/DeepSeek-V4-Flash",
+    "benchmark": "cruxeval",
+    "task_family": "code_output",
+    "method": "natural_card",
+    "card_ids": [
+      "f3fc42cd3ced1ea086f6c06db4f2814cb4a9464be9f04c69416e61039564d149"
+    ],
+    "params": {
+      "temperature": 0.2,
+      "max_tokens": 2048,
+      "enable_thinking": false,
+      "stream": true
+    },
+    "source_split": "deployment_adaptation",
+    "operating_point": "cruxeval-visible-state16-20260925-v1_natural_equivalent",
+    "schema_version": "mdia-system-v2",
+    "id": "532f6637bb02bed2f96c79c3f10d0a6add755195df2813e757d9211c2aa220fd",
+    "original_policy_file_sha256": "47caa528d733986abdd782429b72ec841f7a8b092e9e2ce64d823ba42d958ef9"
+  },
+  {
+    "kind": "single",
+    "model": "deepseek-ai/DeepSeek-V4-Flash",
+    "benchmark": "lcb",
+    "task_family": "code_output",
+    "method": "card",
+    "card_ids": [
+      "19e75b88622dee277cb0218b5eceba54c2d1d43b71489c43ae69404d9671f228"
+    ],
+    "params": {
+      "temperature": 0.2,
+      "max_tokens": 2048,
+      "enable_thinking": false,
+      "stream": true
+    },
+    "source_split": "deployment_adaptation",
+    "operating_point": "compiled128_2048",
+    "schema_version": "mdia-system-v2",
+    "id": "60327dad984393b897d5d37eb8f31c235d02440dd663af0f341e373ba65b2f83",
+    "original_policy_file_sha256": "61287ee7304e4742d8cf8b8613cbeb0228ce3e8e5f54bcd3d013103136c85b86"
+  },
+  {
+    "kind": "single",
+    "model": "Qwen/Qwen3.6-35B-A3B",
+    "benchmark": "bfcl",
+    "task_family": "tool_selection",
+    "method": "direct",
+    "card_ids": [],
+    "params": {
+      "temperature": 0.2,
+      "max_tokens": 8192,
+      "enable_thinking": false,
+      "stream": true
+    },
+    "source_split": "deployment_adaptation",
+    "operating_point": "direct_8192",
+    "schema_version": "mdia-system-v2",
+    "id": "76a8754131cbc2d02364b6c49ce15b4734524e0c28b7cd86b8fc62156fdaead6",
+    "original_policy_file_sha256": "58410a2a6c4eb0b8d950437da47a86682b0c10fedfc5b022d2b36d4109e20123"
+  },
+  {
+    "kind": "single",
+    "model": "zai-org/GLM-5.3",
+    "benchmark": "gpqa",
+    "task_family": "scientific_mcq",
+    "method": "natural_card",
+    "card_ids": [
+      "122c18aaf5d07d8816a48b41acb4c8a1ac8f9e419c43254debca5c2b47cded1a"
+    ],
+    "params": {
+      "temperature": 0.2,
+      "max_tokens": 2048,
+      "enable_thinking": true,
+      "thinking_budget": 1024,
+      "stream": true
+    },
+    "source_split": "deployment_adaptation",
+    "operating_point": "obligation-frontiers-20260927-v1-natural",
+    "schema_version": "mdia-system-v2",
+    "id": "7ac665f4a330e846b10ae5d2b6bcb860f52bee249c88efe432870a30278865e9",
+    "original_policy_file_sha256": "0081a59c34b14df6fc80b1f02221ee125b58fe8dec9b4bbea7e6d9adbfd9da20"
+  },
+  {
+    "kind": "single",
+    "model": "deepseek-ai/DeepSeek-V4-Flash",
+    "benchmark": "multihop",
+    "task_family": "provided_evidence",
+    "method": "sot",
+    "card_ids": [],
+    "params": {
+      "temperature": 0.2,
+      "max_tokens": 8192,
+      "enable_thinking": false,
+      "stream": true
+    },
+    "source_split": "deployment_adaptation",
+    "operating_point": "sot_8192",
+    "schema_version": "mdia-system-v2",
+    "id": "9c8b8818671f7a4063702410dcb18f221815d65635a0d63070b34ba095c4cc70",
+    "original_policy_file_sha256": "9338d74daf343d14865431acbb6b648fbf1cfeee4475534ca5fe116b64c1f049"
+  },
+  {
+    "kind": "single",
+    "model": "deepseek-ai/DeepSeek-V4-Flash",
+    "benchmark": "lcb",
+    "task_family": "code_output",
+    "method": "raw",
+    "card_ids": [],
+    "params": {
+      "temperature": 0.2,
+      "max_tokens": 8192,
+      "enable_thinking": false,
+      "stream": true
+    },
+    "source_split": "deployment_adaptation",
+    "operating_point": "raw_8192",
+    "schema_version": "mdia-system-v2",
+    "id": "b00f6fe359d585b96a838f0c3b462315ee5c5b4272673ce3a963e9770a195c75",
+    "original_policy_file_sha256": "7709e705325cc970135412f2e6daa1e257f5ecd06dc22d38eb33b6cfdb7303a3"
+  },
+  {
+    "kind": "single",
+    "model": "zai-org/GLM-5.3",
+    "benchmark": "gpqa",
+    "task_family": "scientific_mcq",
+    "method": "card",
+    "card_ids": [
+      "d6e24e383bc67d9536cb9b1540762f3b0b8f0cded52b1af5d127ef0df5bfe77c"
+    ],
+    "params": {
+      "temperature": 0.2,
+      "max_tokens": 2048,
+      "enable_thinking": true,
+      "thinking_budget": 1024,
+      "stream": true
+    },
+    "source_split": "deployment_adaptation",
+    "operating_point": "obligation-frontiers-20260927-v1-mdia",
+    "schema_version": "mdia-system-v2",
+    "id": "bfd2a593ec3bf5644bd5d62194fd9dad9d7c79c216804658616501cbda042437",
+    "original_policy_file_sha256": "5a338c5bf619c2e8bebfbdca7535983714afc74221a2ccf4bc1ae29a318e62b9"
+  },
+  {
+    "kind": "single",
+    "model": "Qwen/Qwen3.6-35B-A3B",
+    "benchmark": "bfcl",
+    "task_family": "tool_selection",
+    "method": "card",
+    "card_ids": [
+      "6f66aed8abc2255bbd74ecd837928dd945e811d67d968b8670a0bda981680045"
+    ],
+    "params": {
+      "temperature": 0.2,
+      "max_tokens": 8192,
+      "enable_thinking": false,
+      "stream": true
+    },
+    "source_split": "deployment_adaptation",
+    "operating_point": "parent_8192",
+    "schema_version": "mdia-system-v2",
+    "id": "cf7f079b91d81a9ceffdc6a35ef2f216131c7c969911b1ce0b52028e331086eb",
+    "original_policy_file_sha256": "05db1b151c35c158f72a84a74908422aa1a3bcc9d2c90f91ff08a6c9e6787223"
+  }
+]

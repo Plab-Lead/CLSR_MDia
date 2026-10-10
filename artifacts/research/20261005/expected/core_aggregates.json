@@ -1,0 +1,211 @@
+{
+  "rows": [
+    {
+      "pair_id": "GPQA_GLM",
+      "candidate": {
+        "n": 256,
+        "groups": 256,
+        "correct": 194,
+        "parsed": 247,
+        "generated": 894.3984375,
+        "input": 481.2265625,
+        "unknown_attempts": 0,
+        "cost_available": true,
+        "finish_counts": {
+          "stop": 250,
+          "length": 6
+        }
+      },
+      "reference": {
+        "n": 256,
+        "groups": 256,
+        "correct": 180,
+        "parsed": 242,
+        "generated": 1070.5234375,
+        "input": 440.2265625,
+        "unknown_attempts": 0,
+        "cost_available": true,
+        "finish_counts": {
+          "stop": 248,
+          "length": 8
+        }
+      }
+    },
+    {
+      "pair_id": "BFCL_Qwen",
+      "candidate": {
+        "n": 256,
+        "groups": 256,
+        "correct": 242,
+        "parsed": 256,
+        "generated": 82.9140625,
+        "input": 750.5703125,
+        "unknown_attempts": 0,
+        "cost_available": true,
+        "finish_counts": {
+          "stop": 256
+        }
+      },
+      "reference": {
+        "n": 256,
+        "groups": 256,
+        "correct": 241,
+        "parsed": 256,
+        "generated": 94.00390625,
+        "input": 271.5703125,
+        "unknown_attempts": 0,
+        "cost_available": true,
+        "finish_counts": {
+          "stop": 256
+        }
+      }
+    },
+    {
+      "pair_id": "MultiHop_Flash",
+      "candidate": {
+        "n": 256,
+        "groups": 256,
+        "correct": 172,
+        "parsed": 254,
+        "generated": 10.953125,
+        "input": 1380.58203125,
+        "unknown_attempts": 0,
+        "cost_available": true,
+        "finish_counts": {
+          "stop": 256
+        }
+      },
+      "reference": {
+        "n": 256,
+        "groups": 256,
+        "correct": 167,
+        "parsed": 256,
+        "generated": 27.5859375,
+        "input": 984.58203125,
+        "unknown_attempts": 0,
+        "cost_available": true,
+        "finish_counts": {
+          "stop": 256
+        }
+      }
+    },
+    {
+      "pair_id": "LCB_Flash",
+      "candidate": {
+        "n": 256,
+        "groups": 104,
+        "correct": 230,
+        "parsed": 255,
+        "generated": 251.51953125,
+        "input": 295.390625,
+        "unknown_attempts": 0,
+        "cost_available": true,
+        "finish_counts": {
+          "stop": 256
+        }
+      },
+      "reference": {
+        "n": 256,
+        "groups": 104,
+        "correct": 230,
+        "parsed": 256,
+        "generated": 296.56640625,
+        "input": 224.390625,
+        "unknown_attempts": 0,
+        "cost_available": true,
+        "finish_counts": {
+          "stop": 256
+        }
+      }
+    },
+    {
+      "pair_id": "CRUX_Flash",
+      "candidate": {
+        "n": 256,
+        "groups": 256,
+        "correct": 242,
+        "parsed": 255,
+        "generated": 142.6953125,
+        "input": 344.03515625,
+        "unknown_attempts": 0,
+        "cost_available": true,
+        "finish_counts": {
+          "stop": 255,
+          "length": 1
+        }
+      },
+      "reference": {
+        "n": 256,
+        "groups": 256,
+        "correct": 242,
+        "parsed": 255,
+        "generated": 181.88671875,
+        "input": 306.03515625,
+        "unknown_attempts": 0,
+        "cost_available": true,
+        "finish_counts": {
+          "stop": 254,
+          "length": 2
+        }
+      }
+    },
+    {
+      "pair_id": "CRUX_Qwen",
+      "candidate": {
+        "n": 48,
+        "groups": 48,
+        "correct": 46,
+        "parsed": 48,
+        "generated": 199.875,
+        "input": 350.6458333333333,
+        "unknown_attempts": 0,
+        "cost_available": true,
+        "finish_counts": {
+          "stop": 48
+        }
+      },
+      "reference": {
+        "n": 48,
+        "groups": 48,
+        "correct": 44,
+        "parsed": 48,
+        "generated": 274.1458333333333,
+        "input": 314.6458333333333,
+        "unknown_attempts": 0,
+        "cost_available": true,
+        "finish_counts": {
+          "stop": 48
+        }
+      }
+    },
+    {
+      "pair_id": "GPQA_Pro",
+      "candidate": {
+        "n": 48,
+        "groups": 48,
+        "correct": 30,
+        "parsed": 48,
+        "generated": 9.0,
+        "input": 304.0833333333333,
+        "unknown_attempts": 0,
+        "cost_available": true,
+        "finish_counts": {
+          "stop": 48
+        }
+      },
+      "reference": {
+        "n": 48,
+        "groups": 48,
+        "correct": 27,
+        "parsed": 48,
+        "generated": 6.9375,
+        "input": 223.08333333333334,
+        "unknown_attempts": 0,
+        "cost_available": true,
+        "finish_counts": {
+          "stop": 48
+        }
+      }
+    }
+  ]
+}

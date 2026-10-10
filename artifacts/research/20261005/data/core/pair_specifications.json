@@ -1,0 +1,112 @@
+{
+  "pairs": [
+    {
+      "pair_id": "GPQA_GLM",
+      "paths": [
+        "experiments/gpqa-obligation256-20260927-v1/gpqa_reviewed256_predictions.jsonl"
+      ],
+      "key": "policy_id",
+      "candidate": "bfd2a593ec3bf5644bd5d62194fd9dad9d7c79c216804658616501cbda042437",
+      "reference": "7ac665f4a330e846b10ae5d2b6bcb860f52bee249c88efe432870a30278865e9",
+      "n": 256,
+      "groups": 256,
+      "review": "experiments/gpqa-obligation256-20260927-v1/gpqa_completed256_review.json",
+      "review_sha256": "6b8437453deb55c12fc10404eaddb18e1971bc7ec46f96d21bdca8f0fdba8203"
+    },
+    {
+      "pair_id": "BFCL_Qwen",
+      "paths": [],
+      "key": "policy_id",
+      "candidate": "cf7f079b91d81a9ceffdc6a35ef2f216131c7c969911b1ce0b52028e331086eb",
+      "reference": "76a8754131cbc2d02364b6c49ce15b4734524e0c28b7cd86b8fc62156fdaead6",
+      "n": 256,
+      "groups": 256,
+      "review": "reports/bfcl_primary256_review_20260924T214114_v2.json",
+      "review_sha256": "094b81f144de666330ad2d273a97a017e5db1b7886ee8a78a9aca46895171900"
+    },
+    {
+      "pair_id": "MultiHop_Flash",
+      "paths": [
+        "reports/multihop_completed_20260926T133724/predictions.jsonl"
+      ],
+      "key": "policy_id",
+      "candidate": "2a8ec4a8d20eb96fabedafbfdcc70583e54f03f74aecc399d4c79b5697dda0a3",
+      "reference": "9c8b8818671f7a4063702410dcb18f221815d65635a0d63070b34ba095c4cc70",
+      "n": 256,
+      "groups": 256,
+      "review": "reports/multihop_completed_20260926T133724/review.json",
+      "review_sha256": "e013151d4d1d93cf64f2b0b3789d3ba9f073144f2afe26b097e5c917969107d0"
+    },
+    {
+      "pair_id": "LCB_Flash",
+      "paths": [],
+      "key": "policy_id",
+      "candidate": "60327dad984393b897d5d37eb8f31c235d02440dd663af0f341e373ba65b2f83",
+      "reference": "b00f6fe359d585b96a838f0c3b462315ee5c5b4272673ce3a963e9770a195c75",
+      "n": 256,
+      "groups": 104,
+      "review": "reports/lcb_control256_completed_20260926T073722/review.json",
+      "review_sha256": "62b76c929b92ffd17b4ea30fefb6f8525a4fc52ee82760784f42266a3f1f43fd"
+    },
+    {
+      "pair_id": "CRUX_Flash",
+      "paths": [
+        "reports/completed_crux_bbeh_20260926T033721/cruxeval_predictions.jsonl"
+      ],
+      "key": "policy_id",
+      "candidate": "22f27388ab6ad7c8b1fab9730a34c5931b3f42f4d0a8fc99f42980cf323d9cba",
+      "reference": "532f6637bb02bed2f96c79c3f10d0a6add755195df2813e757d9211c2aa220fd",
+      "n": 256,
+      "groups": 256,
+      "review": "reports/completed_crux_bbeh_20260926T033721/cruxeval_review.json",
+      "review_sha256": "26ca2fb69767e4f8f514a5c334871b7d2f99006bdb4d45a6694b01fdcbb43425"
+    },
+    {
+      "pair_id": "CRUX_Qwen",
+      "paths": [
+        "experiments/crux-python-state-qwen-transfer48-20260930-v1/predictions.jsonl"
+      ],
+      "key": "arm",
+      "candidate": "python_state",
+      "reference": "original_english",
+      "n": 48,
+      "groups": 48,
+      "review": "experiments/crux-python-state-qwen-transfer48-20260930-v1/completed48_review.json",
+      "review_sha256": "dee9ce25a48e6bf2b8d0fcdde3cd667ae66c37668a0f11f1453106658a65474a"
+    },
+    {
+      "pair_id": "GPQA_Pro",
+      "paths": [
+        "experiments/gpqa-obligation-pro-transfer48-20261001-v1/predictions.jsonl",
+        "experiments/gpqa-obligation-pro-transfer48-20261001-v1/imported_predictions.jsonl"
+      ],
+      "key": "arm",
+      "candidate": "compiled256_2048",
+      "reference": "direct_2048",
+      "n": 48,
+      "groups": 48,
+      "review": "experiments/gpqa-obligation-pro-transfer48-20261001-v1/completed48_review.json",
+      "review_sha256": "d3b30de18a196737b0fc15eb7c91293e85eb2f14adc0685ea3d32ba48b7f70b7"
+    }
+  ],
+  "bootstrap": {
+    "generator": "numpy.random.PCG64",
+    "base_seed": 20261001,
+    "seed_rule": "base_seed + fixed pair index 0..6",
+    "replicates": 10000,
+    "percentiles": [
+      2.5,
+      97.5
+    ],
+    "resampling": "uniform with replacement over sorted original whole-group keys; use every case in each selected group and case-weighted ratio of totals",
+    "metrics": [
+      "accuracy_difference_pp",
+      "generated_saving_percent",
+      "input_difference_tokens_per_case",
+      "parse_difference_pp"
+    ],
+    "undefined_denominator": "unavailable",
+    "interval_scope": "new deterministic reproduction intervals; do not replace or assert exact equality to historical interval endpoints with other RNG seeds"
+  },
+  "intervals_scope": "Separate deterministic reproduction intervals; original published endpoints unchanged"
+}

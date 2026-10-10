@@ -1,0 +1,212 @@
+[
+  {
+    "pair_id": "GPQA_GLM",
+    "n": 256,
+    "groups": 256,
+    "wins": 25,
+    "losses": 11,
+    "accuracy_difference_pp": 5.46875,
+    "accuracy_interval_pp": [
+      0.78125,
+      10.15625
+    ],
+    "parse_difference_pp": 1.953125,
+    "parse_interval_pp": [
+      -1.171875,
+      5.46875
+    ],
+    "generated_saving_percent": 16.452232041860363,
+    "generated_saving_interval_percent": [
+      10.138404707112548,
+      22.58517885131888
+    ],
+    "input_difference_tokens_per_case": 41.0,
+    "input_difference_interval": [
+      41.0,
+      41.0
+    ],
+    "bootstrap_replicates": 10000,
+    "seed": 20261001,
+    "cost_available": true
+  },
+  {
+    "pair_id": "BFCL_Qwen",
+    "n": 256,
+    "groups": 256,
+    "wins": 8,
+    "losses": 7,
+    "accuracy_difference_pp": 0.390625,
+    "accuracy_interval_pp": [
+      -2.734375,
+      3.515625
+    ],
+    "parse_difference_pp": 0.0,
+    "parse_interval_pp": [
+      0.0,
+      0.0
+    ],
+    "generated_saving_percent": 11.797215873675462,
+    "generated_saving_interval_percent": [
+      8.69070307269218,
+      15.211066091035086
+    ],
+    "input_difference_tokens_per_case": 479.0,
+    "input_difference_interval": [
+      479.0,
+      479.0
+    ],
+    "bootstrap_replicates": 10000,
+    "seed": 20261002,
+    "cost_available": true
+  },
+  {
+    "pair_id": "MultiHop_Flash",
+    "n": 256,
+    "groups": 256,
+    "wins": 18,
+    "losses": 13,
+    "accuracy_difference_pp": 1.953125,
+    "accuracy_interval_pp": [
+      -2.34375,
+      6.25
+    ],
+    "parse_difference_pp": -0.78125,
+    "parse_interval_pp": [
+      -1.953125,
+      0.0
+    ],
+    "generated_saving_percent": 60.29453412630983,
+    "generated_saving_interval_percent": [
+      48.060297546907236,
+      69.13521383501454
+    ],
+    "input_difference_tokens_per_case": 396.0,
+    "input_difference_interval": [
+      389.8125,
+      401.2734375
+    ],
+    "bootstrap_replicates": 10000,
+    "seed": 20261003,
+    "cost_available": true
+  },
+  {
+    "pair_id": "LCB_Flash",
+    "n": 256,
+    "groups": 104,
+    "wins": 11,
+    "losses": 11,
+    "accuracy_difference_pp": 0.0,
+    "accuracy_interval_pp": [
+      -3.501945525291829,
+      3.501945525291829
+    ],
+    "parse_difference_pp": -0.390625,
+    "parse_interval_pp": [
+      -1.2,
+      0.0
+    ],
+    "generated_saving_percent": 15.189473268265697,
+    "generated_saving_interval_percent": [
+      7.291776148524067,
+      21.93254665087962
+    ],
+    "input_difference_tokens_per_case": 71.0,
+    "input_difference_interval": [
+      71.0,
+      71.0
+    ],
+    "bootstrap_replicates": 10000,
+    "seed": 20261004,
+    "cost_available": true
+  },
+  {
+    "pair_id": "CRUX_Flash",
+    "n": 256,
+    "groups": 256,
+    "wins": 6,
+    "losses": 6,
+    "accuracy_difference_pp": 0.0,
+    "accuracy_interval_pp": [
+      -2.734375,
+      2.734375
+    ],
+    "parse_difference_pp": 0.0,
+    "parse_interval_pp": [
+      0.0,
+      0.0
+    ],
+    "generated_saving_percent": 21.547151171531045,
+    "generated_saving_interval_percent": [
+      14.698002536833211,
+      29.14672270729476
+    ],
+    "input_difference_tokens_per_case": 38.0,
+    "input_difference_interval": [
+      38.0,
+      38.0
+    ],
+    "bootstrap_replicates": 10000,
+    "seed": 20261005,
+    "cost_available": true
+  },
+  {
+    "pair_id": "CRUX_Qwen",
+    "n": 48,
+    "groups": 48,
+    "wins": 3,
+    "losses": 1,
+    "accuracy_difference_pp": 4.166666666666667,
+    "accuracy_interval_pp": [
+      -4.166666666666667,
+      12.5
+    ],
+    "parse_difference_pp": 0.0,
+    "parse_interval_pp": [
+      0.0,
+      0.0
+    ],
+    "generated_saving_percent": 27.091724295159207,
+    "generated_saving_interval_percent": [
+      19.056648694052353,
+      34.25290544079002
+    ],
+    "input_difference_tokens_per_case": 36.0,
+    "input_difference_interval": [
+      36.0,
+      36.0
+    ],
+    "bootstrap_replicates": 10000,
+    "seed": 20261006,
+    "cost_available": true
+  },
+  {
+    "pair_id": "GPQA_Pro",
+    "n": 48,
+    "groups": 48,
+    "wins": 3,
+    "losses": 0,
+    "accuracy_difference_pp": 6.25,
+    "accuracy_interval_pp": [
+      0.0,
+      14.583333333333334
+    ],
+    "parse_difference_pp": 0.0,
+    "parse_interval_pp": [
+      0.0,
+      0.0
+    ],
+    "generated_saving_percent": -29.72972972972973,
+    "generated_saving_interval_percent": [
+      -37.142857142857146,
+      -23.076923076923077
+    ],
+    "input_difference_tokens_per_case": 81.0,
+    "input_difference_interval": [
+      81.0,
+      81.0
+    ],
+    "bootstrap_replicates": 10000,
+    "seed": 20261007,
+    "cost_available": true
+  }
+]

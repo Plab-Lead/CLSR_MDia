@@ -1,0 +1,32 @@
+{
+  "content_hash": "a4b1b0e6c4170f84c4f105d5308dd275327020a09ce3340db7cfb329476fb5aa",
+  "records": [
+    {
+      "content_hash": "5ac3cf2e8295385100ceb882bd9ffc1c67eaa6264d7d43e86d116f5b60fb9da4",
+      "gold": "A",
+      "metadata": {
+        "answer_format": "short",
+        "benchmark": "toy",
+        "difficulty": "easy",
+        "task_family": "exact"
+      },
+      "query": "Respond with A and no explanation.",
+      "split": "router_validation",
+      "task_id": "toy-router-01"
+    },
+    {
+      "content_hash": "e75ced2c04c58437661189eaec7fb239f925c5f33d2015671e894c58da1c22c6",
+      "gold": "A",
+      "metadata": {
+        "answer_format": "short",
+        "benchmark": "toy",
+        "difficulty": "easy",
+        "task_family": "choice"
+      },
+      "query": "Select the correct marker: A. Return only the marker.",
+      "split": "router_validation",
+      "task_id": "toy-router-02"
+    }
+  ],
+  "split": "router_validation"
+}

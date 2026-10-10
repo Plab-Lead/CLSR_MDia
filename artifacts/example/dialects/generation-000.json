@@ -1,0 +1,149 @@
+{
+  "generation": 0,
+  "records": [
+    {
+      "creator_id": "toy-model-a",
+      "dialect_id": "dialect-0c2fce712e4cd2375a32",
+      "empirical_profile": {
+        "profiled": 0.0,
+        "source_completion_tokens": 1.0,
+        "source_correct": 1.0,
+        "source_parse_failure": 0.0
+      },
+      "fallback": "If the dialect is ambiguous or unsafe, stop using it and answer directly in plain language.",
+      "generation": 0,
+      "grammar": "Express premises, transformations, checks, and the final answer in an explicit order.",
+      "input_contract": "Read only the supplied task and public task metadata; never assume access to a gold answer.",
+      "metadata": {
+        "creation": "correct_low_token_trace",
+        "source_model": "toy-model-a"
+      },
+      "output_contract": "Return a human-readable final answer that satisfies the task's declared answer format.",
+      "parent_ids": [],
+      "profile_ids": [],
+      "reasoning_operators": "Reusable transformations inferred from successful source trace-4b03d049a0b9da13dbaf:\nA",
+      "source_trace_ids": [
+        "trace-4b03d049a0b9da13dbaf"
+      ],
+      "speaker_ids": [
+        "toy-model-a"
+      ],
+      "specification_digest": "d846b7cf40d08c78de24c66ec71eb056b22636f440ab5956516ac6e8c0042c5e",
+      "symbol_inventory": "Use stable, short names and define every nonstandard symbol before reuse.",
+      "task_tags": [
+        "toy"
+      ],
+      "usage_rules": "Use the shortest complete derivation; retain bindings and verification whenever omission could change correctness."
+    },
+    {
+      "creator_id": "toy-model-b",
+      "dialect_id": "dialect-bf063fdd67b309643ae1",
+      "empirical_profile": {
+        "profiled": 0.0,
+        "source_completion_tokens": 1.0,
+        "source_correct": 1.0,
+        "source_parse_failure": 0.0
+      },
+      "fallback": "If the dialect is ambiguous or unsafe, stop using it and answer directly in plain language.",
+      "generation": 0,
+      "grammar": "Express premises, transformations, checks, and the final answer in an explicit order.",
+      "input_contract": "Read only the supplied task and public task metadata; never assume access to a gold answer.",
+      "metadata": {
+        "creation": "correct_low_token_trace",
+        "source_model": "toy-model-b"
+      },
+      "output_contract": "Return a human-readable final answer that satisfies the task's declared answer format.",
+      "parent_ids": [],
+      "profile_ids": [],
+      "reasoning_operators": "Reusable transformations inferred from successful source trace-e3667cd59dc9998a59f7:\nA",
+      "source_trace_ids": [
+        "trace-e3667cd59dc9998a59f7"
+      ],
+      "speaker_ids": [
+        "toy-model-b"
+      ],
+      "specification_digest": "b51c06f2833e6d53e734fe0c2d7e556c3c7431d8bf5afc62a514578ffc5a6f7d",
+      "symbol_inventory": "Use stable, short names and define every nonstandard symbol before reuse.",
+      "task_tags": [
+        "toy"
+      ],
+      "usage_rules": "Use the shortest complete derivation; retain bindings and verification whenever omission could change correctness."
+    },
+    {
+      "creator_id": "toy-model-a",
+      "dialect_id": "dialect-e19a55326e05bf979a61",
+      "empirical_profile": {
+        "profiled": 0.0,
+        "source_completion_tokens": 1.0,
+        "source_correct": 1.0,
+        "source_parse_failure": 0.0
+      },
+      "fallback": "If the dialect is ambiguous or unsafe, stop using it and answer directly in plain language.",
+      "generation": 0,
+      "grammar": "Express premises, transformations, checks, and the final answer in an explicit order.",
+      "input_contract": "Read only the supplied task and public task metadata; never assume access to a gold answer.",
+      "metadata": {
+        "creation": "correct_low_token_trace",
+        "source_model": "toy-model-a"
+      },
+      "output_contract": "Return a human-readable final answer that satisfies the task's declared answer format.",
+      "parent_ids": [],
+      "profile_ids": [],
+      "reasoning_operators": "Reusable transformations inferred from successful source trace-d02517a376c785b7fadb:\nA",
+      "source_trace_ids": [
+        "trace-d02517a376c785b7fadb"
+      ],
+      "speaker_ids": [
+        "toy-model-a"
+      ],
+      "specification_digest": "63b32788d6e980ff454dbcdfd09ae59279b8fadf579c9e65d47eae50a87f1295",
+      "symbol_inventory": "Use stable, short names and define every nonstandard symbol before reuse.",
+      "task_tags": [
+        "toy"
+      ],
+      "usage_rules": "Use the shortest complete derivation; retain bindings and verification whenever omission could change correctness."
+    },
+    {
+      "creator_id": "toy-model-b",
+      "dialect_id": "dialect-f9b706db451ba3633902",
+      "empirical_profile": {
+        "profiled": 0.0,
+        "source_completion_tokens": 1.0,
+        "source_correct": 1.0,
+        "source_parse_failure": 0.0
+      },
+      "fallback": "If the dialect is ambiguous or unsafe, stop using it and answer directly in plain language.",
+      "generation": 0,
+      "grammar": "Express premises, transformations, checks, and the final answer in an explicit order.",
+      "input_contract": "Read only the supplied task and public task metadata; never assume access to a gold answer.",
+      "metadata": {
+        "creation": "correct_low_token_trace",
+        "source_model": "toy-model-b"
+      },
+      "output_contract": "Return a human-readable final answer that satisfies the task's declared answer format.",
+      "parent_ids": [],
+      "profile_ids": [],
+      "reasoning_operators": "Reusable transformations inferred from successful source trace-6478c7f4f4004e94c720:\nA",
+      "source_trace_ids": [
+        "trace-6478c7f4f4004e94c720"
+      ],
+      "speaker_ids": [
+        "toy-model-b"
+      ],
+      "specification_digest": "bfd3ae4ba27121ad26d0767b8ca1d95affa2b908d844ddd50317321968dbfd9d",
+      "symbol_inventory": "Use stable, short names and define every nonstandard symbol before reuse.",
+      "task_tags": [
+        "toy"
+      ],
+      "usage_rules": "Use the shortest complete derivation; retain bindings and verification whenever omission could change correctness."
+    }
+  ],
+  "selection": {
+    "creator_ids": [
+      "toy-model-a",
+      "toy-model-b"
+    ],
+    "speaker_diversity": true,
+    "top_k": 2
+  }
+}

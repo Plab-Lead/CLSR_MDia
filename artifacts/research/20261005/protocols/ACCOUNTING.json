@@ -1,0 +1,28 @@
+{
+  "generated": "Native completion usage, including native reasoning once",
+  "input": "Prompt/input usage, recorded separately",
+  "TALE": "Estimator and solver stages both included",
+  "missing_usage": "JSON null for whole-cost means and related cost contrasts",
+  "unit": "Case-policy observation; original whole groups define resampling",
+  "aliases": "Logical labels sharing physical receipts stay explicit",
+  "selection": "Source/test-exposed exploratory development; all supplied variants and controls retained",
+  "core_bootstrap": {
+    "generator": "PCG64",
+    "replicates": 10000,
+    "seed_start": 20261001,
+    "ordering": "Sorted opaque group/case digests; case-weighted whole-group resampling"
+  },
+  "BFCL192_bootstrap": {
+    "generator": "PCG64",
+    "replicates": 10000,
+    "seed": 20261003,
+    "ordering": "Original group_order"
+  },
+  "CRUX192_bootstrap": {
+    "generator": "PCG64",
+    "replicates": 10000,
+    "seed": 20261002,
+    "ordering": "Original backbone-specific order through supplied digest mapping"
+  },
+  "interval_interpretation": "Ordinary descriptive intervals on exploratory cohorts"
+}

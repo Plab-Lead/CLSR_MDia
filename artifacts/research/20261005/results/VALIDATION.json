@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "checksummed_files": 35,
+  "scalar_rows": 16576,
+  "core_pairs": 7,
+  "BFCL192_points": 36,
+  "BFCL192_contrasts": 34,
+  "CRUX192_points": 36,
+  "CRUX192_contrasts": 52,
+  "baseline_panels": 14,
+  "baseline_rows": 303,
+  "all_reference_values_match": true,
+  "network_calls": 0,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "matplotlib": "3.11.2"
+}

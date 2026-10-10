@@ -1,0 +1,39 @@
+{
+  "included": "Author-generated scalar measurements, opaque digests and generic method specifications",
+  "upstream_inputs": [
+    {
+      "name": "GPQA",
+      "url": "https://arxiv.org/abs/2311.12022",
+      "task": "Scientific multiple choice"
+    },
+    {
+      "name": "BFCL",
+      "url": "https://gorilla.cs.berkeley.edu/blogs/8_berkeley_function_calling_leaderboard.html",
+      "task": "Registered AST function-call correctness"
+    },
+    {
+      "name": "MultiHop-RAG",
+      "url": "https://arxiv.org/abs/2401.15391",
+      "task": "Reasoning over provided evidence"
+    },
+    {
+      "name": "LiveCodeBench",
+      "url": "https://livecodebench.github.io/",
+      "task": "Registered output-prediction task"
+    },
+    {
+      "name": "CRUXEval",
+      "url": "https://crux-eval.github.io/",
+      "task": "Native input/output prediction"
+    }
+  ],
+  "code_license": "MIT, matching the MDia repository",
+  "benchmark_material": "Acquire benchmark inputs separately under their original terms",
+  "publication_contents": [
+    "Scalar grades and parse flags",
+    "Native token metadata",
+    "Paired/group digests",
+    "Comparator summaries",
+    "Offline scripts"
+  ]
+}

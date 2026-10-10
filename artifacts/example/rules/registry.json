@@ -1,0 +1,2139 @@
+[
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation speaker-listener transfer observations",
+    "exceptions": [],
+    "family": "A",
+    "features": [
+      "group",
+      "value"
+    ],
+    "hypothesis": "A dialect's utility depends on listener and task, not only on speaker quality.",
+    "manuscript_support": "strong",
+    "proxy": false,
+    "routing_implication": "Condition route scores on listener profile and parse risk.",
+    "rule_id": "R001",
+    "statistic": "between_group_mean_variance",
+    "test_type": "permutation",
+    "threshold": null,
+    "title": "Receiver-relative utility",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation speaker-listener transfer observations",
+    "exceptions": [],
+    "family": "A",
+    "features": [
+      "group",
+      "value"
+    ],
+    "hypothesis": "Listeners differ in how much they benefit from foreign dialects.",
+    "manuscript_support": "full",
+    "proxy": false,
+    "routing_implication": "Condition route scores on listener profile and parse risk.",
+    "rule_id": "R002",
+    "statistic": "between_group_mean_variance",
+    "test_type": "permutation",
+    "threshold": null,
+    "title": "Listener openness asymmetry",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "two_sided",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation speaker-listener transfer observations",
+    "exceptions": [],
+    "family": "A",
+    "features": [
+      "predictor",
+      "outcome"
+    ],
+    "hypothesis": "High-performing listeners may resist simplifying or foreign dialects.",
+    "manuscript_support": "weak",
+    "proxy": false,
+    "routing_implication": "Condition route scores on listener profile and parse risk.",
+    "rule_id": "R003",
+    "statistic": "ordinary_least_squares_slope",
+    "test_type": "regression",
+    "threshold": null,
+    "title": "Expert resistance",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation speaker-listener transfer observations",
+    "exceptions": [],
+    "family": "A",
+    "features": [
+      "predictor",
+      "outcome"
+    ],
+    "hypothesis": "Some listeners lose accuracy when dialects are too compact.",
+    "manuscript_support": "strong",
+    "proxy": false,
+    "routing_implication": "Condition route scores on listener profile and parse risk.",
+    "rule_id": "R004",
+    "statistic": "ordinary_least_squares_slope",
+    "test_type": "regression",
+    "threshold": null,
+    "title": "Compression-fragile listeners",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation speaker-listener transfer observations",
+    "exceptions": [],
+    "family": "A",
+    "features": [
+      "group",
+      "value"
+    ],
+    "hypothesis": "Receiver-side variation can dominate source-speaker variation in some tasks.",
+    "manuscript_support": "partial",
+    "proxy": false,
+    "routing_implication": "Condition route scores on listener profile and parse risk.",
+    "rule_id": "R005",
+    "statistic": "between_group_mean_variance",
+    "test_type": "permutation",
+    "threshold": null,
+    "title": "Listener variance dominance",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation speaker-listener transfer observations",
+    "exceptions": [],
+    "family": "A",
+    "features": [
+      "group",
+      "value"
+    ],
+    "hypothesis": "Parse failures and malformed final answers vary systematically by listener.",
+    "manuscript_support": "weak",
+    "proxy": false,
+    "routing_implication": "Condition route scores on listener profile and parse risk.",
+    "rule_id": "R006",
+    "statistic": "between_group_mean_variance",
+    "test_type": "permutation",
+    "threshold": null,
+    "title": "Listener-specific parse fragility",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation speaker-listener transfer observations",
+    "exceptions": [],
+    "family": "A",
+    "features": [
+      "group",
+      "value"
+    ],
+    "hypothesis": "Some listeners need explicit verification tags to retain correctness.",
+    "manuscript_support": "weak",
+    "proxy": false,
+    "routing_implication": "Condition route scores on listener profile and parse risk.",
+    "rule_id": "R007",
+    "statistic": "between_group_mean_variance",
+    "test_type": "permutation",
+    "threshold": null,
+    "title": "Listener-specific verification demand",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation speaker-listener transfer observations",
+    "exceptions": [],
+    "family": "A",
+    "features": [
+      "group",
+      "value"
+    ],
+    "hypothesis": "Some listeners benefit from redundant structure while others prefer compact traces.",
+    "manuscript_support": "weak",
+    "proxy": false,
+    "routing_implication": "Condition route scores on listener profile and parse risk.",
+    "rule_id": "R008",
+    "statistic": "between_group_mean_variance",
+    "test_type": "permutation",
+    "threshold": null,
+    "title": "Listener-specific redundancy preference",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation speaker-listener transfer observations",
+    "exceptions": [],
+    "family": "A",
+    "features": [
+      "treatment",
+      "control"
+    ],
+    "hypothesis": "Foreign dialects can harm listeners even when average transfer is positive.",
+    "manuscript_support": "full",
+    "proxy": false,
+    "routing_implication": "Condition route scores on listener profile and parse risk.",
+    "rule_id": "R009",
+    "statistic": "mean_paired_difference",
+    "test_type": "paired_bootstrap",
+    "threshold": null,
+    "title": "Foreign-dialect risk",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation speaker-listener transfer observations",
+    "exceptions": [
+      "The manuscript reports boundary or unsupported evidence; do not use this rule as a positive route prior."
+    ],
+    "family": "A",
+    "features": [
+      "treatment",
+      "control"
+    ],
+    "hypothesis": "Models from the same family or scale line transfer dialects more easily.",
+    "manuscript_support": "boundary",
+    "proxy": false,
+    "routing_implication": "Condition route scores on listener profile and parse risk.",
+    "rule_id": "R010",
+    "statistic": "mean_paired_difference",
+    "test_type": "paired_bootstrap",
+    "threshold": null,
+    "title": "Same-family listener accommodation",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation speaker-listener transfer observations",
+    "exceptions": [
+      "The manuscript reports boundary or unsupported evidence; do not use this rule as a positive route prior."
+    ],
+    "family": "A",
+    "features": [
+      "treatment",
+      "control"
+    ],
+    "hypothesis": "Cross-family dialect transfer is more fragile than within-family transfer.",
+    "manuscript_support": "boundary",
+    "proxy": false,
+    "routing_implication": "Condition route scores on listener profile and parse risk.",
+    "rule_id": "R011",
+    "statistic": "mean_paired_difference",
+    "test_type": "paired_bootstrap",
+    "threshold": null,
+    "title": "Cross-family listener friction",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation speaker-listener transfer observations",
+    "exceptions": [],
+    "family": "A",
+    "features": [
+      "predictor",
+      "outcome"
+    ],
+    "hypothesis": "Smaller listeners can benefit from public scaffolding dialects.",
+    "manuscript_support": "weak",
+    "proxy": false,
+    "routing_implication": "Condition route scores on listener profile and parse risk.",
+    "rule_id": "R012",
+    "statistic": "ordinary_least_squares_slope",
+    "test_type": "regression",
+    "threshold": null,
+    "title": "Small-listener scaffold benefit",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation speaker-listener transfer observations",
+    "exceptions": [],
+    "family": "A",
+    "features": [
+      "predictor",
+      "outcome"
+    ],
+    "hypothesis": "Larger listeners may lose information under over-simplified dialects.",
+    "manuscript_support": "weak",
+    "proxy": false,
+    "routing_implication": "Condition route scores on listener profile and parse risk.",
+    "rule_id": "R013",
+    "statistic": "ordinary_least_squares_slope",
+    "test_type": "regression",
+    "threshold": null,
+    "title": "Large-listener simplification constraint",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "two_sided",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation speaker-listener transfer observations",
+    "exceptions": [
+      "The manuscript reports boundary or unsupported evidence; do not use this rule as a positive route prior."
+    ],
+    "family": "A",
+    "features": [
+      "group",
+      "value"
+    ],
+    "hypothesis": "Listener route utility may change under decoding-temperature changes.",
+    "manuscript_support": "boundary",
+    "proxy": false,
+    "routing_implication": "Condition route scores on listener profile and parse risk.",
+    "rule_id": "R014",
+    "statistic": "between_group_mean_variance",
+    "test_type": "permutation",
+    "threshold": null,
+    "title": "Listener temperature sensitivity",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation speaker-listener transfer observations",
+    "exceptions": [],
+    "family": "A",
+    "features": [
+      "group",
+      "value"
+    ],
+    "hypothesis": "Some listeners fail more often from answer-contract violations than reasoning errors.",
+    "manuscript_support": "weak",
+    "proxy": false,
+    "routing_implication": "Condition route scores on listener profile and parse risk.",
+    "rule_id": "R015",
+    "statistic": "between_group_mean_variance",
+    "test_type": "permutation",
+    "threshold": null,
+    "title": "Listener answer-format brittleness",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation speaker publicness and self-versus-foreign transfer observations",
+    "exceptions": [],
+    "family": "B",
+    "features": [
+      "group",
+      "value"
+    ],
+    "hypothesis": "Some speakers produce more broadly adoptable dialects.",
+    "manuscript_support": "full",
+    "proxy": false,
+    "routing_implication": "Prefer measured public or teaching utility over raw speaker score.",
+    "rule_id": "R016",
+    "statistic": "between_group_mean_variance",
+    "test_type": "permutation",
+    "threshold": null,
+    "title": "Public dialect asymmetry",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation speaker publicness and self-versus-foreign transfer observations",
+    "exceptions": [],
+    "family": "B",
+    "features": [
+      "treatment",
+      "control"
+    ],
+    "hypothesis": "Lower raw-accuracy speakers can still teach foreign listeners.",
+    "manuscript_support": "full",
+    "proxy": false,
+    "routing_implication": "Prefer measured public or teaching utility over raw speaker score.",
+    "rule_id": "R017",
+    "statistic": "mean_paired_difference",
+    "test_type": "paired_bootstrap",
+    "threshold": null,
+    "title": "Weak-speaker teaching",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation speaker publicness and self-versus-foreign transfer observations",
+    "exceptions": [],
+    "family": "B",
+    "features": [
+      "treatment",
+      "control"
+    ],
+    "hypothesis": "Strong speakers can produce private dialects that do not transfer broadly.",
+    "manuscript_support": "weak",
+    "proxy": false,
+    "routing_implication": "Prefer measured public or teaching utility over raw speaker score.",
+    "rule_id": "R018",
+    "statistic": "mean_paired_difference",
+    "test_type": "paired_bootstrap",
+    "threshold": null,
+    "title": "Strong-speaker private dialects",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation speaker publicness and self-versus-foreign transfer observations",
+    "exceptions": [],
+    "family": "B",
+    "features": [
+      "group",
+      "value"
+    ],
+    "hypothesis": "Source-dialect effects can dominate receiver effects in some tasks.",
+    "manuscript_support": "weak",
+    "proxy": false,
+    "routing_implication": "Prefer measured public or teaching utility over raw speaker score.",
+    "rule_id": "R019",
+    "statistic": "between_group_mean_variance",
+    "test_type": "permutation",
+    "threshold": null,
+    "title": "Speaker variance dominance",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation speaker publicness and self-versus-foreign transfer observations",
+    "exceptions": [],
+    "family": "B",
+    "features": [
+      "treatment",
+      "control"
+    ],
+    "hypothesis": "A speaker's self dialect need not be its best teaching dialect.",
+    "manuscript_support": "partial",
+    "proxy": false,
+    "routing_implication": "Prefer measured public or teaching utility over raw speaker score.",
+    "rule_id": "R020",
+    "statistic": "mean_paired_difference",
+    "test_type": "paired_bootstrap",
+    "threshold": null,
+    "title": "Self-talk is not teaching",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation speaker publicness and self-versus-foreign transfer observations",
+    "exceptions": [],
+    "family": "B",
+    "features": [
+      "treatment",
+      "control"
+    ],
+    "hypothesis": "Some dialects are self-specialized and transfer poorly.",
+    "manuscript_support": "weak",
+    "proxy": false,
+    "routing_implication": "Prefer measured public or teaching utility over raw speaker score.",
+    "rule_id": "R021",
+    "statistic": "mean_paired_difference",
+    "test_type": "paired_bootstrap",
+    "threshold": null,
+    "title": "Private dialect specialization",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation speaker publicness and self-versus-foreign transfer observations",
+    "exceptions": [
+      "The manuscript reports boundary or unsupported evidence; do not use this rule as a positive route prior."
+    ],
+    "family": "B",
+    "features": [
+      "treatment",
+      "control"
+    ],
+    "hypothesis": "Public bridge dialects can help otherwise resistant speaker-listener pairs.",
+    "manuscript_support": "unsupported",
+    "proxy": false,
+    "routing_implication": "Prefer measured public or teaching utility over raw speaker score.",
+    "rule_id": "R022",
+    "statistic": "mean_paired_difference",
+    "test_type": "paired_bootstrap",
+    "threshold": null,
+    "title": "Public bridge potential",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "negative",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation speaker publicness and self-versus-foreign transfer observations",
+    "exceptions": [],
+    "family": "B",
+    "features": [
+      "predictor",
+      "outcome"
+    ],
+    "hypothesis": "More concise speaker dialects can become less public.",
+    "manuscript_support": "weak",
+    "proxy": false,
+    "routing_implication": "Prefer measured public or teaching utility over raw speaker score.",
+    "rule_id": "R023",
+    "statistic": "ordinary_least_squares_slope",
+    "test_type": "regression",
+    "threshold": null,
+    "title": "Speaker concision-publicness tradeoff",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation speaker publicness and self-versus-foreign transfer observations",
+    "exceptions": [],
+    "family": "B",
+    "features": [
+      "treatment",
+      "control"
+    ],
+    "hypothesis": "Speakers that include verification operators can teach robustly.",
+    "manuscript_support": "weak",
+    "proxy": false,
+    "routing_implication": "Prefer measured public or teaching utility over raw speaker score.",
+    "rule_id": "R024",
+    "statistic": "mean_paired_difference",
+    "test_type": "paired_bootstrap",
+    "threshold": null,
+    "title": "Speaker verifier-rich teaching",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "negative",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation speaker publicness and self-versus-foreign transfer observations",
+    "exceptions": [],
+    "family": "B",
+    "features": [
+      "treatment",
+      "control"
+    ],
+    "hypothesis": "Speaker-side compression can remove information needed by foreign listeners.",
+    "manuscript_support": "weak",
+    "proxy": false,
+    "routing_implication": "Prefer measured public or teaching utility over raw speaker score.",
+    "rule_id": "R025",
+    "statistic": "mean_paired_difference",
+    "test_type": "paired_bootstrap",
+    "threshold": null,
+    "title": "Speaker overcompression harm",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "two_sided",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation speaker publicness and self-versus-foreign transfer observations",
+    "exceptions": [],
+    "family": "B",
+    "features": [
+      "group",
+      "value"
+    ],
+    "hypothesis": "Speaker family affects dialect notation and transfer style.",
+    "manuscript_support": "weak",
+    "proxy": false,
+    "routing_implication": "Prefer measured public or teaching utility over raw speaker score.",
+    "rule_id": "R026",
+    "statistic": "between_group_mean_variance",
+    "test_type": "permutation",
+    "threshold": null,
+    "title": "Speaker family style inheritance",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation speaker publicness and self-versus-foreign transfer observations",
+    "exceptions": [],
+    "family": "B",
+    "features": [
+      "treatment",
+      "control"
+    ],
+    "hypothesis": "Task-specialist speakers transfer best within their task family.",
+    "manuscript_support": "partial",
+    "proxy": false,
+    "routing_implication": "Prefer measured public or teaching utility over raw speaker score.",
+    "rule_id": "R027",
+    "statistic": "mean_paired_difference",
+    "test_type": "paired_bootstrap",
+    "threshold": null,
+    "title": "Speaker task-specialist transfer",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation speaker publicness and self-versus-foreign transfer observations",
+    "exceptions": [],
+    "family": "B",
+    "features": [
+      "treatment",
+      "control"
+    ],
+    "hypothesis": "Generalist speakers can serve as broad bridge dialect sources.",
+    "manuscript_support": "weak",
+    "proxy": false,
+    "routing_implication": "Prefer measured public or teaching utility over raw speaker score.",
+    "rule_id": "R028",
+    "statistic": "mean_paired_difference",
+    "test_type": "paired_bootstrap",
+    "threshold": null,
+    "title": "Speaker generalist bridge role",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation speaker publicness and self-versus-foreign transfer observations",
+    "exceptions": [],
+    "family": "B",
+    "features": [
+      "predictor",
+      "outcome"
+    ],
+    "hypothesis": "Speaker profile variables predict transfer better than raw benchmark score alone.",
+    "manuscript_support": "weak",
+    "proxy": false,
+    "routing_implication": "Prefer measured public or teaching utility over raw speaker score.",
+    "rule_id": "R029",
+    "statistic": "ordinary_least_squares_slope",
+    "test_type": "regression",
+    "threshold": null,
+    "title": "Speaker profile beats raw score",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation speaker publicness and self-versus-foreign transfer observations",
+    "exceptions": [],
+    "family": "B",
+    "features": [
+      "group",
+      "value"
+    ],
+    "hypothesis": "Speakers with diverse dialect pools provide better routing candidates.",
+    "manuscript_support": "weak",
+    "proxy": false,
+    "routing_implication": "Prefer measured public or teaching utility over raw speaker score.",
+    "rule_id": "R030",
+    "statistic": "between_group_mean_variance",
+    "test_type": "permutation",
+    "threshold": null,
+    "title": "Speaker dialect diversity advantage",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation transfer observations joined to public task-family metadata",
+    "exceptions": [],
+    "family": "C",
+    "features": [
+      "group",
+      "value"
+    ],
+    "hypothesis": "Speaker-listener gains differ across benchmark families.",
+    "manuscript_support": "partial",
+    "proxy": false,
+    "routing_implication": "Use task-conditioned dialect pools and route weights.",
+    "rule_id": "R031",
+    "statistic": "between_group_mean_variance",
+    "test_type": "permutation",
+    "threshold": null,
+    "title": "Task-conditioned transfer",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation transfer observations joined to public task-family metadata",
+    "exceptions": [],
+    "family": "C",
+    "features": [
+      "predictor",
+      "outcome"
+    ],
+    "hypothesis": "Hard math tasks benefit from verifier-rich or longer dialects.",
+    "manuscript_support": "partial",
+    "proxy": false,
+    "routing_implication": "Use task-conditioned dialect pools and route weights.",
+    "rule_id": "R032",
+    "statistic": "ordinary_least_squares_slope",
+    "test_type": "regression",
+    "threshold": null,
+    "title": "Hard-math verifier pressure",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation transfer observations joined to public task-family metadata",
+    "exceptions": [],
+    "family": "C",
+    "features": [
+      "group",
+      "value"
+    ],
+    "hypothesis": "Knowledge QA tasks need redundancy around factual options and answer contracts.",
+    "manuscript_support": "weak",
+    "proxy": false,
+    "routing_implication": "Use task-conditioned dialect pools and route weights.",
+    "rule_id": "R033",
+    "statistic": "between_group_mean_variance",
+    "test_type": "permutation",
+    "threshold": null,
+    "title": "Knowledge-QA redundancy pressure",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation transfer observations joined to public task-family metadata",
+    "exceptions": [
+      "The manuscript reports boundary or unsupported evidence; do not use this rule as a positive route prior."
+    ],
+    "family": "C",
+    "features": [
+      "group",
+      "value"
+    ],
+    "hypothesis": "Code tasks require dialect fields for I/O contracts, edge cases, and complexity.",
+    "manuscript_support": "boundary",
+    "proxy": false,
+    "routing_implication": "Use task-conditioned dialect pools and route weights.",
+    "rule_id": "R034",
+    "statistic": "between_group_mean_variance",
+    "test_type": "permutation",
+    "threshold": null,
+    "title": "Code edge-case dialect pressure",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation transfer observations joined to public task-family metadata",
+    "exceptions": [],
+    "family": "C",
+    "features": [
+      "group",
+      "value"
+    ],
+    "hypothesis": "Function-calling tasks favor explicit function-selection and argument-binding dialects.",
+    "manuscript_support": "strong",
+    "proxy": false,
+    "routing_implication": "Use task-conditioned dialect pools and route weights.",
+    "rule_id": "R035",
+    "statistic": "between_group_mean_variance",
+    "test_type": "permutation",
+    "threshold": null,
+    "title": "Tool-call schema-binding pressure",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation transfer observations joined to public task-family metadata",
+    "exceptions": [
+      "The manuscript reports boundary or unsupported evidence; do not use this rule as a positive route prior."
+    ],
+    "family": "C",
+    "features": [
+      "group",
+      "value"
+    ],
+    "hypothesis": "Evidence reasoning tasks require source IDs and relation-chain operators.",
+    "manuscript_support": "boundary",
+    "proxy": false,
+    "routing_implication": "Use task-conditioned dialect pools and route weights.",
+    "rule_id": "R036",
+    "statistic": "between_group_mean_variance",
+    "test_type": "permutation",
+    "threshold": null,
+    "title": "RAG evidence-chain pressure",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation transfer observations joined to public task-family metadata",
+    "exceptions": [
+      "The manuscript reports boundary or unsupported evidence; do not use this rule as a positive route prior."
+    ],
+    "family": "C",
+    "features": [
+      "group",
+      "value"
+    ],
+    "hypothesis": "Narrative tasks benefit from entity-state and evidence-tracking dialects.",
+    "manuscript_support": "boundary",
+    "proxy": false,
+    "routing_implication": "Use task-conditioned dialect pools and route weights.",
+    "rule_id": "R037",
+    "statistic": "between_group_mean_variance",
+    "test_type": "permutation",
+    "threshold": null,
+    "title": "Narrative entity-state pressure",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation transfer observations joined to public task-family metadata",
+    "exceptions": [],
+    "family": "C",
+    "features": [
+      "predictor",
+      "outcome"
+    ],
+    "hypothesis": "Near-saturated short-answer tasks show smaller accuracy gains.",
+    "manuscript_support": "partial",
+    "proxy": false,
+    "routing_implication": "Use task-conditioned dialect pools and route weights.",
+    "rule_id": "R038",
+    "statistic": "ordinary_least_squares_slope",
+    "test_type": "regression",
+    "threshold": null,
+    "title": "Short-answer ceiling effect",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation transfer observations joined to public task-family metadata",
+    "exceptions": [],
+    "family": "C",
+    "features": [
+      "predictor",
+      "outcome"
+    ],
+    "hypothesis": "MDia gains are larger where baselines leave enough headroom.",
+    "manuscript_support": "strong",
+    "proxy": false,
+    "routing_implication": "Use task-conditioned dialect pools and route weights.",
+    "rule_id": "R039",
+    "statistic": "ordinary_least_squares_slope",
+    "test_type": "regression",
+    "threshold": null,
+    "title": "Benchmark headroom effect",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "negative",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation transfer observations joined to public task-family metadata",
+    "exceptions": [],
+    "family": "C",
+    "features": [
+      "predictor",
+      "outcome"
+    ],
+    "hypothesis": "Long-context tasks can fail if compression removes grounding details.",
+    "manuscript_support": "weak",
+    "proxy": false,
+    "routing_implication": "Use task-conditioned dialect pools and route weights.",
+    "rule_id": "R040",
+    "statistic": "ordinary_least_squares_slope",
+    "test_type": "regression",
+    "threshold": null,
+    "title": "Long-context compression fragility",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation transfer observations joined to public task-family metadata",
+    "exceptions": [],
+    "family": "C",
+    "features": [
+      "group",
+      "value"
+    ],
+    "hypothesis": "Multi-hop tasks benefit from explicit relation tags.",
+    "manuscript_support": "weak",
+    "proxy": false,
+    "routing_implication": "Use task-conditioned dialect pools and route weights.",
+    "rule_id": "R041",
+    "statistic": "between_group_mean_variance",
+    "test_type": "permutation",
+    "threshold": null,
+    "title": "Multi-hop relation tagging benefit",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation transfer observations joined to public task-family metadata",
+    "exceptions": [],
+    "family": "C",
+    "features": [
+      "group",
+      "value"
+    ],
+    "hypothesis": "Symbolic tasks benefit from typed operators and transformations.",
+    "manuscript_support": "weak",
+    "proxy": false,
+    "routing_implication": "Use task-conditioned dialect pools and route weights.",
+    "rule_id": "R042",
+    "statistic": "between_group_mean_variance",
+    "test_type": "permutation",
+    "threshold": null,
+    "title": "Symbolic transformation operator benefit",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation transfer observations joined to public task-family metadata",
+    "exceptions": [
+      "The manuscript reports boundary or unsupported evidence; do not use this rule as a positive route prior."
+    ],
+    "family": "C",
+    "features": [
+      "group",
+      "value"
+    ],
+    "hypothesis": "Commonsense narratives need softer, less over-symbolized dialects.",
+    "manuscript_support": "boundary",
+    "proxy": false,
+    "routing_implication": "Use task-conditioned dialect pools and route weights.",
+    "rule_id": "R043",
+    "statistic": "between_group_mean_variance",
+    "test_type": "permutation",
+    "threshold": null,
+    "title": "Commonsense narrative softness",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation transfer observations joined to public task-family metadata",
+    "exceptions": [
+      "The manuscript reports boundary or unsupported evidence; do not use this rule as a positive route prior."
+    ],
+    "family": "C",
+    "features": [
+      "group",
+      "value"
+    ],
+    "hypothesis": "Retrieved evidence noise can amplify dialect mismatch.",
+    "manuscript_support": "boundary",
+    "proxy": false,
+    "routing_implication": "Use task-conditioned dialect pools and route weights.",
+    "rule_id": "R044",
+    "statistic": "between_group_mean_variance",
+    "test_type": "permutation",
+    "threshold": null,
+    "title": "Retrieval noise amplification",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation transfer observations joined to public task-family metadata",
+    "exceptions": [],
+    "family": "C",
+    "features": [
+      "group",
+      "value"
+    ],
+    "hypothesis": "Domain-specialized dialects transfer best within their domain.",
+    "manuscript_support": "weak",
+    "proxy": false,
+    "routing_implication": "Use task-conditioned dialect pools and route weights.",
+    "rule_id": "R045",
+    "statistic": "between_group_mean_variance",
+    "test_type": "permutation",
+    "threshold": null,
+    "title": "Domain-specific dialect specialization",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation per-item accuracy, token, and parse observations",
+    "exceptions": [],
+    "family": "D",
+    "features": [
+      "predictor",
+      "outcome"
+    ],
+    "hypothesis": "Token-efficient dialects can move the accuracy-token frontier.",
+    "manuscript_support": "full",
+    "proxy": false,
+    "routing_implication": "Optimize measured accuracy-token utility rather than compression alone.",
+    "rule_id": "R046",
+    "statistic": "ordinary_least_squares_slope",
+    "test_type": "regression",
+    "threshold": null,
+    "title": "Cost-sensitive utility",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "two_sided",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation per-item accuracy, token, and parse observations",
+    "exceptions": [
+      "The manuscript reports boundary or unsupported evidence; do not use this rule as a positive route prior."
+    ],
+    "family": "D",
+    "features": [
+      "predictor",
+      "outcome"
+    ],
+    "hypothesis": "Lower token count alone does not predict correctness.",
+    "manuscript_support": "unsupported",
+    "proxy": false,
+    "routing_implication": "Optimize measured accuracy-token utility rather than compression alone.",
+    "rule_id": "R047",
+    "statistic": "ordinary_least_squares_slope",
+    "test_type": "regression",
+    "threshold": null,
+    "title": "Conciseness is not sufficient",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "negative",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation per-item accuracy, token, and parse observations",
+    "exceptions": [
+      "The manuscript reports boundary or unsupported evidence; do not use this rule as a positive route prior."
+    ],
+    "family": "D",
+    "features": [
+      "predictor",
+      "outcome"
+    ],
+    "hypothesis": "Large token compression can reduce accuracy.",
+    "manuscript_support": "unsupported",
+    "proxy": false,
+    "routing_implication": "Optimize measured accuracy-token utility rather than compression alone.",
+    "rule_id": "R048",
+    "statistic": "ordinary_least_squares_slope",
+    "test_type": "regression",
+    "threshold": null,
+    "title": "Overcompression failure",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation per-item accuracy, token, and parse observations",
+    "exceptions": [],
+    "family": "D",
+    "features": [
+      "treatment",
+      "control"
+    ],
+    "hypothesis": "A little structured redundancy can protect foreign listeners.",
+    "manuscript_support": "weak",
+    "proxy": false,
+    "routing_implication": "Optimize measured accuracy-token utility rather than compression alone.",
+    "rule_id": "R049",
+    "statistic": "mean_paired_difference",
+    "test_type": "paired_bootstrap",
+    "threshold": null,
+    "title": "Redundancy as listener insurance",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation per-item accuracy, token, and parse observations",
+    "exceptions": [],
+    "family": "D",
+    "features": [
+      "predictor",
+      "outcome"
+    ],
+    "hypothesis": "Explicit check tags can improve net utility despite extra tokens.",
+    "manuscript_support": "weak",
+    "proxy": false,
+    "routing_implication": "Optimize measured accuracy-token utility rather than compression alone.",
+    "rule_id": "R050",
+    "statistic": "ordinary_least_squares_slope",
+    "test_type": "regression",
+    "threshold": null,
+    "title": "Verification tags can be worth their tokens",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation per-item accuracy, token, and parse observations",
+    "exceptions": [],
+    "family": "D",
+    "features": [
+      "predictor",
+      "outcome"
+    ],
+    "hypothesis": "Reusable symbol tables become cost-effective across repeated tasks.",
+    "manuscript_support": "weak",
+    "proxy": false,
+    "routing_implication": "Optimize measured accuracy-token utility rather than compression alone.",
+    "rule_id": "R051",
+    "statistic": "ordinary_least_squares_slope",
+    "test_type": "regression",
+    "threshold": null,
+    "title": "Symbol table reuse amortizes cost",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation per-item accuracy, token, and parse observations",
+    "exceptions": [],
+    "family": "D",
+    "features": [
+      "predictor",
+      "outcome"
+    ],
+    "hypothesis": "Short stable operators work best when used repeatedly.",
+    "manuscript_support": "weak",
+    "proxy": false,
+    "routing_implication": "Optimize measured accuracy-token utility rather than compression alone.",
+    "rule_id": "R052",
+    "statistic": "ordinary_least_squares_slope",
+    "test_type": "regression",
+    "threshold": null,
+    "title": "Short operators survive frequent use",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "negative",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation per-item accuracy, token, and parse observations",
+    "exceptions": [],
+    "family": "D",
+    "features": [
+      "predictor",
+      "outcome"
+    ],
+    "hypothesis": "Unclear abbreviations increase cross-listener parse failures.",
+    "manuscript_support": "weak",
+    "proxy": false,
+    "routing_implication": "Optimize measured accuracy-token utility rather than compression alone.",
+    "rule_id": "R053",
+    "statistic": "ordinary_least_squares_slope",
+    "test_type": "regression",
+    "threshold": null,
+    "title": "Ambiguous abbreviations fail across listeners",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation per-item accuracy, token, and parse observations",
+    "exceptions": [],
+    "family": "D",
+    "features": [
+      "treatment",
+      "control"
+    ],
+    "hypothesis": "Structured redundancy is more efficient than verbose natural language.",
+    "manuscript_support": "weak",
+    "proxy": false,
+    "routing_implication": "Optimize measured accuracy-token utility rather than compression alone.",
+    "rule_id": "R054",
+    "statistic": "mean_paired_difference",
+    "test_type": "paired_bootstrap",
+    "threshold": null,
+    "title": "Structured redundancy beats natural verbosity",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation per-item accuracy, token, and parse observations",
+    "exceptions": [],
+    "family": "D",
+    "features": [
+      "predictor",
+      "outcome"
+    ],
+    "hypothesis": "Beyond a threshold, extra compression no longer improves utility.",
+    "manuscript_support": "weak",
+    "proxy": false,
+    "routing_implication": "Optimize measured accuracy-token utility rather than compression alone.",
+    "rule_id": "R055",
+    "statistic": "ordinary_least_squares_slope",
+    "test_type": "regression",
+    "threshold": null,
+    "title": "Token savings saturate before accuracy",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation per-item accuracy, token, and parse observations",
+    "exceptions": [],
+    "family": "D",
+    "features": [
+      "treatment",
+      "control"
+    ],
+    "hypothesis": "Compactness is useful only if final answers remain parse-compatible.",
+    "manuscript_support": "strong",
+    "proxy": false,
+    "routing_implication": "Optimize measured accuracy-token utility rather than compression alone.",
+    "rule_id": "R056",
+    "statistic": "mean_paired_difference",
+    "test_type": "paired_bootstrap",
+    "threshold": null,
+    "title": "Parser-compatible compactness",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation per-item accuracy, token, and parse observations",
+    "exceptions": [],
+    "family": "D",
+    "features": [
+      "treatment",
+      "control"
+    ],
+    "hypothesis": "Answer contracts can be compressed safely when schema is explicit.",
+    "manuscript_support": "strong",
+    "proxy": false,
+    "routing_implication": "Optimize measured accuracy-token utility rather than compression alone.",
+    "rule_id": "R057",
+    "statistic": "mean_paired_difference",
+    "test_type": "paired_bootstrap",
+    "threshold": null,
+    "title": "Answer-contract compression",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "negative",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation per-item accuracy, token, and parse observations",
+    "exceptions": [],
+    "family": "D",
+    "features": [
+      "predictor",
+      "outcome"
+    ],
+    "hypothesis": "Higher symbol entropy can reduce foreign-listener interpretability.",
+    "manuscript_support": "weak",
+    "proxy": false,
+    "routing_implication": "Optimize measured accuracy-token utility rather than compression alone.",
+    "rule_id": "R058",
+    "statistic": "ordinary_least_squares_slope",
+    "test_type": "regression",
+    "threshold": null,
+    "title": "Dialect entropy vs interpretability",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation per-item accuracy, token, and parse observations",
+    "exceptions": [],
+    "family": "D",
+    "features": [
+      "predictor",
+      "outcome"
+    ],
+    "hypothesis": "Easy tasks tolerate stronger compression.",
+    "manuscript_support": "partial",
+    "proxy": false,
+    "routing_implication": "Optimize measured accuracy-token utility rather than compression alone.",
+    "rule_id": "R059",
+    "statistic": "ordinary_least_squares_slope",
+    "test_type": "regression",
+    "threshold": null,
+    "title": "Compression helps easy tasks more",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "validation per-item accuracy, token, and parse observations",
+    "exceptions": [],
+    "family": "D",
+    "features": [
+      "predictor",
+      "outcome"
+    ],
+    "hypothesis": "Hard tasks need verification to survive compression.",
+    "manuscript_support": "weak",
+    "proxy": false,
+    "routing_implication": "Optimize measured accuracy-token utility rather than compression alone.",
+    "rule_id": "R060",
+    "statistic": "ordinary_least_squares_slope",
+    "test_type": "regression",
+    "threshold": null,
+    "title": "Compression hurts hard tasks without verifier tags",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "two_sided",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "router-validation paired route-policy observations",
+    "exceptions": [],
+    "family": "E",
+    "features": [
+      "group",
+      "value"
+    ],
+    "hypothesis": "Different task types favor different dialect sources.",
+    "manuscript_support": "partial",
+    "proxy": false,
+    "routing_implication": "Use validation-only routing with explicit negative-transfer guards.",
+    "rule_id": "R061",
+    "statistic": "between_group_mean_variance",
+    "test_type": "permutation",
+    "threshold": null,
+    "title": "Pragmatic code-switching",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "router-validation paired route-policy observations",
+    "exceptions": [],
+    "family": "E",
+    "features": [
+      "treatment",
+      "control"
+    ],
+    "hypothesis": "History-aware selection beats random or self-only dialect selection.",
+    "manuscript_support": "weak",
+    "proxy": false,
+    "routing_implication": "Use validation-only routing with explicit negative-transfer guards.",
+    "rule_id": "R062",
+    "statistic": "mean_paired_difference",
+    "test_type": "paired_bootstrap",
+    "threshold": null,
+    "title": "Archive routing advantage",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "router-validation paired route-policy observations",
+    "exceptions": [],
+    "family": "E",
+    "features": [
+      "group",
+      "value"
+    ],
+    "hypothesis": "Profile features outperform literal model-name routing.",
+    "manuscript_support": "partial",
+    "proxy": false,
+    "routing_implication": "Use validation-only routing with explicit negative-transfer guards.",
+    "rule_id": "R063",
+    "statistic": "between_group_mean_variance",
+    "test_type": "permutation",
+    "threshold": null,
+    "title": "Profile routing beats model-name routing",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "router-validation paired route-policy observations",
+    "exceptions": [],
+    "family": "E",
+    "features": [
+      "treatment",
+      "control"
+    ],
+    "hypothesis": "Task-conditioned routing beats a single global dialect choice.",
+    "manuscript_support": "strong",
+    "proxy": false,
+    "routing_implication": "Use validation-only routing with explicit negative-transfer guards.",
+    "rule_id": "R064",
+    "statistic": "mean_paired_difference",
+    "test_type": "paired_bootstrap",
+    "threshold": null,
+    "title": "Task-aware routing beats global routing",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "router-validation paired route-policy observations",
+    "exceptions": [],
+    "family": "E",
+    "features": [
+      "treatment",
+      "control"
+    ],
+    "hypothesis": "Simple profile-aware routing can beat over-composed multi-dialect routing.",
+    "manuscript_support": "full",
+    "proxy": false,
+    "routing_implication": "Use validation-only routing with explicit negative-transfer guards.",
+    "rule_id": "R065",
+    "statistic": "mean_paired_difference",
+    "test_type": "paired_bootstrap",
+    "threshold": null,
+    "title": "Route simplicity can beat over-composition",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "router-validation paired route-policy observations",
+    "exceptions": [],
+    "family": "E",
+    "features": [
+      "treatment",
+      "control"
+    ],
+    "hypothesis": "Bridge dialects help when direct transfer is risky.",
+    "manuscript_support": "weak",
+    "proxy": false,
+    "routing_implication": "Use validation-only routing with explicit negative-transfer guards.",
+    "rule_id": "R066",
+    "statistic": "mean_paired_difference",
+    "test_type": "paired_bootstrap",
+    "threshold": null,
+    "title": "Bridge routing helps resistant pairs",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "router-validation paired route-policy observations",
+    "exceptions": [],
+    "family": "E",
+    "features": [
+      "treatment",
+      "control"
+    ],
+    "hypothesis": "Multi-dialect composition is useful mainly for hard tasks.",
+    "manuscript_support": "weak",
+    "proxy": false,
+    "routing_implication": "Use validation-only routing with explicit negative-transfer guards.",
+    "rule_id": "R067",
+    "statistic": "mean_paired_difference",
+    "test_type": "paired_bootstrap",
+    "threshold": null,
+    "title": "Composition helps hard tasks but not easy ones",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "router-validation paired route-policy observations",
+    "exceptions": [],
+    "family": "E",
+    "features": [
+      "treatment",
+      "control"
+    ],
+    "hypothesis": "Randomly selected foreign dialects can cause negative transfer.",
+    "manuscript_support": "strong",
+    "proxy": false,
+    "routing_implication": "Use validation-only routing with explicit negative-transfer guards.",
+    "rule_id": "R068",
+    "statistic": "mean_paired_difference",
+    "test_type": "paired_bootstrap",
+    "threshold": null,
+    "title": "Random foreign routing is unsafe",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "descriptive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "router-validation paired route-policy observations",
+    "exceptions": [],
+    "family": "E",
+    "features": [
+      "estimate"
+    ],
+    "hypothesis": "The archive contains unrealized gains beyond the implemented router.",
+    "manuscript_support": "strong",
+    "proxy": false,
+    "routing_implication": "Use validation-only routing with explicit negative-transfer guards.",
+    "rule_id": "R069",
+    "statistic": "reported_effect",
+    "test_type": "descriptive",
+    "threshold": null,
+    "title": "Oracle gap reveals unused social information",
+    "unit_of_analysis": "descriptive"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "router-validation paired route-policy observations",
+    "exceptions": [],
+    "family": "E",
+    "features": [
+      "treatment",
+      "control"
+    ],
+    "hypothesis": "Routing should abstain when mismatch risk is high.",
+    "manuscript_support": "partial",
+    "proxy": false,
+    "routing_implication": "Use validation-only routing with explicit negative-transfer guards.",
+    "rule_id": "R070",
+    "statistic": "mean_paired_difference",
+    "test_type": "paired_bootstrap",
+    "threshold": null,
+    "title": "Route abstention protects against dialect mismatch",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "router-validation paired route-policy observations",
+    "exceptions": [],
+    "family": "E",
+    "features": [
+      "treatment",
+      "control"
+    ],
+    "hypothesis": "Diverse route candidates reduce brittleness.",
+    "manuscript_support": "weak",
+    "proxy": false,
+    "routing_implication": "Use validation-only routing with explicit negative-transfer guards.",
+    "rule_id": "R071",
+    "statistic": "mean_paired_difference",
+    "test_type": "paired_bootstrap",
+    "threshold": null,
+    "title": "Route diversity improves ensemble robustness",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "router-validation paired route-policy observations",
+    "exceptions": [],
+    "family": "E",
+    "features": [
+      "treatment",
+      "control"
+    ],
+    "hypothesis": "Profile-aware routing beats unweighted votes over dialects.",
+    "manuscript_support": "weak",
+    "proxy": false,
+    "routing_implication": "Use validation-only routing with explicit negative-transfer guards.",
+    "rule_id": "R072",
+    "statistic": "mean_paired_difference",
+    "test_type": "paired_bootstrap",
+    "threshold": null,
+    "title": "Majority vote is weaker than profile-aware vote",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "router-validation paired route-policy observations",
+    "exceptions": [],
+    "family": "E",
+    "features": [
+      "predictor",
+      "outcome"
+    ],
+    "hypothesis": "Token-aware scoring changes which dialects are selected.",
+    "manuscript_support": "strong",
+    "proxy": false,
+    "routing_implication": "Use validation-only routing with explicit negative-transfer guards.",
+    "rule_id": "R073",
+    "statistic": "ordinary_least_squares_slope",
+    "test_type": "regression",
+    "threshold": null,
+    "title": "Cost-aware route selection changes winners",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "router-validation paired route-policy observations",
+    "exceptions": [],
+    "family": "E",
+    "features": [
+      "predictor",
+      "outcome"
+    ],
+    "hypothesis": "Extra routing rounds need stopping criteria to avoid cost blow-up.",
+    "manuscript_support": "weak",
+    "proxy": false,
+    "routing_implication": "Use validation-only routing with explicit negative-transfer guards.",
+    "rule_id": "R074",
+    "statistic": "ordinary_least_squares_slope",
+    "test_type": "regression",
+    "threshold": null,
+    "title": "Multi-round routing needs stopping discipline",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "router-validation paired route-policy observations",
+    "exceptions": [],
+    "family": "E",
+    "features": [
+      "treatment",
+      "control"
+    ],
+    "hypothesis": "Validated rules can constrain routes and reduce failures.",
+    "manuscript_support": "partial",
+    "proxy": false,
+    "routing_implication": "Use validation-only routing with explicit negative-transfer guards.",
+    "rule_id": "R075",
+    "statistic": "mean_paired_difference",
+    "test_type": "paired_bootstrap",
+    "threshold": null,
+    "title": "Rule-aware routing improves stability",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "two_sided",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "live evolution records or explicitly labelled fixed-archive proxy records",
+    "exceptions": [],
+    "family": "F",
+    "features": [
+      "group",
+      "value"
+    ],
+    "hypothesis": "Functional survival varies by benchmark.",
+    "manuscript_support": "partial",
+    "proxy": true,
+    "routing_implication": "Preserve archive diversity and label fixed-archive cross-generation analyses as proxies.",
+    "rule_id": "R076",
+    "statistic": "between_group_mean_variance",
+    "test_type": "permutation",
+    "threshold": null,
+    "title": "Dialect survival is task-specific",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "live evolution records or explicitly labelled fixed-archive proxy records",
+    "exceptions": [],
+    "family": "F",
+    "features": [
+      "treatment",
+      "control"
+    ],
+    "hypothesis": "Removing source families disproportionately changes pooled outcomes.",
+    "manuscript_support": "partial",
+    "proxy": true,
+    "routing_implication": "Preserve archive diversity and label fixed-archive cross-generation analyses as proxies.",
+    "rule_id": "R077",
+    "statistic": "mean_paired_difference",
+    "test_type": "paired_bootstrap",
+    "threshold": null,
+    "title": "Founder-effect proxy",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "descriptive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "live evolution records or explicitly labelled fixed-archive proxy records",
+    "exceptions": [
+      "The manuscript reports boundary or unsupported evidence; do not use this rule as a positive route prior."
+    ],
+    "family": "F",
+    "features": [
+      "estimate"
+    ],
+    "hypothesis": "Functional influence is associated with token-structure shifts.",
+    "manuscript_support": "unsupported",
+    "proxy": true,
+    "routing_implication": "Preserve archive diversity and label fixed-archive cross-generation analyses as proxies.",
+    "rule_id": "R078",
+    "statistic": "reported_effect",
+    "test_type": "descriptive",
+    "threshold": null,
+    "title": "Borrowing proxy",
+    "unit_of_analysis": "descriptive"
+  },
+  {
+    "direction": "two_sided",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "live evolution records or explicitly labelled fixed-archive proxy records",
+    "exceptions": [],
+    "family": "F",
+    "features": [
+      "group",
+      "value"
+    ],
+    "hypothesis": "Source influence is directed and task-dependent.",
+    "manuscript_support": "weak",
+    "proxy": true,
+    "routing_implication": "Preserve archive diversity and label fixed-archive cross-generation analyses as proxies.",
+    "rule_id": "R079",
+    "statistic": "between_group_mean_variance",
+    "test_type": "permutation",
+    "threshold": null,
+    "title": "Cross-generational influence is directed",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "live evolution records or explicitly labelled fixed-archive proxy records",
+    "exceptions": [
+      "The manuscript reports boundary or unsupported evidence; do not use this rule as a positive route prior."
+    ],
+    "family": "F",
+    "features": [
+      "predictor",
+      "outcome"
+    ],
+    "hypothesis": "More evolution generations help until validation utility saturates.",
+    "manuscript_support": "boundary",
+    "proxy": true,
+    "routing_implication": "Preserve archive diversity and label fixed-archive cross-generation analyses as proxies.",
+    "rule_id": "R080",
+    "statistic": "ordinary_least_squares_slope",
+    "test_type": "regression",
+    "threshold": null,
+    "title": "Generation depth improves then saturates",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "live evolution records or explicitly labelled fixed-archive proxy records",
+    "exceptions": [],
+    "family": "F",
+    "features": [
+      "group",
+      "value"
+    ],
+    "hypothesis": "Diverse archives prevent premature convergence to brittle dialects.",
+    "manuscript_support": "partial",
+    "proxy": true,
+    "routing_implication": "Preserve archive diversity and label fixed-archive cross-generation analyses as proxies.",
+    "rule_id": "R081",
+    "statistic": "between_group_mean_variance",
+    "test_type": "permutation",
+    "threshold": null,
+    "title": "Archive diversity prevents early collapse",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "live evolution records or explicitly labelled fixed-archive proxy records",
+    "exceptions": [],
+    "family": "F",
+    "features": [
+      "treatment",
+      "control"
+    ],
+    "hypothesis": "Public dialects persist under routing better than private dialects.",
+    "manuscript_support": "partial",
+    "proxy": true,
+    "routing_implication": "Preserve archive diversity and label fixed-archive cross-generation analyses as proxies.",
+    "rule_id": "R082",
+    "statistic": "mean_paired_difference",
+    "test_type": "paired_bootstrap",
+    "threshold": null,
+    "title": "Public dialects survive longer",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "live evolution records or explicitly labelled fixed-archive proxy records",
+    "exceptions": [],
+    "family": "F",
+    "features": [
+      "treatment",
+      "control"
+    ],
+    "hypothesis": "Self-heavy policies retain private dialects.",
+    "manuscript_support": "weak",
+    "proxy": true,
+    "routing_implication": "Preserve archive diversity and label fixed-archive cross-generation analyses as proxies.",
+    "rule_id": "R083",
+    "statistic": "mean_paired_difference",
+    "test_type": "paired_bootstrap",
+    "threshold": null,
+    "title": "Private dialects survive under self-heavy routing",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "live evolution records or explicitly labelled fixed-archive proxy records",
+    "exceptions": [],
+    "family": "F",
+    "features": [
+      "group",
+      "value"
+    ],
+    "hypothesis": "Listener outcomes should update dialect metadata.",
+    "manuscript_support": "weak",
+    "proxy": true,
+    "routing_implication": "Preserve archive diversity and label fixed-archive cross-generation analyses as proxies.",
+    "rule_id": "R084",
+    "statistic": "between_group_mean_variance",
+    "test_type": "permutation",
+    "threshold": null,
+    "title": "Listener feedback reshapes dialect cards",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "live evolution records or explicitly labelled fixed-archive proxy records",
+    "exceptions": [],
+    "family": "F",
+    "features": [
+      "group",
+      "value"
+    ],
+    "hypothesis": "Mixed benchmark evolution can induce more public bridge dialects.",
+    "manuscript_support": "weak",
+    "proxy": true,
+    "routing_implication": "Preserve archive diversity and label fixed-archive cross-generation analyses as proxies.",
+    "rule_id": "R085",
+    "statistic": "between_group_mean_variance",
+    "test_type": "permutation",
+    "threshold": null,
+    "title": "Benchmark mixing induces bridge dialects",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "live evolution records or explicitly labelled fixed-archive proxy records",
+    "exceptions": [],
+    "family": "F",
+    "features": [
+      "treatment",
+      "control"
+    ],
+    "hypothesis": "Leave-one-source analysis reveals hidden archive dependencies.",
+    "manuscript_support": "partial",
+    "proxy": true,
+    "routing_implication": "Preserve archive diversity and label fixed-archive cross-generation analyses as proxies.",
+    "rule_id": "R086",
+    "statistic": "mean_paired_difference",
+    "test_type": "paired_bootstrap",
+    "threshold": null,
+    "title": "Source removal reveals hidden dependency",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "live evolution records or explicitly labelled fixed-archive proxy records",
+    "exceptions": [
+      "The manuscript reports boundary or unsupported evidence; do not use this rule as a positive route prior."
+    ],
+    "family": "F",
+    "features": [
+      "predictor",
+      "outcome"
+    ],
+    "hypothesis": "Repeated evolution/transmission increases dialect regularity.",
+    "manuscript_support": "boundary",
+    "proxy": true,
+    "routing_implication": "Preserve archive diversity and label fixed-archive cross-generation analyses as proxies.",
+    "rule_id": "R087",
+    "statistic": "ordinary_least_squares_slope",
+    "test_type": "regression",
+    "threshold": null,
+    "title": "Repeated transmission increases structure",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "descriptive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "live evolution records or explicitly labelled fixed-archive proxy records",
+    "exceptions": [
+      "The manuscript reports boundary or unsupported evidence; do not use this rule as a positive route prior."
+    ],
+    "family": "F",
+    "features": [
+      "estimate"
+    ],
+    "hypothesis": "Mutation mainly repairs ambiguous conventions.",
+    "manuscript_support": "boundary",
+    "proxy": true,
+    "routing_implication": "Preserve archive diversity and label fixed-archive cross-generation analyses as proxies.",
+    "rule_id": "R088",
+    "statistic": "reported_effect",
+    "test_type": "descriptive",
+    "threshold": null,
+    "title": "Mutation repairs ambiguity more than it invents from scratch",
+    "unit_of_analysis": "descriptive"
+  },
+  {
+    "direction": "two_sided",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "live evolution records or explicitly labelled fixed-archive proxy records",
+    "exceptions": [
+      "The manuscript reports boundary or unsupported evidence; do not use this rule as a positive route prior."
+    ],
+    "family": "F",
+    "features": [
+      "predictor",
+      "outcome"
+    ],
+    "hypothesis": "Older dialects can become stale under model/API drift.",
+    "manuscript_support": "boundary",
+    "proxy": true,
+    "routing_implication": "Preserve archive diversity and label fixed-archive cross-generation analyses as proxies.",
+    "rule_id": "R089",
+    "statistic": "ordinary_least_squares_slope",
+    "test_type": "regression",
+    "threshold": null,
+    "title": "Archive age affects utility",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "live evolution records or explicitly labelled fixed-archive proxy records",
+    "exceptions": [],
+    "family": "F",
+    "features": [
+      "predictor",
+      "outcome"
+    ],
+    "hypothesis": "Validation/test profile drift predicts route failure.",
+    "manuscript_support": "weak",
+    "proxy": true,
+    "routing_implication": "Preserve archive diversity and label fixed-archive cross-generation analyses as proxies.",
+    "rule_id": "R090",
+    "statistic": "ordinary_least_squares_slope",
+    "test_type": "regression",
+    "threshold": null,
+    "title": "Validation profile drift predicts test risk",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "two_sided",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "versioned robustness, scale, seed, and deployment diagnostics",
+    "exceptions": [
+      "The manuscript reports boundary or unsupported evidence; do not use this rule as a positive route prior."
+    ],
+    "family": "G",
+    "features": [
+      "predictor",
+      "outcome"
+    ],
+    "hypothesis": "Scale does not guarantee public dialect utility.",
+    "manuscript_support": "boundary",
+    "proxy": false,
+    "routing_implication": "Log versions, seeds, cache cost, and failures before deployment.",
+    "rule_id": "R091",
+    "statistic": "ordinary_least_squares_slope",
+    "test_type": "regression",
+    "threshold": null,
+    "title": "Scale does not monotonically increase publicness",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "versioned robustness, scale, seed, and deployment diagnostics",
+    "exceptions": [
+      "The manuscript reports boundary or unsupported evidence; do not use this rule as a positive route prior."
+    ],
+    "family": "G",
+    "features": [
+      "predictor",
+      "outcome"
+    ],
+    "hypothesis": "Large scale gaps can make dialects harder to transfer.",
+    "manuscript_support": "boundary",
+    "proxy": false,
+    "routing_implication": "Log versions, seeds, cache cost, and failures before deployment.",
+    "rule_id": "R092",
+    "statistic": "ordinary_least_squares_slope",
+    "test_type": "regression",
+    "threshold": null,
+    "title": "Scale mismatch creates dialect mismatch",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "versioned robustness, scale, seed, and deployment diagnostics",
+    "exceptions": [
+      "The manuscript reports boundary or unsupported evidence; do not use this rule as a positive route prior."
+    ],
+    "family": "G",
+    "features": [
+      "treatment",
+      "control"
+    ],
+    "hypothesis": "Same-family scale transfer is easier than cross-family transfer.",
+    "manuscript_support": "boundary",
+    "proxy": false,
+    "routing_implication": "Log versions, seeds, cache cost, and failures before deployment.",
+    "rule_id": "R093",
+    "statistic": "mean_paired_difference",
+    "test_type": "paired_bootstrap",
+    "threshold": null,
+    "title": "Same-family scale transfer is easier than cross-family transfer",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "two_sided",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "versioned robustness, scale, seed, and deployment diagnostics",
+    "exceptions": [
+      "The manuscript reports boundary or unsupported evidence; do not use this rule as a positive route prior."
+    ],
+    "family": "G",
+    "features": [
+      "predictor",
+      "outcome"
+    ],
+    "hypothesis": "Hosted model updates can change social/dialect profiles.",
+    "manuscript_support": "boundary",
+    "proxy": false,
+    "routing_implication": "Log versions, seeds, cache cost, and failures before deployment.",
+    "rule_id": "R094",
+    "statistic": "ordinary_least_squares_slope",
+    "test_type": "regression",
+    "threshold": null,
+    "title": "API model drift changes social profiles",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "versioned robustness, scale, seed, and deployment diagnostics",
+    "exceptions": [],
+    "family": "G",
+    "features": [
+      "predictor",
+      "outcome"
+    ],
+    "hypothesis": "Cache-aware accounting can change the selected route.",
+    "manuscript_support": "weak",
+    "proxy": false,
+    "routing_implication": "Log versions, seeds, cache cost, and failures before deployment.",
+    "rule_id": "R095",
+    "statistic": "ordinary_least_squares_slope",
+    "test_type": "regression",
+    "threshold": null,
+    "title": "Cache-aware cost can change route preference",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "two_sided",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "versioned robustness, scale, seed, and deployment diagnostics",
+    "exceptions": [],
+    "family": "G",
+    "features": [
+      "group",
+      "value"
+    ],
+    "hypothesis": "Rules replicated across seeds are stronger than single-run patterns.",
+    "manuscript_support": "partial",
+    "proxy": false,
+    "routing_implication": "Log versions, seeds, cache cost, and failures before deployment.",
+    "rule_id": "R096",
+    "statistic": "between_group_mean_variance",
+    "test_type": "permutation",
+    "threshold": null,
+    "title": "Seed-stable rules are stronger than single-run rules",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "versioned robustness, scale, seed, and deployment diagnostics",
+    "exceptions": [],
+    "family": "G",
+    "features": [
+      "predictor",
+      "outcome"
+    ],
+    "hypothesis": "Parse failure rates predict bad routes.",
+    "manuscript_support": "weak",
+    "proxy": false,
+    "routing_implication": "Log versions, seeds, cache cost, and failures before deployment.",
+    "rule_id": "R097",
+    "statistic": "ordinary_least_squares_slope",
+    "test_type": "regression",
+    "threshold": null,
+    "title": "Parse-failure diagnostics predict route failure",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "versioned robustness, scale, seed, and deployment diagnostics",
+    "exceptions": [],
+    "family": "G",
+    "features": [
+      "group",
+      "value"
+    ],
+    "hypothesis": "Final answers need readable contracts for audit and paper evaluation.",
+    "manuscript_support": "strong",
+    "proxy": false,
+    "routing_implication": "Log versions, seeds, cache cost, and failures before deployment.",
+    "rule_id": "R098",
+    "statistic": "between_group_mean_variance",
+    "test_type": "permutation",
+    "threshold": null,
+    "title": "Human-readable finalization is needed for auditability",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "versioned robustness, scale, seed, and deployment diagnostics",
+    "exceptions": [],
+    "family": "G",
+    "features": [
+      "group",
+      "value"
+    ],
+    "hypothesis": "Tool/RAG dialects need stricter final schemas than short QA.",
+    "manuscript_support": "strong",
+    "proxy": false,
+    "routing_implication": "Log versions, seeds, cache cost, and failures before deployment.",
+    "rule_id": "R099",
+    "statistic": "between_group_mean_variance",
+    "test_type": "permutation",
+    "threshold": null,
+    "title": "Tool/RAG dialects require stricter answer contracts",
+    "unit_of_analysis": "item"
+  },
+  {
+    "direction": "positive",
+    "eligible_records": "validation records with all declared features and a stable item-level unit ID",
+    "evidence_stream": "versioned robustness, scale, seed, and deployment diagnostics",
+    "exceptions": [],
+    "family": "G",
+    "features": [
+      "treatment",
+      "control"
+    ],
+    "hypothesis": "Routes need guards against dialect mismatch and negative transfer.",
+    "manuscript_support": "strong",
+    "proxy": false,
+    "routing_implication": "Log versions, seeds, cache cost, and failures before deployment.",
+    "rule_id": "R100",
+    "statistic": "mean_paired_difference",
+    "test_type": "paired_bootstrap",
+    "threshold": null,
+    "title": "Negative-transfer guards are essential for safe deployment",
+    "unit_of_analysis": "item"
+  }
+]

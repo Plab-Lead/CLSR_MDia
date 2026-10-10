@@ -1,0 +1,32 @@
+{
+  "content_hash": "bc08faa68d11b0327f320b1e3b1e9774b9f3b01aa48b598d817d1a00ac41804a",
+  "records": [
+    {
+      "content_hash": "a7b239e4c90ddf499cf1ee4bc8a7cc48981e8a807e8cad0b7dfe44345cd5ad8f",
+      "gold": "A",
+      "metadata": {
+        "answer_format": "short",
+        "benchmark": "toy",
+        "difficulty": "easy",
+        "task_family": "exact"
+      },
+      "query": "Return the letter A.",
+      "split": "induction",
+      "task_id": "toy-induction-01"
+    },
+    {
+      "content_hash": "92d38b355111a7806ebf290f871de24e3c0a11f66c8a6341cbbf72b10319b437",
+      "gold": "A",
+      "metadata": {
+        "answer_format": "short",
+        "benchmark": "toy",
+        "difficulty": "easy",
+        "task_family": "choice"
+      },
+      "query": "Choose A from [A, B]. Return one letter.",
+      "split": "induction",
+      "task_id": "toy-induction-02"
+    }
+  ],
+  "split": "induction"
+}

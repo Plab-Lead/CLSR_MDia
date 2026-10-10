@@ -1,0 +1,290 @@
+{
+  "Qwen:direct_2048": {
+    "n": 192,
+    "correct": 179,
+    "parsed": 192,
+    "unknown_attempts": 0,
+    "mean_generated": 92.22395833333333,
+    "mean_input": 273.0104166666667
+  },
+  "Qwen:raw_2048": {
+    "n": 192,
+    "correct": 181,
+    "parsed": 192,
+    "unknown_attempts": 0,
+    "mean_generated": 209.84375,
+    "mean_input": 278.0104166666667
+  },
+  "Qwen:cod_2048": {
+    "n": 192,
+    "correct": 172,
+    "parsed": 184,
+    "unknown_attempts": 0,
+    "mean_generated": 90.04166666666667,
+    "mean_input": 289.0104166666667
+  },
+  "Qwen:sot_2048": {
+    "n": 192,
+    "correct": 171,
+    "parsed": 191,
+    "unknown_attempts": 0,
+    "mean_generated": 54.020833333333336,
+    "mean_input": 922.4375
+  },
+  "Qwen:direct_8192": {
+    "n": 192,
+    "correct": 179,
+    "parsed": 192,
+    "unknown_attempts": 0,
+    "mean_generated": 92.34895833333333,
+    "mean_input": 273.0104166666667
+  },
+  "Qwen:raw_8192": {
+    "n": 192,
+    "correct": 181,
+    "parsed": 192,
+    "unknown_attempts": 0,
+    "mean_generated": 234.59895833333334,
+    "mean_input": 278.0104166666667
+  },
+  "Qwen:cod_8192": {
+    "n": 192,
+    "correct": 171,
+    "parsed": 184,
+    "unknown_attempts": 0,
+    "mean_generated": 87.23958333333333,
+    "mean_input": 289.0104166666667
+  },
+  "Qwen:sot_8192": {
+    "n": 192,
+    "correct": 173,
+    "parsed": 190,
+    "unknown_attempts": 0,
+    "mean_generated": 56.609375,
+    "mean_input": 922.4375
+  },
+  "Qwen:parent_8192": {
+    "n": 192,
+    "correct": 181,
+    "parsed": 192,
+    "unknown_attempts": 0,
+    "mean_generated": 81.38020833333333,
+    "mean_input": 752.0104166666666
+  },
+  "Qwen:contrastive_r1": {
+    "n": 192,
+    "correct": 175,
+    "parsed": 192,
+    "unknown_attempts": 0,
+    "mean_generated": 95.17708333333333,
+    "mean_input": 521.0104166666666
+  },
+  "Qwen:natural_2048": {
+    "n": 192,
+    "correct": 179,
+    "parsed": 191,
+    "unknown_attempts": 0,
+    "mean_generated": 234.06770833333334,
+    "mean_input": 359.0104166666667
+  },
+  "Qwen:parent_2048": {
+    "n": 192,
+    "correct": 178,
+    "parsed": 191,
+    "unknown_attempts": 0,
+    "mean_generated": 83.83854166666667,
+    "mean_input": 752.0104166666666
+  },
+  "Qwen:TALE_EP_reimplementation": {
+    "n": 192,
+    "correct": 175,
+    "parsed": 192,
+    "unknown_attempts": 0,
+    "mean_generated": 104.38541666666667,
+    "mean_input": 562.1979166666666
+  },
+  "Qwen:schema_only_2048": {
+    "n": 192,
+    "correct": 179,
+    "parsed": 192,
+    "unknown_attempts": 0,
+    "mean_generated": 132.22395833333334,
+    "mean_input": 270.0104166666667
+  },
+  "Qwen:schema_only_8192": {
+    "n": 192,
+    "correct": 180,
+    "parsed": 192,
+    "unknown_attempts": 0,
+    "mean_generated": 125.3125,
+    "mean_input": 270.0104166666667
+  },
+  "Qwen:GEPA_v3_natural": {
+    "n": 192,
+    "correct": 178,
+    "parsed": 192,
+    "unknown_attempts": 0,
+    "mean_generated": 248.45833333333334,
+    "mean_input": 359.0104166666667
+  },
+  "Qwen:GEPA_v3_dialect": {
+    "n": 192,
+    "correct": 180,
+    "parsed": 192,
+    "unknown_attempts": 0,
+    "mean_generated": 95.453125,
+    "mean_input": 845.0104166666666
+  },
+  "Qwen:natural_8192": {
+    "n": 192,
+    "correct": 177,
+    "parsed": 192,
+    "unknown_attempts": 0,
+    "mean_generated": 234.58333333333334,
+    "mean_input": 359.0104166666667
+  },
+  "Pro:direct_2048": {
+    "n": 192,
+    "correct": 182,
+    "parsed": 192,
+    "unknown_attempts": 0,
+    "mean_generated": 47.135416666666664,
+    "mean_input": 279.0989583333333
+  },
+  "Pro:raw_2048": {
+    "n": 192,
+    "correct": 176,
+    "parsed": 192,
+    "unknown_attempts": 0,
+    "mean_generated": 46.046875,
+    "mean_input": 285.0989583333333
+  },
+  "Pro:cod_2048": {
+    "n": 192,
+    "correct": 178,
+    "parsed": 192,
+    "unknown_attempts": 0,
+    "mean_generated": 46.916666666666664,
+    "mean_input": 296.0989583333333
+  },
+  "Pro:sot_2048": {
+    "n": 192,
+    "correct": 180,
+    "parsed": 190,
+    "unknown_attempts": 0,
+    "mean_generated": 118.41666666666667,
+    "mean_input": 988.3177083333334
+  },
+  "Pro:direct_8192": {
+    "n": 192,
+    "correct": 182,
+    "parsed": 192,
+    "unknown_attempts": 0,
+    "mean_generated": 46.776041666666664,
+    "mean_input": 279.0989583333333
+  },
+  "Pro:raw_8192": {
+    "n": 192,
+    "correct": 177,
+    "parsed": 192,
+    "unknown_attempts": 0,
+    "mean_generated": 45.927083333333336,
+    "mean_input": 285.0989583333333
+  },
+  "Pro:cod_8192": {
+    "n": 192,
+    "correct": 182,
+    "parsed": 192,
+    "unknown_attempts": 0,
+    "mean_generated": 48.807291666666664,
+    "mean_input": 296.0989583333333
+  },
+  "Pro:sot_8192": {
+    "n": 192,
+    "correct": 185,
+    "parsed": 192,
+    "unknown_attempts": 0,
+    "mean_generated": 245.27083333333334,
+    "mean_input": 988.3177083333334
+  },
+  "Pro:parent_8192": {
+    "n": 192,
+    "correct": 180,
+    "parsed": 192,
+    "unknown_attempts": 0,
+    "mean_generated": 47.807291666666664,
+    "mean_input": 784.0989583333334
+  },
+  "Pro:contrastive_r1": {
+    "n": 192,
+    "correct": 177,
+    "parsed": 192,
+    "unknown_attempts": 0,
+    "mean_generated": 53.510416666666664,
+    "mean_input": 533.0989583333334
+  },
+  "Pro:natural_2048": {
+    "n": 192,
+    "correct": 174,
+    "parsed": 183,
+    "unknown_attempts": 0,
+    "mean_generated": 63.994791666666664,
+    "mean_input": 364.0989583333333
+  },
+  "Pro:parent_2048": {
+    "n": 192,
+    "correct": 178,
+    "parsed": 191,
+    "unknown_attempts": 0,
+    "mean_generated": 48.890625,
+    "mean_input": 784.0989583333334
+  },
+  "Pro:TALE_EP_reimplementation": {
+    "n": 192,
+    "correct": 178,
+    "parsed": 192,
+    "unknown_attempts": 0,
+    "mean_generated": 83.34895833333333,
+    "mean_input": 576.2864583333334
+  },
+  "Pro:schema_only_2048": {
+    "n": 192,
+    "correct": 182,
+    "parsed": 192,
+    "unknown_attempts": 0,
+    "mean_generated": 46.78125,
+    "mean_input": 277.0989583333333
+  },
+  "Pro:schema_only_8192": {
+    "n": 192,
+    "correct": 180,
+    "parsed": 192,
+    "unknown_attempts": 0,
+    "mean_generated": 46.307291666666664,
+    "mean_input": 277.0989583333333
+  },
+  "Pro:GEPA_v3_natural": {
+    "n": 192,
+    "correct": 174,
+    "parsed": 183,
+    "unknown_attempts": 0,
+    "mean_generated": 63.994791666666664,
+    "mean_input": 364.0989583333333
+  },
+  "Pro:GEPA_v3_dialect": {
+    "n": 192,
+    "correct": 180,
+    "parsed": 188,
+    "unknown_attempts": 0,
+    "mean_generated": 73.05208333333333,
+    "mean_input": 841.0989583333334
+  },
+  "Pro:natural_8192": {
+    "n": 192,
+    "correct": 172,
+    "parsed": 183,
+    "unknown_attempts": 0,
+    "mean_generated": 62.234375,
+    "mean_input": 364.0989583333333
+  }
+}

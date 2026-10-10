@@ -1,0 +1,55 @@
+{
+  "research_snapshot_date": "2026-10-05",
+  "repository": "https://github.com/pzqpzq/LSF_MDia",
+  "repository_base_commit": "7235a1724dfe47d116461549c014baf9e32a67b2",
+  "reviewed_packet_origins": [
+    {
+      "packet": "research_paired_display_reproduction_v1",
+      "completion_sha256": "18a9d07bee8a823ae39620dda76496e33b6a050b62c097f389fcdaed1ec0f084",
+      "archive_sha256": [
+        "bff8ebc971b0593f06f6db6d115e4f7511a0ec28c311b6692d54a3dce9ef1779"
+      ]
+    },
+    {
+      "packet": "research_source_data_reproduction_v1",
+      "completion_sha256": "adf51564dbaa80527fbf834ef1270ba35ad1886d43ce5f661e9d9f8a7e4adcd6",
+      "archive_sha256": [
+        "f436f3baa14f3042d4b5f8c89c01eab38b83179311f030a4d34643fbdde6dbd5"
+      ]
+    },
+    {
+      "packet": "research_bfcl192_reproduction_v1_r2",
+      "completion_sha256": "90b6d821639e132022c08a319271bb5fb3700ff85db3f3f2137f6af08d2af7b7",
+      "archive_sha256": [
+        "ca5f2e90aafef5fffcf1d098175eeec8913631ec8f4c168369484a58ad6111d4",
+        "87dfa90f22c40dfb8758f06b8c94355730afbe4bdf7fdec2689f4b42f9c06768"
+      ]
+    },
+    {
+      "packet": "research_aligned192_reproduction_v1_r1",
+      "completion_sha256": "e9f45e48dd8ed24851446210f8c461d956d3a4aa6f3d372f15bf398dee7540f8",
+      "archive_sha256": [
+        "ffa61d2d61a0a3c147922ded8eb8639c2b2f8cf04d0f77eccc447ab96034b8a7",
+        "73c7f7e9141b58afdfc4fd9a345239b59eb9a02514e4e7761fdc0e21fca6072d"
+      ]
+    }
+  ],
+  "source_bytes_sha256": {
+    "paired_case_data.jsonl": "e66cf6533b3599a1cf31f1a1152e332c94baacff5ae30652f5c5999d4c4a559b",
+    "pair_specifications.json": "d0c9d368e13c6b36c11e082bb1f96cb977ba8fae3838efe52d2be178ca14a988",
+    "frontier_source_data.json": "36959ff387a1a72b01d3dfb01b4935764bff06897e0c7a9a9b0d6f70d88da99a",
+    "baseline_source_data.json": "5d2cec1653bba5d07184cf163a38efeb6407b1658c4e75c0b7fe441df3387f57"
+  },
+  "source_scalar_sha256": {
+    "bfcl192": "1feb215cdb486edd1fa44cf89eaa41e83761c6be851368138ddde4db068d3c86",
+    "crux192": "7150505ede7e71300f056f60da0d5b56ad40df30608f67a2eddc8ac689e6dada"
+  },
+  "export_transformations": [
+    "Scalar JSONL and comparator panels copied byte-for-byte",
+    "Curated table projects scalar, recipe and cohort fields",
+    "Interval numerical fields copied exactly; protocol wording centralized",
+    "Private filesystem paths and original benchmark contents excluded",
+    "Author-owned serving-spec text exported with content and source digests"
+  ],
+  "reproduction_mode": "offline_scalar_pairing_frontier_and_layout"
+}

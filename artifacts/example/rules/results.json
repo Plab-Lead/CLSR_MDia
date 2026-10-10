@@ -1,0 +1,1907 @@
+{
+  "alpha": 0.05,
+  "multiplicity": "Benjamini-Hochberg within each published A-G taxonomy",
+  "n_rules": 100,
+  "records": [
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "A",
+      "manuscript_support": "strong",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-4015f657fc0672a5f1e9",
+      "rule_id": "R001",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "A",
+      "manuscript_support": "full",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-83e15936426b0bbc30ca",
+      "rule_id": "R002",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "A",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-6d9b1f103f82e48fdef8",
+      "rule_id": "R003",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "A",
+      "manuscript_support": "strong",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-fded0fef900572b14ef1",
+      "rule_id": "R004",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "A",
+      "manuscript_support": "partial",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-8bbe8a9ce126f4dfcaa0",
+      "rule_id": "R005",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "A",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-091a1d2f90c5f9600861",
+      "rule_id": "R006",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "A",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-76d3ce9650c78adc4fed",
+      "rule_id": "R007",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "A",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-87dacdbc60e1cbaee56a",
+      "rule_id": "R008",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "A",
+      "manuscript_support": "full",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-e485c36701f6a09c3e24",
+      "rule_id": "R009",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "A",
+      "manuscript_support": "boundary",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-8299ffa53bd75347326c",
+      "rule_id": "R010",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "A",
+      "manuscript_support": "boundary",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-1339a60600cc0de0c075",
+      "rule_id": "R011",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "A",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-d84163013c1d9852d9bd",
+      "rule_id": "R012",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "A",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-bca67031cade7f33a313",
+      "rule_id": "R013",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "A",
+      "manuscript_support": "boundary",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-cc45bad3d51cec1d7fd5",
+      "rule_id": "R014",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "A",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-27907c8b0428cb42f706",
+      "rule_id": "R015",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "B",
+      "manuscript_support": "full",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-608075f1080bfd056d74",
+      "rule_id": "R016",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "B",
+      "manuscript_support": "full",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-0631321d34b89a717e03",
+      "rule_id": "R017",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "B",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-7f80fc7d805f4f4c7c39",
+      "rule_id": "R018",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "B",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-d37dc745d46d7aa5c165",
+      "rule_id": "R019",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "B",
+      "manuscript_support": "partial",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-88a951b8bc4c1c806925",
+      "rule_id": "R020",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "B",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-bacbe58312402995413d",
+      "rule_id": "R021",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "B",
+      "manuscript_support": "unsupported",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-a7353e9e521dd3621700",
+      "rule_id": "R022",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "B",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-f98a73796b6a277ba298",
+      "rule_id": "R023",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "B",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-ed58ba91af7399e07c0b",
+      "rule_id": "R024",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "B",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-3ddaf1dd4d7256377a01",
+      "rule_id": "R025",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "B",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-129e4adea4658008f50a",
+      "rule_id": "R026",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "B",
+      "manuscript_support": "partial",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-b4ac76c536a9f5b231f0",
+      "rule_id": "R027",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "B",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-15ea4ef0bd7be63600dc",
+      "rule_id": "R028",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "B",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-63ed7f0cc4944a17f85c",
+      "rule_id": "R029",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "B",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-925660c5fedbe8dba2d1",
+      "rule_id": "R030",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "C",
+      "manuscript_support": "partial",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-f807677eb52f5254e5bc",
+      "rule_id": "R031",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "C",
+      "manuscript_support": "partial",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-28b33a35d04069635cba",
+      "rule_id": "R032",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "C",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-5516d4fbb09bcfdc1c1f",
+      "rule_id": "R033",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "C",
+      "manuscript_support": "boundary",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-30458d80f5aa38ce6ce5",
+      "rule_id": "R034",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "C",
+      "manuscript_support": "strong",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-b17191429a6785ae4904",
+      "rule_id": "R035",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "C",
+      "manuscript_support": "boundary",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-31e0d9d4c909ffba598e",
+      "rule_id": "R036",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "C",
+      "manuscript_support": "boundary",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-ed3ee322b8d43054c037",
+      "rule_id": "R037",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "C",
+      "manuscript_support": "partial",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-0307709ddb1a3c0c304c",
+      "rule_id": "R038",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "C",
+      "manuscript_support": "strong",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-3f9c6be4ebdbe2ff8439",
+      "rule_id": "R039",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "C",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-879eb1dc43d5895b66a8",
+      "rule_id": "R040",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "C",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-56a1e3882f1233209e2a",
+      "rule_id": "R041",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "C",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-d1bd3bd9e6900849917b",
+      "rule_id": "R042",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "C",
+      "manuscript_support": "boundary",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-5ee586ecd7ea16a6a982",
+      "rule_id": "R043",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "C",
+      "manuscript_support": "boundary",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-56f7ed3b85a7cd98fe9d",
+      "rule_id": "R044",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "C",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-bff700c225495d538cd3",
+      "rule_id": "R045",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "D",
+      "manuscript_support": "full",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-3ed0e7cbe231f3b14ba6",
+      "rule_id": "R046",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "D",
+      "manuscript_support": "unsupported",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-65cf887ae5f8e463d53d",
+      "rule_id": "R047",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "D",
+      "manuscript_support": "unsupported",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-e012c39894065c003f83",
+      "rule_id": "R048",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "D",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-22e8c8151e6e20ba9633",
+      "rule_id": "R049",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "D",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-99284cfb56f3a2b0528e",
+      "rule_id": "R050",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "D",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-a1d3336ab2fb93498c2c",
+      "rule_id": "R051",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "D",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-69b861ecb20e39ee9a42",
+      "rule_id": "R052",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "D",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-11d5e2d81339f47ff9dd",
+      "rule_id": "R053",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "D",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-17452c0f3f5939879ef9",
+      "rule_id": "R054",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "D",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-8607c266e5aba713c57e",
+      "rule_id": "R055",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "D",
+      "manuscript_support": "strong",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-87a547a48ffe326a1ed4",
+      "rule_id": "R056",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "D",
+      "manuscript_support": "strong",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-b1b77adc5b58a9103f99",
+      "rule_id": "R057",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "D",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-e68462dc24e56648b4da",
+      "rule_id": "R058",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "D",
+      "manuscript_support": "partial",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-9e4408a699a40b6a0a9a",
+      "rule_id": "R059",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "D",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-84fc50f1ae6b252283ae",
+      "rule_id": "R060",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "E",
+      "manuscript_support": "partial",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-5a9c1e6e9cca0c0a806f",
+      "rule_id": "R061",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "E",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-27a279f6ee95c5e3c47f",
+      "rule_id": "R062",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "E",
+      "manuscript_support": "partial",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-2dc8b213632067868043",
+      "rule_id": "R063",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "E",
+      "manuscript_support": "strong",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-b8cf28577ef3e978165b",
+      "rule_id": "R064",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "E",
+      "manuscript_support": "full",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-164bfa418f390a9a2e3a",
+      "rule_id": "R065",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "E",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-a6d8d722f4d04457f02a",
+      "rule_id": "R066",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "E",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-c5a766a736950f7ad7c7",
+      "rule_id": "R067",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "E",
+      "manuscript_support": "strong",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-d6bf34990d70337030a0",
+      "rule_id": "R068",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "E",
+      "manuscript_support": "strong",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-69e375bf756d5030ef44",
+      "rule_id": "R069",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "E",
+      "manuscript_support": "partial",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-7eae9dfaf1fcc3899f94",
+      "rule_id": "R070",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "E",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-11aa5d97bf7904447b30",
+      "rule_id": "R071",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "E",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-f2e78ef128b83d05bb86",
+      "rule_id": "R072",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "E",
+      "manuscript_support": "strong",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-7fe655817a73acedf98c",
+      "rule_id": "R073",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "E",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-c38d98fa53aefdee4643",
+      "rule_id": "R074",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "E",
+      "manuscript_support": "partial",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-4203ab6ebbb0d815566c",
+      "rule_id": "R075",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "F",
+      "manuscript_support": "partial",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": true,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-80b24e069f0e2f06dbf4",
+      "rule_id": "R076",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "F",
+      "manuscript_support": "partial",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": true,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-4394300a0a1e06654cc1",
+      "rule_id": "R077",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "F",
+      "manuscript_support": "unsupported",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": true,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-ad9ef43942ceec639523",
+      "rule_id": "R078",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "F",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": true,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-bb48e6c6e5531f8ed4b7",
+      "rule_id": "R079",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "F",
+      "manuscript_support": "boundary",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": true,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-5ca311acbe805a2638b5",
+      "rule_id": "R080",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "F",
+      "manuscript_support": "partial",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": true,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-5b5c3aae91a58224c565",
+      "rule_id": "R081",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "F",
+      "manuscript_support": "partial",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": true,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-ed297943035c2f5cdbc1",
+      "rule_id": "R082",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "F",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": true,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-ba7538081b2c7a57448e",
+      "rule_id": "R083",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "F",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": true,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-5b0aec8f7011a1a1b1d5",
+      "rule_id": "R084",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "F",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": true,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-2a340f74f5bafb0e0130",
+      "rule_id": "R085",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "F",
+      "manuscript_support": "partial",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": true,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-b0f5b7cc89a1d1aa068b",
+      "rule_id": "R086",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "F",
+      "manuscript_support": "boundary",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": true,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-f86f216fe7b86a9ff455",
+      "rule_id": "R087",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "F",
+      "manuscript_support": "boundary",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": true,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-9dfb177bed893299640b",
+      "rule_id": "R088",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "F",
+      "manuscript_support": "boundary",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": true,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-7372813ebc824ef14928",
+      "rule_id": "R089",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "F",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": true,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-04f5f88c0ff60a88822e",
+      "rule_id": "R090",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "G",
+      "manuscript_support": "boundary",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-76a3863f78497f44e725",
+      "rule_id": "R091",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "G",
+      "manuscript_support": "boundary",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-a1a4d9da6a432f9d2294",
+      "rule_id": "R092",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "G",
+      "manuscript_support": "boundary",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-e389b6df825e3d26284d",
+      "rule_id": "R093",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "G",
+      "manuscript_support": "boundary",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-43294be60f4a01d5a31f",
+      "rule_id": "R094",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "G",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-69847e248b9cd2d5601a",
+      "rule_id": "R095",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "G",
+      "manuscript_support": "partial",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-556b7dbcf28c2dce2948",
+      "rule_id": "R096",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "G",
+      "manuscript_support": "weak",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-9500f81485a30f9aeda5",
+      "rule_id": "R097",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "G",
+      "manuscript_support": "strong",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-c98cf06ff92dfc9adaa7",
+      "rule_id": "R098",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "G",
+      "manuscript_support": "strong",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-30439e5bd82f5ff18a0a",
+      "rule_id": "R099",
+      "status": "not_evaluated"
+    },
+    {
+      "adjusted_p_value": null,
+      "confidence_interval": null,
+      "details": {
+        "excluded_non_validation_rows": 0
+      },
+      "estimate": null,
+      "evidence_artifacts": [],
+      "family": "G",
+      "manuscript_support": "strong",
+      "n_units": 0,
+      "p_value": null,
+      "passed": null,
+      "proxy": false,
+      "reason": "no eligible validation evidence was supplied",
+      "result_id": "rule-result-56cb7f936d78615b33d7",
+      "rule_id": "R100",
+      "status": "not_evaluated"
+    }
+  ]
+}

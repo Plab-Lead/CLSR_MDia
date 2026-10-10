@@ -1,0 +1,27 @@
+{
+  "scope": "Saved local preparation-run verification; checksum count refers to its input manifest",
+  "input_manifest_sha256": "19ebc83b9188c507b81792c31ceb86e2904aa000526383264bbcd2b42dcc624c",
+  "executed_script_sha256": "9f47c2483e864230d62dba055a50827e35342bf9e388ced2264a9cb402502178",
+  "verification": {
+    "passed": true,
+    "checksummed_files": 35,
+    "scalar_rows": 16576,
+    "core_pairs": 7,
+    "BFCL192_points": 36,
+    "BFCL192_contrasts": 34,
+    "CRUX192_points": 36,
+    "CRUX192_contrasts": 52,
+    "baseline_panels": 14,
+    "baseline_rows": 303,
+    "all_reference_values_match": true,
+    "network_calls": 0,
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "matplotlib": "3.11.2"
+  },
+  "pixel_review": {
+    "figure": "results/POSITIVE_FRONTIERS.png",
+    "review": "Actual saved PNG inspected; all five MDia highlights, axes, ticks and caption block checked",
+    "actor": "same research actor"
+  }
+}

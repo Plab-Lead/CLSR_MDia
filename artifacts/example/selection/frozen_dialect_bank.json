@@ -1,0 +1,244 @@
+{
+  "candidate_pool": [
+    "dialect-3a484545056766379b53",
+    "dialect-7eb689c2ab4229be1758",
+    "dialect-8fa691a008dfa58a41fb",
+    "dialect-f5fb3a45d11ab864135f"
+  ],
+  "diversity_key": "creator_id",
+  "max_cards": 4,
+  "min_support": 1,
+  "minimum_speakers": 1,
+  "pareto_metrics": [
+    "accuracy",
+    "tokens"
+  ],
+  "profile_summary": {
+    "dialect-3a484545056766379b53": {
+      "accuracy": 1.0,
+      "mean_completion_tokens": 1.0,
+      "mean_cost": 0.0,
+      "mean_latency_ms": 0.0,
+      "n_items": 4,
+      "parse_failure_rate": 0.0,
+      "utility": 0.999
+    },
+    "dialect-7eb689c2ab4229be1758": {
+      "accuracy": 1.0,
+      "mean_completion_tokens": 1.0,
+      "mean_cost": 0.0,
+      "mean_latency_ms": 0.0,
+      "n_items": 4,
+      "parse_failure_rate": 0.0,
+      "utility": 0.999
+    },
+    "dialect-8fa691a008dfa58a41fb": {
+      "accuracy": 1.0,
+      "mean_completion_tokens": 1.0,
+      "mean_cost": 0.0,
+      "mean_latency_ms": 0.0,
+      "n_items": 4,
+      "parse_failure_rate": 0.0,
+      "utility": 0.999
+    },
+    "dialect-f5fb3a45d11ab864135f": {
+      "accuracy": 1.0,
+      "mean_completion_tokens": 1.0,
+      "mean_cost": 0.0,
+      "mean_latency_ms": 0.0,
+      "n_items": 4,
+      "parse_failure_rate": 0.0,
+      "utility": 0.999
+    }
+  },
+  "records": [
+    {
+      "creator_id": "toy-model-a",
+      "dialect_id": "dialect-3a484545056766379b53",
+      "empirical_profile": {
+        "profiled": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_mean_completion_tokens": 1.0,
+        "validation_mean_cost": 0.0,
+        "validation_mean_latency_ms": 0.0,
+        "validation_parse_failure_rate": 0.0,
+        "validation_support": 4.0,
+        "validation_utility": 0.999
+      },
+      "fallback": "If the dialect is ambiguous or unsafe, stop using it and answer directly in plain language.",
+      "generation": 1,
+      "grammar": "Express premises, transformations, checks, and the final answer in an explicit order.",
+      "input_contract": "Read only the supplied task and public task metadata; never assume access to a gold answer.",
+      "metadata": {
+        "creation": "correct_low_token_trace",
+        "evolution_context_digest": "f695c3b0649a7aaeaa2a3312ebb071958667bc0e85720e03edbf88db1161bab5",
+        "evolution_mode": "inheritance_with_borrowing",
+        "source_model": "toy-model-a"
+      },
+      "output_contract": "Return a human-readable final answer that satisfies the task's declared answer format.",
+      "parent_ids": [
+        "dialect-e19a55326e05bf979a61",
+        "dialect-f9b706db451ba3633902"
+      ],
+      "profile_ids": [
+        "profile-8d63263f019bde324c74",
+        "profile-908793a040689160c9c5"
+      ],
+      "reasoning_operators": "Reusable transformations inferred from successful source trace-d02517a376c785b7fadb:\nA",
+      "source_trace_ids": [
+        "trace-d02517a376c785b7fadb"
+      ],
+      "speaker_ids": [
+        "toy-model-a"
+      ],
+      "specification_digest": "f953c1b4bc0b6b1659ebdfec78a2ef41767cbb56389bdb35703c2b92a25e679a",
+      "symbol_inventory": "Use stable, short names and define every nonstandard symbol before reuse.",
+      "task_tags": [
+        "toy"
+      ],
+      "usage_rules": "Use the shortest complete derivation; retain bindings and verification whenever omission could change correctness.\nGeneration 1 retains the parent contract; validation failures and discussion summaries are recorded in provenance for an explicit evolver to repair."
+    },
+    {
+      "creator_id": "toy-model-b",
+      "dialect_id": "dialect-7eb689c2ab4229be1758",
+      "empirical_profile": {
+        "profiled": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_mean_completion_tokens": 1.0,
+        "validation_mean_cost": 0.0,
+        "validation_mean_latency_ms": 0.0,
+        "validation_parse_failure_rate": 0.0,
+        "validation_support": 4.0,
+        "validation_utility": 0.999
+      },
+      "fallback": "If the dialect is ambiguous or unsafe, stop using it and answer directly in plain language.",
+      "generation": 1,
+      "grammar": "Express premises, transformations, checks, and the final answer in an explicit order.",
+      "input_contract": "Read only the supplied task and public task metadata; never assume access to a gold answer.",
+      "metadata": {
+        "creation": "correct_low_token_trace",
+        "evolution_context_digest": "f695c3b0649a7aaeaa2a3312ebb071958667bc0e85720e03edbf88db1161bab5",
+        "evolution_mode": "inheritance_with_borrowing",
+        "source_model": "toy-model-b"
+      },
+      "output_contract": "Return a human-readable final answer that satisfies the task's declared answer format.",
+      "parent_ids": [
+        "dialect-bf063fdd67b309643ae1",
+        "dialect-e19a55326e05bf979a61"
+      ],
+      "profile_ids": [
+        "profile-13284074aa1c9776381b",
+        "profile-f0a7c999f88e28a0bdbd"
+      ],
+      "reasoning_operators": "Reusable transformations inferred from successful source trace-e3667cd59dc9998a59f7:\nA",
+      "source_trace_ids": [
+        "trace-e3667cd59dc9998a59f7"
+      ],
+      "speaker_ids": [
+        "toy-model-b"
+      ],
+      "specification_digest": "aa2555caed0ad4a2c410b358b3731b8a1dfe9f9dbccc91a0f3460f057571aaf5",
+      "symbol_inventory": "Use stable, short names and define every nonstandard symbol before reuse.",
+      "task_tags": [
+        "toy"
+      ],
+      "usage_rules": "Use the shortest complete derivation; retain bindings and verification whenever omission could change correctness.\nGeneration 1 retains the parent contract; validation failures and discussion summaries are recorded in provenance for an explicit evolver to repair."
+    },
+    {
+      "creator_id": "toy-model-a",
+      "dialect_id": "dialect-8fa691a008dfa58a41fb",
+      "empirical_profile": {
+        "profiled": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_mean_completion_tokens": 1.0,
+        "validation_mean_cost": 0.0,
+        "validation_mean_latency_ms": 0.0,
+        "validation_parse_failure_rate": 0.0,
+        "validation_support": 4.0,
+        "validation_utility": 0.999
+      },
+      "fallback": "If the dialect is ambiguous or unsafe, stop using it and answer directly in plain language.",
+      "generation": 1,
+      "grammar": "Express premises, transformations, checks, and the final answer in an explicit order.",
+      "input_contract": "Read only the supplied task and public task metadata; never assume access to a gold answer.",
+      "metadata": {
+        "creation": "correct_low_token_trace",
+        "evolution_context_digest": "f695c3b0649a7aaeaa2a3312ebb071958667bc0e85720e03edbf88db1161bab5",
+        "evolution_mode": "inheritance_with_borrowing",
+        "source_model": "toy-model-a"
+      },
+      "output_contract": "Return a human-readable final answer that satisfies the task's declared answer format.",
+      "parent_ids": [
+        "dialect-0c2fce712e4cd2375a32",
+        "dialect-bf063fdd67b309643ae1"
+      ],
+      "profile_ids": [
+        "profile-02d76a188f77d05f00d0",
+        "profile-7a616b62d139b6b369b1"
+      ],
+      "reasoning_operators": "Reusable transformations inferred from successful source trace-4b03d049a0b9da13dbaf:\nA",
+      "source_trace_ids": [
+        "trace-4b03d049a0b9da13dbaf"
+      ],
+      "speaker_ids": [
+        "toy-model-a"
+      ],
+      "specification_digest": "1ebca836933dbf021312f18fb6fc6c7df734d44267bce32c96c87eeefa7cadda",
+      "symbol_inventory": "Use stable, short names and define every nonstandard symbol before reuse.",
+      "task_tags": [
+        "toy"
+      ],
+      "usage_rules": "Use the shortest complete derivation; retain bindings and verification whenever omission could change correctness.\nGeneration 1 retains the parent contract; validation failures and discussion summaries are recorded in provenance for an explicit evolver to repair."
+    },
+    {
+      "creator_id": "toy-model-b",
+      "dialect_id": "dialect-f5fb3a45d11ab864135f",
+      "empirical_profile": {
+        "profiled": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_mean_completion_tokens": 1.0,
+        "validation_mean_cost": 0.0,
+        "validation_mean_latency_ms": 0.0,
+        "validation_parse_failure_rate": 0.0,
+        "validation_support": 4.0,
+        "validation_utility": 0.999
+      },
+      "fallback": "If the dialect is ambiguous or unsafe, stop using it and answer directly in plain language.",
+      "generation": 1,
+      "grammar": "Express premises, transformations, checks, and the final answer in an explicit order.",
+      "input_contract": "Read only the supplied task and public task metadata; never assume access to a gold answer.",
+      "metadata": {
+        "creation": "correct_low_token_trace",
+        "evolution_context_digest": "f695c3b0649a7aaeaa2a3312ebb071958667bc0e85720e03edbf88db1161bab5",
+        "evolution_mode": "inheritance_with_borrowing",
+        "source_model": "toy-model-b"
+      },
+      "output_contract": "Return a human-readable final answer that satisfies the task's declared answer format.",
+      "parent_ids": [
+        "dialect-f9b706db451ba3633902",
+        "dialect-0c2fce712e4cd2375a32"
+      ],
+      "profile_ids": [
+        "profile-2ba3eadf74d5a6e0ca3e",
+        "profile-7f4956cb71711e8724e9"
+      ],
+      "reasoning_operators": "Reusable transformations inferred from successful source trace-6478c7f4f4004e94c720:\nA",
+      "source_trace_ids": [
+        "trace-6478c7f4f4004e94c720"
+      ],
+      "speaker_ids": [
+        "toy-model-b"
+      ],
+      "specification_digest": "9990914b17bf611fef813450791824f16e39edeab3f57c1581762102e46814de",
+      "symbol_inventory": "Use stable, short names and define every nonstandard symbol before reuse.",
+      "task_tags": [
+        "toy"
+      ],
+      "usage_rules": "Use the shortest complete derivation; retain bindings and verification whenever omission could change correctness.\nGeneration 1 retains the parent contract; validation failures and discussion summaries are recorded in provenance for an explicit evolver to repair."
+    }
+  ],
+  "selection_basis": "validation_only_pareto",
+  "validation_splits": [
+    "evolution_validation"
+  ]
+}

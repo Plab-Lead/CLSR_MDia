@@ -1,0 +1,147 @@
+[
+  {
+    "setting": "GPQA / GLM",
+    "accuracy_generated": [
+      "schema_only_8192",
+      "TALE_EP_reimplementation",
+      "obligation-frontiers-20260927-v1-mdia"
+    ],
+    "accuracy_generated_input": [
+      "schema_only_8192",
+      "direct_2048",
+      "GEPA_v3_dialect",
+      "TALE_EP_reimplementation",
+      "obligation-frontiers-20260927-v1-mdia"
+    ]
+  },
+  {
+    "setting": "BFCL / Qwen",
+    "accuracy_generated": [
+      "sot_2048",
+      "sot_8192",
+      "parent_8192"
+    ],
+    "accuracy_generated_input": [
+      "cod_2048",
+      "sot_2048",
+      "direct_8192",
+      "cod_8192",
+      "sot_8192",
+      "parent_8192",
+      "schema_only_8192"
+    ]
+  },
+  {
+    "setting": "MultiHop / Flash",
+    "accuracy_generated": [
+      "parent_2048",
+      "compiled128_2048",
+      "parent_8192"
+    ],
+    "accuracy_generated_input": [
+      "raw_2048",
+      "sot_8192",
+      "parent_2048",
+      "compiled128_2048",
+      "natural_2048",
+      "parent_8192",
+      "schema_only_2048"
+    ]
+  },
+  {
+    "setting": "LCB / Flash",
+    "accuracy_generated": [
+      "symbolic_natural",
+      "lexical_dialect",
+      "historical__direct_2048",
+      "historical__natural_2048",
+      "historical__cod_8192",
+      "historical__schema_only_2048",
+      "historical__schema_only_8192"
+    ],
+    "accuracy_generated_input": [
+      "symbolic_natural",
+      "lexical_dialect",
+      "historical__direct_2048",
+      "historical__natural_2048",
+      "historical__compiled128_2048",
+      "historical__cod_8192",
+      "historical__schema_only_2048",
+      "historical__schema_only_8192",
+      "historical__raw_8192"
+    ]
+  },
+  {
+    "setting": "CRUXEval / Flash",
+    "accuracy_generated": [
+      "cod_2048",
+      "sot_2048",
+      "direct_8192",
+      "raw_8192",
+      "cod_8192",
+      "sot_8192",
+      "schema_only_2048",
+      "cruxeval-visible-state16-20260925-v1_python_state"
+    ],
+    "accuracy_generated_input": [
+      "cod_2048",
+      "sot_2048",
+      "direct_8192",
+      "raw_8192",
+      "cod_8192",
+      "sot_8192",
+      "schema_only_2048",
+      "cruxeval-visible-state16-20260925-v1_python_state",
+      "cruxeval-visible-state16-20260925-v1_natural_equivalent"
+    ]
+  },
+  {
+    "setting": "CRUXEval / Qwen",
+    "accuracy_generated": [
+      "cod_8192",
+      "direct_2048",
+      "python_state"
+    ],
+    "accuracy_generated_input": [
+      "cod_8192",
+      "direct_2048",
+      "original_english",
+      "python_state",
+      "raw_8192",
+      "schema_only_2048"
+    ]
+  },
+  {
+    "setting": "GPQA / DeepSeek-V4-Pro48",
+    "accuracy_generated": [
+      "compiled256_2048",
+      "direct_2048",
+      "raw_8192",
+      "cod_2048",
+      "schema_only_8192"
+    ],
+    "accuracy_generated_input": [
+      "compiled256_2048",
+      "direct_2048",
+      "raw_8192",
+      "cod_2048",
+      "schema_only_2048",
+      "schema_only_8192"
+    ]
+  },
+  {
+    "setting": "MultiHop / DeepSeek-V4-Pro48",
+    "accuracy_generated": [
+      "direct_8192",
+      "raw_2048",
+      "cod_2048",
+      "schema_only_8192"
+    ],
+    "accuracy_generated_input": [
+      "direct_8192",
+      "raw_2048",
+      "cod_2048",
+      "schema_only_8192"
+    ]
+  }
+]

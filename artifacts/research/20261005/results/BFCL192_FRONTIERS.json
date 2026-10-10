@@ -1,0 +1,34 @@
+{
+  "Qwen": {
+    "accuracy_generated": [
+      "Qwen:sot_2048",
+      "Qwen:sot_8192",
+      "Qwen:parent_8192"
+    ],
+    "accuracy_generated_input": [
+      "Qwen:direct_2048",
+      "Qwen:raw_2048",
+      "Qwen:cod_2048",
+      "Qwen:sot_2048",
+      "Qwen:cod_8192",
+      "Qwen:sot_8192",
+      "Qwen:parent_8192",
+      "Qwen:schema_only_8192"
+    ]
+  },
+  "Pro": {
+    "accuracy_generated": [
+      "Pro:direct_8192",
+      "Pro:raw_8192",
+      "Pro:sot_8192",
+      "Pro:schema_only_8192"
+    ],
+    "accuracy_generated_input": [
+      "Pro:direct_8192",
+      "Pro:raw_8192",
+      "Pro:sot_8192",
+      "Pro:schema_only_2048",
+      "Pro:schema_only_8192"
+    ]
+  }
+}

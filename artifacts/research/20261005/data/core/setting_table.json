@@ -1,0 +1,448 @@
+{
+  "rows": [
+    {
+      "setting": "GPQA / GLM",
+      "pair_id": "GPQA_GLM",
+      "candidate": {
+        "label": "obligation-frontiers-20260927-v1-mdia",
+        "policy_id": "bfd2a593ec3bf5644bd5d62194fd9dad9d7c79c216804658616501cbda042437",
+        "n": 256,
+        "groups": 256,
+        "trial": 0,
+        "correct": 194,
+        "accuracy": 0.7578125,
+        "generated": 894.3984375,
+        "input": 481.2265625,
+        "unknown_attempts": 0,
+        "cost_status": "exact",
+        "parse_rate": 0.96484375,
+        "known_generated_subtotal": 228966,
+        "known_input_subtotal": 123194,
+        "params": {
+          "temperature": 0.2,
+          "max_tokens": 2048,
+          "enable_thinking": true,
+          "thinking_budget": 1024,
+          "stream": true
+        },
+        "same_decoding_as_new_arms": true,
+        "full_cohort": null,
+        "invalid_historical_gepa": false,
+        "source_locator_sha256": "7628d153c2b2912c23b975f90abeb290dd692ef7756005f352d59bf835a7c830"
+      },
+      "reference": {
+        "label": "obligation-frontiers-20260927-v1-natural",
+        "policy_id": "7ac665f4a330e846b10ae5d2b6bcb860f52bee249c88efe432870a30278865e9",
+        "n": 256,
+        "groups": 256,
+        "trial": 0,
+        "correct": 180,
+        "generated": 1070.5234375,
+        "input": 440.2265625,
+        "unknown_attempts": 0,
+        "parsed": null,
+        "parse_rate": 0.9453125,
+        "known_generated_subtotal": 274054,
+        "known_input_subtotal": 112698,
+        "params": {
+          "temperature": 0.2,
+          "max_tokens": 2048,
+          "enable_thinking": true,
+          "thinking_budget": 1024,
+          "stream": true
+        },
+        "full_cohort": null,
+        "cost_status": "exact"
+      },
+      "reference_display": "Paired English",
+      "native_recipe": {
+        "temperature": 0.2,
+        "max_tokens": 2048,
+        "enable_thinking": true,
+        "thinking_budget": 1024,
+        "stream": true
+      },
+      "sampling_frame": {
+        "available_n": 448,
+        "selected_n": 256,
+        "selected_groups": 256,
+        "seed": 20260909,
+        "selection": "stratified round-robin whole source groups; no method outcomes",
+        "original_splits": [
+          "development",
+          "final"
+        ]
+      },
+      "generated_saving_percent": 16.45223204186036,
+      "classification": "SCOPED_SAMPLED_RELEASE_READY_POSITIVE",
+      "selection_after_outcomes_disclosed": true
+    },
+    {
+      "setting": "BFCL / Qwen",
+      "pair_id": "BFCL_Qwen",
+      "candidate": {
+        "label": "parent_8192",
+        "policy_id": "cf7f079b91d81a9ceffdc6a35ef2f216131c7c969911b1ce0b52028e331086eb",
+        "n": 256,
+        "groups": 256,
+        "trial": 0,
+        "correct": 242,
+        "accuracy": 0.9453125,
+        "generated": 82.9140625,
+        "input": 750.5703125,
+        "unknown_attempts": 0,
+        "cost_status": "exact",
+        "parse_rate": 1.0,
+        "known_generated_subtotal": 21226,
+        "known_input_subtotal": 192146,
+        "params": null,
+        "same_decoding_as_new_arms": null,
+        "full_cohort": null,
+        "invalid_historical_gepa": false,
+        "source_locator_sha256": "ef7b5cf4559426d17ece1719f41dac971b71f170d722a24b41e2591919273952"
+      },
+      "reference": {
+        "label": "direct_8192",
+        "policy_id": "76a8754131cbc2d02364b6c49ce15b4734524e0c28b7cd86b8fc62156fdaead6",
+        "n": 256,
+        "groups": 256,
+        "trial": 0,
+        "correct": 241,
+        "generated": 94.00390625,
+        "input": 271.5703125,
+        "unknown_attempts": 0,
+        "parsed": null,
+        "parse_rate": 1.0,
+        "known_generated_subtotal": 24065,
+        "known_input_subtotal": 69522,
+        "params": null,
+        "full_cohort": null,
+        "cost_status": "exact"
+      },
+      "reference_display": "Direct8192",
+      "native_recipe": {
+        "temperature": 0.2,
+        "max_tokens": 8192,
+        "enable_thinking": false,
+        "stream": true
+      },
+      "sampling_frame": {
+        "available_n": 800,
+        "selected_n": 256,
+        "selected_groups": 256,
+        "seed": 20260909,
+        "selection": "stratified round-robin whole source groups; no method outcomes",
+        "original_splits": [
+          "development",
+          "final"
+        ]
+      },
+      "generated_saving_percent": 11.797215873675459,
+      "classification": "SCOPED_SAMPLED_RELEASE_READY_POSITIVE",
+      "selection_after_outcomes_disclosed": true
+    },
+    {
+      "setting": "MultiHop / Flash",
+      "pair_id": "MultiHop_Flash",
+      "candidate": {
+        "label": "parent_8192",
+        "policy_id": "2a8ec4a8d20eb96fabedafbfdcc70583e54f03f74aecc399d4c79b5697dda0a3",
+        "n": 256,
+        "groups": 256,
+        "trial": 0,
+        "correct": 172,
+        "accuracy": 0.671875,
+        "generated": 10.953125,
+        "input": 1380.58203125,
+        "unknown_attempts": 0,
+        "cost_status": "exact",
+        "parse_rate": 0.9921875,
+        "known_generated_subtotal": 2804,
+        "known_input_subtotal": 353429,
+        "params": null,
+        "same_decoding_as_new_arms": null,
+        "full_cohort": null,
+        "invalid_historical_gepa": false,
+        "source_locator_sha256": "86c5cbbf091be4115c65a0fdaabc4ecc2ebef1a991d4116347637d548d1ee759"
+      },
+      "reference": {
+        "label": "sot_8192",
+        "policy_id": "9c8b8818671f7a4063702410dcb18f221815d65635a0d63070b34ba095c4cc70",
+        "n": 256,
+        "groups": 256,
+        "trial": 0,
+        "correct": 167,
+        "generated": 27.5859375,
+        "input": 984.58203125,
+        "unknown_attempts": 0,
+        "parsed": null,
+        "parse_rate": 1.0,
+        "known_generated_subtotal": 7062,
+        "known_input_subtotal": 252053,
+        "params": null,
+        "full_cohort": null,
+        "cost_status": "exact"
+      },
+      "reference_display": "SoT8192",
+      "native_recipe": {
+        "temperature": 0.2,
+        "max_tokens": 8192,
+        "enable_thinking": false,
+        "stream": true
+      },
+      "sampling_frame": {
+        "available_n": 2556,
+        "selected_n": 256,
+        "selected_groups": 256,
+        "seed": 20260909,
+        "selection": "stratified round-robin whole source groups; no method outcomes",
+        "original_splits": [
+          "development",
+          "final"
+        ]
+      },
+      "generated_saving_percent": 60.29453412630983,
+      "classification": "SCOPED_SAMPLED_RELEASE_READY_POSITIVE",
+      "selection_after_outcomes_disclosed": true
+    },
+    {
+      "setting": "LCB / Flash",
+      "pair_id": "LCB_Flash",
+      "candidate": {
+        "label": "compiled128_2048",
+        "policy_id": "60327dad984393b897d5d37eb8f31c235d02440dd663af0f341e373ba65b2f83",
+        "n": 256,
+        "groups": 104,
+        "trial": 0,
+        "correct": 230,
+        "accuracy": 0.8984375,
+        "generated": 251.51953125,
+        "input": 295.390625,
+        "unknown_attempts": 0,
+        "cost_status": "exact",
+        "parse_rate": 0.99609375,
+        "known_generated_subtotal": 64389,
+        "known_input_subtotal": 75620,
+        "params": null,
+        "same_decoding_as_new_arms": null,
+        "full_cohort": null,
+        "invalid_historical_gepa": false,
+        "source_locator_sha256": "b153025fbab821f66196123763afb13a0ce00d9af1bc51a6d37ddbd97d5cebe4"
+      },
+      "reference": {
+        "label": "raw_8192",
+        "policy_id": "b00f6fe359d585b96a838f0c3b462315ee5c5b4272673ce3a963e9770a195c75",
+        "n": 256,
+        "groups": 104,
+        "trial": 0,
+        "correct": 230,
+        "generated": 296.56640625,
+        "input": 224.390625,
+        "unknown_attempts": 0,
+        "parsed": null,
+        "parse_rate": 1.0,
+        "known_generated_subtotal": 75921,
+        "known_input_subtotal": 57444,
+        "params": null,
+        "full_cohort": null,
+        "cost_status": "exact"
+      },
+      "reference_display": "Raw CoT8192",
+      "native_recipe": {
+        "temperature": 0.2,
+        "max_tokens": 2048,
+        "enable_thinking": false,
+        "stream": true
+      },
+      "sampling_frame": {
+        "available_n": 442,
+        "selected_n": 256,
+        "selected_groups": 104,
+        "seed": 20260909,
+        "selection": "stratified round-robin whole source groups; no method outcomes",
+        "original_splits": [
+          "development",
+          "final"
+        ]
+      },
+      "generated_saving_percent": 15.189473268265697,
+      "classification": "SCOPED_SAMPLED_RELEASE_READY_POSITIVE",
+      "selection_after_outcomes_disclosed": true
+    },
+    {
+      "setting": "CRUXEval / Flash",
+      "pair_id": "CRUX_Flash",
+      "candidate": {
+        "label": "cruxeval-visible-state16-20260925-v1_python_state",
+        "policy_id": "22f27388ab6ad7c8b1fab9730a34c5931b3f42f4d0a8fc99f42980cf323d9cba",
+        "n": 256,
+        "groups": 256,
+        "trial": 0,
+        "correct": 242,
+        "accuracy": 0.9453125,
+        "generated": 142.6953125,
+        "input": 344.03515625,
+        "unknown_attempts": 0,
+        "cost_status": "exact",
+        "parse_rate": 0.99609375,
+        "known_generated_subtotal": 36530,
+        "known_input_subtotal": 88073,
+        "params": null,
+        "same_decoding_as_new_arms": null,
+        "full_cohort": null,
+        "invalid_historical_gepa": false,
+        "source_locator_sha256": "808cb495a948537ed8d5b63de49a219e8133e6c66e1ad7fb1394e3d2df015326"
+      },
+      "reference": {
+        "label": "cruxeval-visible-state16-20260925-v1_natural_equivalent",
+        "policy_id": "532f6637bb02bed2f96c79c3f10d0a6add755195df2813e757d9211c2aa220fd",
+        "n": 256,
+        "groups": 256,
+        "trial": 0,
+        "correct": 242,
+        "generated": 181.88671875,
+        "input": 306.03515625,
+        "unknown_attempts": 0,
+        "parsed": null,
+        "parse_rate": 0.99609375,
+        "known_generated_subtotal": 46563,
+        "known_input_subtotal": 78345,
+        "params": null,
+        "full_cohort": null,
+        "cost_status": "exact"
+      },
+      "reference_display": "Original English",
+      "native_recipe": {
+        "temperature": 0.2,
+        "max_tokens": 2048,
+        "enable_thinking": false,
+        "stream": true
+      },
+      "sampling_frame": {
+        "available_n": 800,
+        "selected_n": 256,
+        "selected_groups": 256,
+        "seed": 20260909,
+        "selection": "stratified round-robin whole source groups; no method outcomes",
+        "original_splits": [
+          "test"
+        ]
+      },
+      "generated_saving_percent": 21.54715117153104,
+      "classification": "SCOPED_SAMPLED_RELEASE_READY_POSITIVE",
+      "selection_after_outcomes_disclosed": true
+    },
+    {
+      "setting": "CRUXEval / Qwen",
+      "pair_id": "CRUX_Qwen",
+      "candidate": {
+        "label": "python_state",
+        "policy_id": null,
+        "n": 48,
+        "groups": null,
+        "trial": 0,
+        "correct": 46,
+        "generated": 199.875,
+        "input": 350.6458333333333,
+        "unknown_attempts": 0,
+        "parsed": 48,
+        "parse_rate": null,
+        "known_generated_subtotal": 9594,
+        "known_input_subtotal": 16831,
+        "params": null,
+        "full_cohort": true,
+        "cost_status": null
+      },
+      "reference": {
+        "label": "original_english",
+        "policy_id": null,
+        "n": 48,
+        "groups": null,
+        "trial": 0,
+        "correct": 44,
+        "generated": 274.1458333333333,
+        "input": 314.6458333333333,
+        "unknown_attempts": 0,
+        "parsed": 48,
+        "parse_rate": null,
+        "known_generated_subtotal": 13159,
+        "known_input_subtotal": 15103,
+        "params": null,
+        "full_cohort": true,
+        "cost_status": null
+      },
+      "reference_display": "Original English",
+      "native_recipe": {
+        "temperature": 0.2,
+        "max_tokens": 2048,
+        "enable_thinking": false,
+        "stream": true
+      },
+      "sampling_frame": {
+        "processed_frame": 800,
+        "source_cohort": 256,
+        "selected_n": 48,
+        "selected_groups": 48,
+        "selection": "old fixed16 plus32 experiment-seeded hash additions, no outcome/cost sorting",
+        "historical_source_test_exposed": true
+      },
+      "generated_saving_percent": 27.091724295159203,
+      "classification": "SCOPED_SAMPLED_RELEASE_READY_POSITIVE",
+      "selection_after_outcomes_disclosed": true
+    },
+    {
+      "setting": "GPQA / DeepSeek-V4-Pro",
+      "pair_id": "GPQA_Pro",
+      "candidate": {
+        "label": "compiled256_2048",
+        "policy_id": "e14aa16dc1abee51a600e84da45dfea2fa17151854c738b668978226289df742",
+        "source_policy_id": "55073331872c8d9e82a80f8680f9c76a1b66321a9f05731c1b1a5d290ec0054d",
+        "n": 48,
+        "groups": 48,
+        "correct": 30,
+        "accuracy": 0.625,
+        "generated": 9.0,
+        "input": 304.0833333333333,
+        "unknown_attempts": 0,
+        "parse_rate": 1.0,
+        "params": {
+          "temperature": 0.2,
+          "max_tokens": 2048,
+          "enable_thinking": false,
+          "stream": false
+        },
+        "source_locator_sha256": "238bfbf1deb2f20c69527de5e96eff07dbb3ef5de3510b0464c51793cc1b2fd0"
+      },
+      "reference": {
+        "label": "direct_2048",
+        "n": 48,
+        "correct": 27,
+        "generated": 6.9375,
+        "input": 223.08333333333334
+      },
+      "reference_display": "Direct2048 (cheaper tradeoff)",
+      "native_recipe": {
+        "temperature": 0.2,
+        "max_tokens": 2048,
+        "enable_thinking": false,
+        "stream": false
+      },
+      "sampling_frame": {
+        "available_n": 448,
+        "original_source_n": 256,
+        "selected_n": 48,
+        "selected_groups": 48,
+        "selection": "experiment/group hash without outcome/cost sorting;all source/test-exposed",
+        "domain_counts": {
+          "Biology": 16,
+          "Physics": 17,
+          "Chemistry": 15
+        },
+        "distribution_limit": "Biology33.3% versus17.4% processed448;scope is domain-balanced source subset,not unbiased population estimate"
+      },
+      "generated_saving_percent": -29.729729729729737,
+      "classification": "SCOPED_SAMPLED_FRONTIER_POSITIVE_EXPLORATORY_CONTROL_DISCOVERY",
+      "selection_after_outcomes_disclosed": true
+    }
+  ]
+}

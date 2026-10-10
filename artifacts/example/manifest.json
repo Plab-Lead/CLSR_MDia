@@ -1,0 +1,54 @@
+{
+  "artifact_checksums": {
+    "README.md": "68b65275a730c8426082e520e15f175d7cabd44ce5324a420444800870060faf",
+    "dialects/generation-000.json": "3ec945e4f5f77d80c987cb6ca30eda2ba9a2fb8988a16e11dec66154db8e16f0",
+    "dialects/generation-001.json": "9c7925b9252faa8af91ecccba9c9ca810eb4987ec1ce1069756154462021dcad",
+    "direct_traces.jsonl": "400941307512dfc42ed56c02c7ccf7408d5102575b017f544f9d6facc924a65f",
+    "execution/evaluations.jsonl": "7eaa75795eb553f568152fec51b64d73e49f4e7f2aeb61b3fadda757cf21d75b",
+    "execution/predictions.jsonl": "9ac144c365d866a416903f6e7da8e3a0755eae7e9f1f3ec141fe819d09927e4a",
+    "execution/route_plans.jsonl": "a2828e21ace655fb9a9af0d775a569c9f58dedc25773ba731982a87a58c23d14",
+    "execution/token_accounting.json": "d52e085ea83d444dc2cac28ebd0b4440419a52a160ac571b077e83b1b5e333db",
+    "profiles/evolution_generation-000.jsonl": "a6964b5beb873771df739c2ff45a5648b7caa350468a0c8d5cb3d7cd9078d8cc",
+    "profiles/evolution_generation-001.jsonl": "8266c9cbd3a5df4585302abd1792fe0f402a0255c235dbffa996e0116384f8cc",
+    "profiles/evolution_validation.jsonl": "8266c9cbd3a5df4585302abd1792fe0f402a0255c235dbffa996e0116384f8cc",
+    "profiles/router_validation.jsonl": "fe344d53404c3f81264ad046739d1b172b5dbeffc2b7e3e7fd779061326d92d1",
+    "report.md": "9e623b4730f3b2ddfaa9ad361fafe5ab5717def1ac7f9dd006e1082fdc114fbc",
+    "rules/registry.json": "db2967b168bd9d5c11aa7687e23872eb766e3354182947cc0acca8b249da592f",
+    "rules/results.json": "e56848e237d3a541e8b8b443c93694d0e481114c52c5b2c860767622da36830a",
+    "selection/frozen_dialect_bank.json": "32419cc785a8ab7500d80eca1a3591232b8fa81713a9d96a106e075c4132c3b2",
+    "splits/evolution_validation.json": "3222792c4a33ce553b1cbaab5d8f526b821ac154c903bd0cdce9f57c87a3fbbb",
+    "splits/induction.json": "869733a15112d068e5266de456266933eb48f8602f0e119bed07dc35798abcf8",
+    "splits/router_validation.json": "62b46326ec86134554148956b522daa60e3d190322e67e0b32f049e028125641",
+    "splits/test.json": "b02ed8616f575862837ac205b63974f0ee8968deaebc5b94a43bc7e980494307"
+  },
+  "candidate_pool": [
+    "dialect-3a484545056766379b53",
+    "dialect-7eb689c2ab4229be1758",
+    "dialect-8fa691a008dfa58a41fb",
+    "dialect-f5fb3a45d11ab864135f"
+  ],
+  "code_revision": "mdia-v1.0.0-example",
+  "config_hash": "ef838d21a1375510c5803208c620d6c4805b6040576ecd01e76bec4471c51c3a",
+  "created_at": "2026-07-30T10:25:59.378679Z",
+  "metadata": {
+    "clsr_special_case": false,
+    "pipeline": "mdia",
+    "selection_evidence": "validation_only"
+  },
+  "model_revisions": {
+    "toy-model-a": "synthetic-v1",
+    "toy-model-b": "synthetic-v1"
+  },
+  "provider_revision": "synthetic-v1",
+  "run_id": "example",
+  "schema_version": "1.0",
+  "seeds": {
+    "pipeline": 7
+  },
+  "split_hashes": {
+    "evolution_validation": "fa28634eed938c2e35063495a95dbae4ce661e64db437c3e349761b21c66cf0f",
+    "induction": "bc08faa68d11b0327f320b1e3b1e9774b9f3b01aa48b598d817d1a00ac41804a",
+    "router_validation": "a4b1b0e6c4170f84c4f105d5308dd275327020a09ce3340db7cfb329476fb5aa",
+    "test": "b0c48042aa2eecf4132171441cc337ff061c1aaa19d29f1452c82dad9a08d0ea"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "Qwen": {
+    "accuracy_generated": {
+      "available_cost_frontier": [
+        "cod_2048",
+        "cod_8192",
+        "direct_2048",
+        "original_english",
+        "raw_8192"
+      ],
+      "cost_unavailable_points": [
+        "python_state"
+      ],
+      "scope": "Observed frontier among cost-available points only. Unknown-cost points remain retained and unclassified, not dominated or zero-imputed."
+    },
+    "accuracy_generated_input": {
+      "available_cost_frontier": [
+        "cod_2048",
+        "cod_8192",
+        "direct_2048",
+        "natural_2048",
+        "original_english",
+        "raw_2048",
+        "raw_8192",
+        "schema_only_2048"
+      ],
+      "cost_unavailable_points": [
+        "python_state"
+      ],
+      "scope": "Observed frontier among cost-available points only. Unknown-cost points remain retained and unclassified, not dominated or zero-imputed."
+    }
+  },
+  "Flash": {
+    "accuracy_generated": {
+      "available_cost_frontier": [
+        "cod_2048",
+        "cod_8192",
+        "cruxeval-visible-state16-20260925-v1_python_state",
+        "direct_8192",
+        "raw_8192",
+        "schema_only_2048",
+        "sot_2048",
+        "sot_8192"
+      ],
+      "cost_unavailable_points": [
+        "TALE_EP_reimplementation",
+        "parent_8192"
+      ],
+      "scope": "Observed frontier among cost-available points only. Unknown-cost points remain retained and unclassified, not dominated or zero-imputed."
+    },
+    "accuracy_generated_input": {
+      "available_cost_frontier": [
+        "cod_2048",
+        "cod_8192",
+        "cruxeval-visible-state16-20260925-v1_natural_equivalent",
+        "cruxeval-visible-state16-20260925-v1_python_state",
+        "direct_8192",
+        "raw_8192",
+        "schema_only_2048",
+        "sot_2048",
+        "sot_8192"
+      ],
+      "cost_unavailable_points": [
+        "TALE_EP_reimplementation",
+        "parent_8192"
+      ],
+      "scope": "Observed frontier among cost-available points only. Unknown-cost points remain retained and unclassified, not dominated or zero-imputed."
+    }
+  }
+}

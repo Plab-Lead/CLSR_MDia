@@ -1,0 +1,45 @@
+{
+  "scope": "New release overview display; original scientific artwork and caption choices stay at their original versions",
+  "figure": "results/POSITIVE_FRONTIERS.png",
+  "panels": [
+    {
+      "benchmark": "GPQA",
+      "backbone": "GLM-5.3",
+      "cases": 256
+    },
+    {
+      "benchmark": "BFCL",
+      "backbone": "Qwen3.6-35B-A3B",
+      "cases": 192
+    },
+    {
+      "benchmark": "MultiHop-RAG",
+      "backbone": "DeepSeek-V4-Flash",
+      "cases": 256
+    },
+    {
+      "benchmark": "LiveCodeBench output prediction",
+      "backbone": "DeepSeek-V4-Flash",
+      "cases": 256,
+      "whole_groups": 104
+    },
+    {
+      "benchmark": "CRUXEval",
+      "backbone": "DeepSeek-V4-Flash",
+      "cases": 256
+    }
+  ],
+  "x_axis": "Absolute native generated tokens per case, log display",
+  "y_axis": "Registered accuracy, percent",
+  "marker_size": "Separate native input tokens per case",
+  "marker_highlight": "Retained MDia profile",
+  "comparison": "All source points with available generated-cost coordinates; every source point remains in complete numerical tables",
+  "input_sha256": {
+    "data/core/frontier_source_data.json": "36959ff387a1a72b01d3dfb01b4935764bff06897e0c7a9a9b0d6f70d88da99a",
+    "data/core/setting_table.json": "6dde28a98b506d1386f5b3623a42de7181c1f496316d5ff349e97d872e37bf9a",
+    "data/bfcl192/scalar_rows.jsonl": "1feb215cdb486edd1fa44cf89eaa41e83761c6be851368138ddde4db068d3c86",
+    "data/bfcl192/cohort_order.json": "baad9311349bbc4fcd00ea43a9d1de420a0a30a443d6df96f3110bbc67725ee9",
+    "expected/bfcl192.json": "3511bf1011f61241895033df88f68bc1fd7ee4ad5c77addfcd8841612f27277e"
+  },
+  "generator": "scripts/reproduce_mdia_release.py"
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "registry_card_id": "0454a0c9d09b00d49f7b6b11be624988b004b1f22584adcce9f9106905ea8f14",
+    "served_spec_sha256": "4770873a67d9c213b153ebb7bfc689d20fc6b8376e80fbe657404ece4baa484b",
+    "source_artifact_sha256": "5905fc8f52769123c046e95d04a1f34205e858c3e22c611eaad8b1ef96d54457",
+    "benchmark": "gpqa",
+    "style": "homogeneous_criticism",
+    "generation": 1,
+    "parent_ids": [
+      "c97c69a46e7a0eb3e75bbdd20d111f5df533c69ae57f8ea1373a72d41e261782"
+    ],
+    "serving_spec": "Extract Q, C. Deduce H, cite E, verify V. Check X. Compute M. Format F. Select A. Halt Z. Maintain S, P. Avoid logical, conversion, truncation, format errors."
+  },
+  {
+    "registry_card_id": "122c18aaf5d07d8816a48b41acb4c8a1ac8f9e419c43254debca5c2b47cded1a",
+    "served_spec_sha256": "6c907770679ccdd1c13603a261ac65ca72f52be5e76320b3179bc4d88f4faa42",
+    "source_artifact_sha256": "4fd1a76828e01a5ac69594c0aa3b37f2dc89af7d9ef45510b183760573d1b7ec",
+    "benchmark": "gpqa",
+    "style": "obligation-frontiers-20260927-v1-natural",
+    "generation": 1,
+    "parent_ids": [
+      "d4628f63834d9cc4cd6c583b554ce6c961635834f961d49850f920836df4caf6"
+    ],
+    "serving_spec": "Identify the givens and the question's assumptions, then the requested quantity, sign, regime and units. Derive the decisive law or mechanism before matching an option. For each plausible choice, find one prediction or necessary constraint that distinguishes it; reject it only for a stated conflict, not unfamiliarity. For quantitative predictions check units, limiting cases and order of magnitude; for causal predictions check direction and boundary conditions. Keep unresolved alternatives explicitly unresolved. Choose the best-supported option and test its strongest surviving rival using the decisive distinction. Repair a failed assumption or calculation once, without restarting unchanged reasoning. Use concise equations and state descriptions but no arbitrary word limit on a necessary deduction. Finish in the requested choice format after the discriminating check. Use no tools or additional solver calls."
+  },
+  {
+    "registry_card_id": "32c7f07644b2562303de5e50476791e5974746c3004288b269ffbb3b77cad2e0",
+    "served_spec_sha256": "f08672e132a8983ae0e713733b04fd6a3c5bf8d12f245836b454de1ebb0098c5",
+    "source_artifact_sha256": "249bbe1f8fb1ad5ada3488cb589dbef9749e70f8465aa12d3372bed853633b37",
+    "benchmark": "gpqa",
+    "style": "compiled_128",
+    "generation": 1,
+    "parent_ids": [
+      "c97c69a46e7a0eb3e75bbdd20d111f5df533c69ae57f8ea1373a72d41e261782"
+    ],
+    "serving_spec": "Extract Q, C. Deduce H, cite E, verify V. Check X. Compute M. Format F. Select A. Halt Z. Maintain S, P."
+  },
+  {
+    "registry_card_id": "63355321c8459793a14e7fc41d0add7aa645e9f2e6bc1578da7f7b3fa172e017",
+    "served_spec_sha256": "1d3c420428a95f893c063b6e9c0b3cf69f86340116decb39987741a7a4443082",
+    "source_artifact_sha256": "ecfeed1b3c603416e3a8cc2bb5408b265f85b1323bc75ea4dbf679edafc082e6",
+    "benchmark": "gpqa",
+    "style": "contrastive_mutation_v2_r2",
+    "generation": 1,
+    "parent_ids": [
+      "d4628f63834d9cc4cd6c583b554ce6c961635834f961d49850f920836df4caf6"
+    ],
+    "serving_spec": "Given task Q and choice set C, solve as follows. Maintain solution state S (accepted hypotheses with cited evidence and verification), progress counter P, and halt flag Z. Operators: extract(Q)->K; deduce(H,E)->V updates S; check(X,S)->pass/fail/revise; compute(S)->M; format(M,R)->F; select(F,C)->A; halt(A,checks)->Z. Rules: (1) extract known facts K from Q; do not include exemplars or IDs. (2) For each hypothesis H, deduce must state H, cite evidence E, and record verification V (true/false/unknown) in ≤5 words; equations and exact names exempt. (3) Before accepting H into S, run check(X,S) on the full current S. check returns pass only if: every H in S has V=true with cited E; at least one H in S has been eliminated by a decisive discriminating test (a competing H shown V=false, or a distinguishing prediction verified); and no two accepted H in S contradict each other. check returns revise if a contradiction is found or if S contains only unopposed hypotheses. On revise, the next deduce must introduce a new H or new E (P-eligible); re-deriving an existing H without new E or X is rejected as non-progress. (4) Increment P only for novel H tested and accepted after check pass; reviewing or rephrasing an existing H does not increment P. (5) Compute M only after all relevant H are accepted into S and all checks pass. (6) Format M into F per exact answer contract R (label, JSON, numeric range); F must match R exactly. (7) select(F,C)->A is blocked while any check result is revise; A is assigned only from F and C after all checks pass. (8) halt(A,checks)->Z is set only after: A is assigned from F and C; all mandatory checks for accepted H in S have passed; F verified against R; and final A was checked against at least one eliminated alternative. Do not halt during deduction, computation, or if any check remains unresolved. If a downstream contradiction appears after commitment, treat as logical_error and revise before select if possible. Stop only when Z is set."
+  },
+  {
+    "registry_card_id": "72937dc66a43e12ccf147f6d32da097e4cd9054eb21bf0af1caa71df975498e4",
+    "served_spec_sha256": "4770873a67d9c213b153ebb7bfc689d20fc6b8376e80fbe657404ece4baa484b",
+    "source_artifact_sha256": "1fce6c0072a2f035a3876154e9533734f9dcfbbb55534e69370a512146583850",
+    "benchmark": "gpqa",
+    "style": "gepa_v2_dialect",
+    "generation": 1,
+    "parent_ids": [
+      "c0e60cf3d237add0f1fc7aaf2e8395bcc3f8fba260a836d2c1eecbc8fe03f079"
+    ],
+    "serving_spec": "Extract Q, C. Deduce H, cite E, verify V. Check X. Compute M. Format F. Select A. Halt Z. Maintain S, P. Avoid logical, conversion, truncation, format errors."
+  },
+  {
+    "registry_card_id": "80fbb4b02f46156e9440ad5e2a90e92dcb45b06bd407ce3ce57f92e05a28ff60",
+    "served_spec_sha256": "f41fd4abcb9b62302cdd0431f85cde8f6d733a4a29ab0ac93fa42932d2611425",
+    "source_artifact_sha256": "f4e868ec9f1b5234ed66bc8f857fb24987da3d57b52c590fb5b563a34ab2e1ad",
+    "benchmark": "gpqa",
+    "style": "contrastive_mutation_v2_r1",
+    "generation": 1,
+    "parent_ids": [
+      "d4628f63834d9cc4cd6c583b554ce6c961635834f961d49850f920836df4caf6"
+    ],
+    "serving_spec": "You are a reasoning solver. Follow this exact procedure and do not skip steps. Maintain a ledger of every hypothesis tested. Use the symbols: Q=question, C=choices, K=known facts, H=hypothesis, E=evidence, V=verification result, X=constraint check, S=accepted hypothesis set, M=computed quantity, F=formatted answer, A=answer choice, Z=halt flag.\n\nStep 1: Extract K from Q. Record K in S.\nStep 2: For each hypothesis H needed to solve Q: cite specific E (formula, fact, or reasoning) and record V as true/false/unknown in ≤5 words. If V=false, discard H permanently; do not re-derive it unless new E is provided. If V=true, run X (constraint check) on H. If X fails, discard H and do not add to S. If X passes, add H to S. If V=unknown, seek discriminating E before proceeding; do not add to S.\nStep 3: After all relevant H are in S, compute M by re-deriving it from S. Verify that M is consistent with S; if M contradicts any accepted H, recompute M from S before continuing.\nStep 4: Format M into F according to the required answer contract (label, JSON, numeric range). Check F against the contract; if mismatch, reformat.\nStep 5: Select A from F and C only if a complete trace exists: each H in S has cited E, recorded V, passed X, and was added to S before M was computed. If S is empty or any accepted H lacks a passing X, do not emit A; instead, deduce a new H with new E.\nStep 6: Set Z only after A is assigned, all mandatory X checks for accepted H have passed, and F is verified against the contract. Do not halt before this. If you encounter a contradiction between accepted H, discard the conflicting H and find a new discriminating E.\n\nOutput the final answer as a fenced JSON block containing the answer label only, after the full ledger is shown."
+  },
+  {
+    "registry_card_id": "c0e60cf3d237add0f1fc7aaf2e8395bcc3f8fba260a836d2c1eecbc8fe03f079",
+    "served_spec_sha256": "4770873a67d9c213b153ebb7bfc689d20fc6b8376e80fbe657404ece4baa484b",
+    "source_artifact_sha256": "4b93565627a2ca8c57c5688c73bd2027d355e74b1e131c2b9d7c3a278ba32e7d",
+    "benchmark": "gpqa",
+    "style": "compiled_256",
+    "generation": 1,
+    "parent_ids": [
+      "c97c69a46e7a0eb3e75bbdd20d111f5df533c69ae57f8ea1373a72d41e261782"
+    ],
+    "serving_spec": "Extract Q, C. Deduce H, cite E, verify V. Check X. Compute M. Format F. Select A. Halt Z. Maintain S, P. Avoid logical, conversion, truncation, format errors."
+  },
+  {
+    "registry_card_id": "c2ee5eaa6f60b561c99aa96db4d3dedec1650df739f11209b987cdc14ea1b050",
+    "served_spec_sha256": "4770873a67d9c213b153ebb7bfc689d20fc6b8376e80fbe657404ece4baa484b",
+    "source_artifact_sha256": "35b0fa143f1ae65919a6428a9d2aa5cff20c057637754cef8f550facd31be245",
+    "benchmark": "gpqa",
+    "style": "compiler_without_criticism",
+    "generation": 1,
+    "parent_ids": [
+      "c97c69a46e7a0eb3e75bbdd20d111f5df533c69ae57f8ea1373a72d41e261782"
+    ],
+    "serving_spec": "Extract Q, C. Deduce H, cite E, verify V. Check X. Compute M. Format F. Select A. Halt Z. Maintain S, P. Avoid logical, conversion, truncation, format errors."
+  },
+  {
+    "registry_card_id": "c7d7407b57732b00eda14a6406be889b6ac74c2855cfa43a93521f8c7ab6f2c2",
+    "served_spec_sha256": "29a8950fd734fe84366dce0a0c646fe7a6fe213a0c6aeeb7d2bbc9fbee8e9caf",
+    "source_artifact_sha256": "86bee76e00e2da4191ebd32b09a7627440f96a242d0a7cfed4ee192e2efd2eb8",
+    "benchmark": "gpqa",
+    "style": "natural_language_control",
+    "generation": 1,
+    "parent_ids": [
+      "c97c69a46e7a0eb3e75bbdd20d111f5df533c69ae57f8ea1373a72d41e261782"
+    ],
+    "serving_spec": "Extract the question and choices. For each hypothesis, cite evidence, verify validity, and check constraints. Compute the answer only after accepting valid hypotheses. Format the final answer strictly according to the contract. Halt only when the answer is selected and all checks pass. Maintain a record of accepted hypotheses and progress. Avoid logical errors, unit mismatches, truncation, and formatting violations. Preserve competing hypotheses and decisive discriminating evidence before making a final commitment."
+  },
+  {
+    "registry_card_id": "d6e24e383bc67d9536cb9b1540762f3b0b8f0cded52b1af5d127ef0df5bfe77c",
+    "served_spec_sha256": "5c0b8dc8e59aad49a30667cfca24a99bd931bf06530d8ad6e20da4f786612aa5",
+    "source_artifact_sha256": "226e7a6d3006f9623cc2e4cfc10db66287adbdab861efc3ffc016079c67dec26",
+    "benchmark": "gpqa",
+    "style": "obligation-frontiers-20260927-v1-mdia",
+    "generation": 1,
+    "parent_ids": [
+      "d4628f63834d9cc4cd6c583b554ce6c961635834f961d49850f920836df4caf6"
+    ],
+    "serving_spec": "K := givens plus the question's assumptions; U := requested quantity, sign, regime and units. H := candidate choices. Derive the decisive law/mechanism from K before matching an option. For each plausible h, D(h) := one prediction or necessary constraint that distinguishes it; reject only on a stated conflict, not unfamiliarity. For quantitative D, track units, limiting case and order of magnitude; for causal D, track direction and boundary conditions. Keep unresolved alternatives as ? rather than silently rejecting. Choose h* with best support; test its strongest surviving rival using the decisive D. Repair a failed assumption or calculation once; do not restart unchanged reasoning. Use compact equations/state, without an arbitrary word limit on a necessary deduction. Emit the requested choice contract after the discriminating check. No tools or additional solver calls."
+  }
+]

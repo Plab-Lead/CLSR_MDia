@@ -1,0 +1,23 @@
+{
+  "by_task": {
+    "toy-test-01": {
+      "completion_tokens": 1,
+      "cost": 0.0,
+      "prompt_tokens": 0,
+      "steps": 1,
+      "stop_reason": "single_complete"
+    },
+    "toy-test-02": {
+      "completion_tokens": 1,
+      "cost": 0.0,
+      "prompt_tokens": 0,
+      "steps": 1,
+      "stop_reason": "single_complete"
+    }
+  },
+  "completion_tokens": 2,
+  "cost": 0.0,
+  "latency_ms": 0.0,
+  "n_tasks": 2,
+  "prompt_tokens": 0
+}
