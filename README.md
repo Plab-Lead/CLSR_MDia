@@ -2,6 +2,10 @@
 
 <h1>Machine Dialectology (MDia)</h1>
 
+<p>
+(Note that this repository is migrated from the original pzqpzq/LSF_MDia, whose account is suspended without reason.)
+</p>
+
 <p><strong>Reusable symbolic protocols for heterogeneous language-model societies.</strong></p>
 
 <p>
