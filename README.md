@@ -1,6 +1,6 @@
 # Machine Dialectology (MDia)
 
-MDia studies a practical question: **which parts of a reasoning procedure can one language model express in a form that another can use?** The framework represents a procedure as a reusable *dialect card*: a vocabulary, a grammar, a set of operations and an answer contract. A card records who produced it, which earlier cards it inherits from, and how it performs with each tested receiver. A model can therefore use a compact symbolic procedure where it helps and retain a strong English or direct solver where that works better.
+MDia studies which parts of a reasoning procedure one language model can express in a form that another can use. A reusable *dialect card* specifies the vocabulary, grammar, operations and answer format of a procedure. MDia records the card’s author, its construction history and its performance with each tested receiver. Symbolic cards, English procedures and direct solvers can then be compared by both answer accuracy and the number of tokens the receiver generates.
 
 [Benchmark results](#benchmark-results-and-reproduction) · [Quickstart](#quickstart) · [Pipeline](#canonical-pipeline) · [Documentation](#documentation) · [Citation](#citation)
 
@@ -8,27 +8,36 @@ MDia studies a practical question: **which parts of a reasoning procedure can on
 
 ## Benchmark results and reproduction
 
-The [benchmark collection](artifacts/research/20261103/README.md) covers **11 benchmarks and four native model families**: DeepSeek, GLM, Qwen and Kimi. Each comparison identifies the procedure, its reference, the shared cohort and the native tokens used to serve both. The studies use development-exposed panels. Their differences describe the specified models and comparators.
+Across four reasoning benchmarks, MDia procedures matched or exceeded the named reference’s observed accuracy while generating fewer tokens. Each row compares the same model on the same questions. **Generation saved** is the percentage reduction in native output tokens relative to the named reference, including reasoning tokens where the provider reports them.
 
-| Task and receiver | Comparison | Correct, procedure / reference | Gain | Change in recorded total tokens |
-|---|---|---:|---:|---:|
-| GPQA · DeepSeek-V4-Pro | Typed bounds / paired English | 182 / 168 of 256 | +5.47 pp | +0.46% |
-| MultiHop-RAG · DeepSeek-V4-Pro | Selective evidence / paired English | 206 / 190 of 256 | +6.25 pp | +2.69% |
-| MultiHop-RAG · Qwen3.6-35B-A3B | Typed query / paired English | 214 / 174 of 256 | +15.63 pp | −0.82% |
-| CRUXEval · GLM-5.2 | Selective literal integrity / Raw CoT | 241 / 229 of 256 | +4.69 pp | +16.41% |
+<!-- mdia-paired-efficiency:start -->
 
-The reference matters. Against stronger English procedures on GPQA and MultiHop, DeepSeek-V4-Pro scored **182 vs 177** and **206 vs 205**, respectively, using **27.47%** and **10.59%** fewer recorded total tokens. Both paired accuracy intervals include zero. On Qwen MultiHop, TALE and schema each scored 221/256. The [16 comparisons](artifacts/research/20261103/COMPARISONS.md) give the intervals, subgroup sizes and control scores for all 11 benchmarks.
+| Benchmark · model | MDia procedure vs reference | Questions / groups | Reference accuracy | MDia accuracy | Generated tokens per question (ref → MDia) | Generation saved |
+|---|---|---:|---:|---:|---:|---:|
+| CRUXEval · Qwen3.6-35B-A3B | Fixed specialist C2 vs Raw CoT (2048) | 96 / 96 | 94.79% | 94.79% | 606.60 → 272.43 | 55.09% |
+| GPQA · DeepSeek-V4-Pro | Typed bound vs Adapted English (obligations) | 256 / 256 | 69.14% | 71.09% | 593.74 → 336.55 | 43.32% |
+| MultiHop-RAG · Qwen3.6-35B-A3B | Typed query vs Paired English | 256 / 256 | 67.97% | 83.59% | 11.97 → 9.03 | 24.58% |
+| CRUXEval · DeepSeek-V4-Flash | Python state vs Paired English | 256 / 256 | 94.53% | 94.53% | 181.89 → 142.70 | 21.55% |
+| CRUXEval · GLM-5.2 | Selective literal integrity vs English piece trace | 256 / 256 | 92.58% | 94.14% | 90.02 → 72.40 | 19.57% |
+| GPQA · GLM-5.3 | Obligation card vs Paired English | 256 / 256 | 70.31% | 75.78% | 1,070.52 → 894.40 | 16.45% |
+| LiveCodeBench (output prediction) · DeepSeek-V4-Flash | Symbolic procedure vs Lexical procedure | 256 / 104 | 88.28% | 91.02% | 279.59 → 267.23 | 4.42% |
 
-**A higher score can come from a different answer or from a different way of delivering the same answer.** On MultiHop, both procedures produced extractable answers on all 256 questions: 19 favored selective evidence and three favored English on DeepSeek; the corresponding counts on Qwen were 48 and eight. On BFCL, 15 of the 21 Kimi-Code tasks solved only by the GEPA procedure contained the same proposed tool calls as the English control. What differed was the format in which the calls reached the evaluator. Both BFCL procedures were written in English. The [paired analyses](artifacts/research/20261103/FINDINGS.md) distinguish these two sources of improvement and show how the choice of a fixed baseline changes the apparent difference between receivers.
+<!-- mdia-paired-efficiency:end -->
 
-Reproduce the numerical analysis offline with Python 3.10 or later:
+The table includes all pairs in the comparison inventory that matched or exceeded reference accuracy and reduced both generation and combined input-plus-output usage, with at least 96 whole groups and no reported gaps in token usage on either arm. The panels were available during development, so matching accuracy describes the observed panel. The detailed results give paired uncertainty and distinguish smaller panels, incomplete accounting and cases where longer inputs outweighed shorter outputs. [Paired results and accounting](artifacts/research/token-efficiency-v1/RESULTS.md)
+
+On GPQA with GLM-5.3, the obligation card reduced generation by 16.45% while accuracy rose from 70.31% to 75.78%. The paired 95% interval for the accuracy difference was +0.78 to +10.16 percentage points. On Qwen MultiHop-RAG, the typed query reached 83.59% against paired English at 67.97%, with 24.58% less generation. TALE and schema each reached 86.33% on that panel. The Qwen CRUXEval comparison evaluates a fixed specialist. A matched baseline router reached 96.88% on the same questions. [October comparator panels](artifacts/research/20261005/results/ALL_BASELINE_PANELS.csv) · [November comparisons](artifacts/research/20261103/COMPARISONS.md)
+
+The wider collection covers 11 benchmarks and four native model families. It also distinguishes changes in the proposed answer from changes in how the answer reaches the evaluator. On Kimi-K2.7-Code BFCL, for example, 71.43% of the tasks solved only by the GEPA procedure contained the same proposed tool calls as the optimized English control. [Benchmark collection](artifacts/research/20261103/README.md) · [Paired analyses](artifacts/research/20261103/FINDINGS.md)
+
+Reproduce the efficiency table offline with Python 3.10 or later.
 
 ```sh
-python3 scripts/reproduce_mdia_evidence_20261103.py --check
-python3 scripts/reproduce_mdia_evidence_20261103.py --output runs/mdia-20261103
+python3 -B scripts/reproduce_mdia_token_efficiency.py --check
+python3 -B scripts/reproduce_mdia_token_efficiency.py --output runs/mdia-token-efficiency
 ```
 
-The first command checks the published files; the second writes the comparison table, findings, and separate accuracy and serving CSVs to a new or empty directory. The [October accuracy and generation-token study](MDIA_EVIDENCE_README.md) provides the earlier paired observations, frontier plots and [downloadable reproduction package](releases/mdia-results-20261005.zip). On GPQA, the earlier GLM comparison recorded 194 vs 180 correct with 16.45% fewer generated tokens; on MultiHop-RAG, DeepSeek-V4-Flash recorded 172 vs 167 against Sketch-of-Thought with 60.29% fewer generated tokens. These savings measure generation; the November table measures input plus generation.
+The first command verifies the README table and the published results against their numerical sources. The second exports the table, arm-level token sums and an audit of all 32 comparisons to a new or empty directory. [Efficiency data](artifacts/research/token-efficiency-v1/output-savings.csv) · [October reproduction package](MDIA_EVIDENCE_README.md) · [November reproduction guide](artifacts/research/20261103/README.md)
 
 ## Quickstart
 
@@ -65,6 +74,7 @@ A dialect router selects concrete cards by their frozen identifiers. A controlle
 
 | Resource | Contents |
 |---|---|
+| [Accuracy and native token use](artifacts/research/token-efficiency-v1/RESULTS.md) | Paired accuracy, generation savings and serving-token accounting |
 | [Benchmark evidence and methods](artifacts/research/20261103/README.md) | Paired comparisons, exposure, group structure, serving and construction accounting |
 | [October numerical release](docs/evidence-release-20261005.md) | Accuracy and generation-token frontiers, original settings and reproduction instructions |
 | [Reproduction and data policy](docs/reproduction.md) | Offline verification, adapter experiments and historical inference protocols |
