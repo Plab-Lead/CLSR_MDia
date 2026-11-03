@@ -1,0 +1,94 @@
+{
+  "source_sha256": {
+    "writing/20261101-qa-delivery-v1.json": "3eea974a6213a6af069479ee1815f6d5f8e6541a53b953c1b70feff541a006c2",
+    "evidence/WRITING_CONTRASTS.json": "22d205873e0698063588288e729237de3b2f6c501953b64894a825a91dd056f9",
+    "evidence/inherited/crux_glm256.json.gz": "a4379a0b3cff70c4ed52c0addf700cdee66ee52ff1b656e62b443f5feb79b5b1",
+    "evidence/inherited/qwen_matched_online96.json.gz": "416af577d02eedee76359f90152f8fc9a25f00b8781709f9f5718fd5b8416288"
+  },
+  "qa_control_prior_unknown_rows": {
+    "gpqa-pro": {
+      "Source:raw_2048": 0,
+      "Source:obligation_english": 0
+    },
+    "multihop-pro": {
+      "NL:flat_terminal": 0
+    },
+    "multihop-qwen": {
+      "Target:TALE_EP_reimplementation": 0,
+      "Target:schema_only_8192": 0
+    },
+    "aime-flash": {
+      "Source:raw_8192": 0,
+      "Source:parent_8192": 0
+    }
+  },
+  "crux_comparisons": [
+    {
+      "id": "C2",
+      "model": "zai-org/GLM-5.2",
+      "questions": 256,
+      "groups": 256,
+      "arm_names": [
+        "MDia:selective_literal_integrity_v13",
+        "NL:piece_trace"
+      ],
+      "arms": [
+        {
+          "correct": 241,
+          "input_tokens": 66525,
+          "generation_tokens": 18535,
+          "reported_prior_unknown_attempts": 0
+        },
+        {
+          "correct": 237,
+          "input_tokens": 62420,
+          "generation_tokens": 23046,
+          "reported_prior_unknown_attempts": 0
+        }
+      ],
+      "archived_interval95_pp": [
+        -1.5625,
+        4.6875
+      ]
+    },
+    {
+      "id": "C6",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "questions": 96,
+      "groups": 96,
+      "arm_names": [
+        "MDia:native_qwen_c2_survivor2",
+        "Qwen:raw_2048"
+      ],
+      "arms": [
+        {
+          "correct": 91,
+          "input_tokens": 26016,
+          "generation_tokens": 26153,
+          "reported_prior_unknown_attempts": 0
+        },
+        {
+          "correct": 91,
+          "input_tokens": 16117,
+          "generation_tokens": 58234,
+          "reported_prior_unknown_attempts": 0
+        }
+      ],
+      "archived_interval95_pp": [
+        -5.208333333333334,
+        5.208333333333334
+      ]
+    }
+  ],
+  "crux_context": {
+    "qwen_matched_baseline_router": [
+      93,
+      96
+    ],
+    "glm_added_subset": [
+      59,
+      64,
+      64
+    ]
+  }
+}
