@@ -1,0 +1,1529 @@
+{
+  "version": 1,
+  "as_of": "2026-11-03",
+  "paired_counts_order": [
+    "procedure_only",
+    "reference_only",
+    "both_correct",
+    "both_incorrect"
+  ],
+  "exposure": "Development-exposed benchmark panels. Contrasts and the MATH difficulty subgroup were selected retrospectively.",
+  "source_report_sha256": {
+    "October writing contrasts": "64655233a45053002acd0ac47e45e3527ade0d7eabd4c83c221a6e8c40f95ac5",
+    "October paired reference contrasts": "22d205873e0698063588288e729237de3b2f6c501953b64894a825a91dd056f9",
+    "QA extraction strata": "3eea974a6213a6af069479ee1815f6d5f8e6541a53b953c1b70feff541a006c2",
+    "Native comparison inventory": "5e22249a3cc2aa4634a617cae490af776c4f2c0a3d2d2816c7dc219c77ba4216",
+    "GLM selective integrity": "a4379a0b3cff70c4ed52c0addf700cdee66ee52ff1b656e62b443f5feb79b5b1",
+    "GLM module bank native specifications": "9008b2121d2a8484284e3f8228cdd60e0f9fff5feb1540ebe2048f9f77f63b06",
+    "GLM module bank": "593a91d6a07fb1479cca92f9de94b6f30ff6e0039cd01bb093e66e9216a3b432",
+    "GLM bank construction": "3a513c235a140be13ce943a9c59db457d7368ab555656437b346946011fe7deb",
+    "BFCL Kimi paired deployments": "f8ccf1b5e439f7451009c7a0730e3539f9a34ed1f5e5be86b888b1335041f363",
+    "BFCL DeepSeek and Qwen": "ff29172c5900995ebab6247a8b2d35b8966ce6599be36a36574ad29f37b462c9",
+    "MATH difficulty strata": "25005e401bb86d4a9bcdb0cc98a950a2dfb905fd4db96be2e97d796353fc61e3",
+    "LiveCodeBench procedure and frame": "c4a810c6e33b75cce3b5ebfa446fd1bd062a6ac418149339efdc8decdf5a4994",
+    "Four native Raw panels": "457049031701870303b139173c36cfc8fa12bc47b8b3074f37c00767fad16937",
+    "Procedure origin transitions": "8a1855825744755ccfba3a5ae33bbc58afcb7c782081c6eede524f205cfde799",
+    "MuSR operation baseline replay": "5a6e48e4567b9092d3d90977f1805d4fc7d53a1341ed7ba33e64e3be2ce73af4",
+    "Three-family working records": "5a8fb1545760cc7cc8084fda79e04c7fb479fc0390c5ab1997b1a02da9689fb8",
+    "C9 native calibration": "d41c0696da9b5c18a1277111fcf3d9a29a3a5533735caf9fbab75b82949a5334",
+    "C11a native calibration": "6024d90bdc053b9b20afbac65b2f6454c82323694e5956c29abf20063c93e32a"
+  },
+  "comparisons": [
+    {
+      "id": "gpqa-pro",
+      "benchmark": "GPQA",
+      "model": "deepseek-ai/DeepSeek-V4-Pro",
+      "procedure": "Typed bound",
+      "reference": "Paired English",
+      "scope": "Complete exposed panel",
+      "questions": 256,
+      "groups": 256,
+      "arms": [
+        {
+          "correct": 182,
+          "input_tokens": 101877,
+          "generation_tokens": 86156,
+          "latency_seconds": 2154.861572166905,
+          "latency_statistic": "sum of available logical rows",
+          "latency_rows": 256,
+          "reported_prior_unknown_attempts": 0,
+          "invoiced_cost": null
+        },
+        {
+          "correct": 168,
+          "input_tokens": 101365,
+          "generation_tokens": 85811,
+          "latency_seconds": 2136.3013081075624,
+          "latency_statistic": "sum of available logical rows",
+          "latency_rows": 256,
+          "reported_prior_unknown_attempts": 0,
+          "invoiced_cost": null
+        }
+      ],
+      "comparison_context": {
+        "Source:raw_2048": 179,
+        "Source:obligation_english": 177
+      },
+      "sources": [
+        "QA extraction strata",
+        "Native comparison inventory"
+      ],
+      "native_recipe": {
+        "enable_thinking": false,
+        "max_tokens": 2048,
+        "stream": false,
+        "temperature": 0.2
+      },
+      "arm_names": [
+        "MDia:typed_bound",
+        "NL:typed_bound"
+      ],
+      "archived_interval95_pp": [
+        0.390625,
+        10.546875
+      ],
+      "paired_counts": [
+        30,
+        16,
+        152,
+        58
+      ]
+    },
+    {
+      "id": "multihop-pro",
+      "benchmark": "MultiHop-RAG",
+      "model": "deepseek-ai/DeepSeek-V4-Pro",
+      "procedure": "Selective evidence",
+      "reference": "Paired English",
+      "scope": "Complete exposed panel",
+      "questions": 256,
+      "groups": 256,
+      "arms": [
+        {
+          "correct": 206,
+          "input_tokens": 131733,
+          "generation_tokens": 1758,
+          "latency_seconds": 318.29674935154617,
+          "latency_statistic": "sum of available logical rows",
+          "latency_rows": 256,
+          "reported_prior_unknown_attempts": 1,
+          "invoiced_cost": null
+        },
+        {
+          "correct": 190,
+          "input_tokens": 128149,
+          "generation_tokens": 1839,
+          "latency_seconds": 322.9755696700886,
+          "latency_statistic": "sum of available logical rows",
+          "latency_rows": 256,
+          "reported_prior_unknown_attempts": 0,
+          "invoiced_cost": null
+        }
+      ],
+      "comparison_context": {
+        "NL:flat_terminal": 205
+      },
+      "sources": [
+        "QA extraction strata",
+        "Native comparison inventory"
+      ],
+      "native_recipe": {
+        "enable_thinking": false,
+        "max_tokens": 2048,
+        "stream": false,
+        "temperature": 0.2
+      },
+      "arm_names": [
+        "MDia:selective_evidence",
+        "NL:selective_evidence"
+      ],
+      "archived_interval95_pp": [
+        3.125,
+        9.765625
+      ],
+      "paired_counts": [
+        19,
+        3,
+        187,
+        47
+      ]
+    },
+    {
+      "id": "multihop-qwen",
+      "benchmark": "MultiHop-RAG",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "procedure": "Typed query",
+      "reference": "Paired English",
+      "scope": "Complete exposed panel",
+      "questions": 256,
+      "groups": 256,
+      "arms": [
+        {
+          "correct": 214,
+          "input_tokens": 120124,
+          "generation_tokens": 2311,
+          "latency_seconds": 114.00647417642176,
+          "latency_statistic": "sum of available logical rows",
+          "latency_rows": 256,
+          "reported_prior_unknown_attempts": 0,
+          "invoiced_cost": null
+        },
+        {
+          "correct": 174,
+          "input_tokens": 120380,
+          "generation_tokens": 3064,
+          "latency_seconds": 122.56253027450293,
+          "latency_statistic": "sum of available logical rows",
+          "latency_rows": 256,
+          "reported_prior_unknown_attempts": 0,
+          "invoiced_cost": null
+        }
+      ],
+      "comparison_context": {
+        "Target:TALE_EP_reimplementation": 221,
+        "Target:schema_only_8192": 221
+      },
+      "sources": [
+        "QA extraction strata",
+        "Native comparison inventory"
+      ],
+      "native_recipe": {
+        "enable_thinking": false,
+        "max_tokens": 2048,
+        "stream": true,
+        "temperature": 0.2
+      },
+      "arm_names": [
+        "MDia:typed_query_v2",
+        "NL:typed_query_v2"
+      ],
+      "archived_interval95_pp": null,
+      "paired_counts": [
+        48,
+        8,
+        166,
+        34
+      ]
+    },
+    {
+      "id": "aime-flash",
+      "benchmark": "AIME",
+      "model": "deepseek-ai/DeepSeek-V4-Flash",
+      "procedure": "Counting equivalence",
+      "reference": "Paired English",
+      "scope": "Complete exposed panel",
+      "questions": 60,
+      "groups": 60,
+      "arms": [
+        {
+          "correct": 29,
+          "input_tokens": 19162,
+          "generation_tokens": 63164,
+          "latency_seconds": 840.3060194756836,
+          "latency_statistic": "sum of available logical rows",
+          "latency_rows": 60,
+          "reported_prior_unknown_attempts": 0,
+          "invoiced_cost": null
+        },
+        {
+          "correct": 20,
+          "input_tokens": 18022,
+          "generation_tokens": 61232,
+          "latency_seconds": 807.8003894351423,
+          "latency_statistic": "sum of available logical rows",
+          "latency_rows": 60,
+          "reported_prior_unknown_attempts": 0,
+          "invoiced_cost": null
+        }
+      ],
+      "comparison_context": {
+        "Source:raw_8192": 34,
+        "Source:parent_8192": 34
+      },
+      "sources": [
+        "QA extraction strata",
+        "Native comparison inventory"
+      ],
+      "native_recipe": {
+        "enable_thinking": false,
+        "max_tokens": 2048,
+        "stream": true,
+        "temperature": 0.2
+      },
+      "arm_names": [
+        "MDia:counting_equivalence",
+        "NL:counting_equivalence"
+      ],
+      "archived_interval95_pp": null,
+      "paired_counts": [
+        11,
+        2,
+        18,
+        29
+      ]
+    },
+    {
+      "id": "crux-glm",
+      "benchmark": "CRUXEval",
+      "model": "zai-org/GLM-5.2",
+      "procedure": "Selective literal integrity",
+      "reference": "Raw CoT (2048)",
+      "scope": "Complete exposed panel",
+      "questions": 256,
+      "groups": 256,
+      "arms": [
+        {
+          "correct": 241,
+          "input_tokens": 66525,
+          "generation_tokens": 18535,
+          "latency_seconds": 1.3477892292139586,
+          "latency_statistic": "mean of available logical rows",
+          "latency_rows": 256,
+          "reported_prior_unknown_attempts": 0,
+          "invoiced_cost": null
+        },
+        {
+          "correct": 229,
+          "input_tokens": 38612,
+          "generation_tokens": 34460,
+          "latency_seconds": 1.700881546967139,
+          "latency_statistic": "mean of available logical rows",
+          "latency_rows": 256,
+          "reported_prior_unknown_attempts": 0,
+          "invoiced_cost": null
+        }
+      ],
+      "comparison_context": {
+        "English piece trace": 237
+      },
+      "sources": [
+        "GLM selective integrity",
+        "October writing contrasts"
+      ],
+      "arm_names": [
+        "MDia:selective_literal_integrity_v13",
+        "Target:raw_2048"
+      ],
+      "archived_interval95_pp": [
+        0.390625,
+        8.984375
+      ],
+      "paired_counts": null,
+      "native_recipe": null
+    },
+    {
+      "id": "crux-glm-bank",
+      "benchmark": "CRUXEval",
+      "model": "zai-org/GLM-5.2",
+      "procedure": "Model-authored module bank",
+      "reference": "Paired English bank",
+      "scope": "Complete exposed panel",
+      "questions": 192,
+      "groups": 192,
+      "arms": [
+        {
+          "correct": 183,
+          "input_tokens": 49932,
+          "generation_tokens": 13989,
+          "latency_seconds": null,
+          "latency_statistic": "full-cohort mean if complete",
+          "latency_rows": null,
+          "reported_prior_unknown_attempts": 0,
+          "invoiced_cost": null
+        },
+        {
+          "correct": 173,
+          "input_tokens": 47375,
+          "generation_tokens": 15590,
+          "latency_seconds": null,
+          "latency_statistic": "full-cohort mean if complete",
+          "latency_rows": null,
+          "reported_prior_unknown_attempts": 0,
+          "invoiced_cost": null
+        }
+      ],
+      "comparison_context": {
+        "Retained parent": 183
+      },
+      "sources": [
+        "GLM module bank",
+        "October writing contrasts"
+      ],
+      "arm_names": [
+        "MDia:native_module_c1_order3",
+        "NL:native_module_c1_order3"
+      ],
+      "archived_interval95_pp": [
+        2.083333333333333,
+        8.854166666666668
+      ],
+      "paired_counts": null,
+      "native_recipe": {
+        "temperature": 0.2,
+        "max_tokens": 2048,
+        "enable_thinking": false,
+        "stream": true
+      }
+    },
+    {
+      "id": "bfcl-code",
+      "benchmark": "BFCL",
+      "model": "moonshotai/Kimi-K2.7-Code",
+      "procedure": "GEPA procedure",
+      "reference": "Optimized English",
+      "scope": "Complete exposed panel",
+      "questions": 192,
+      "groups": 192,
+      "arms": [
+        {
+          "correct": 183,
+          "input_tokens": 158569,
+          "generation_tokens": 39468,
+          "latency_seconds": 1398.855195,
+          "latency_statistic": "sum of successful attempt elapsed times",
+          "latency_rows": 192,
+          "reported_prior_unknown_attempts": 0,
+          "invoiced_cost": null
+        },
+        {
+          "correct": 165,
+          "input_tokens": 67561,
+          "generation_tokens": 47476,
+          "latency_seconds": 1704.938151,
+          "latency_statistic": "sum of successful attempt elapsed times",
+          "latency_rows": 192,
+          "reported_prior_unknown_attempts": 0,
+          "invoiced_cost": null
+        }
+      ],
+      "comparison_context": {
+        "direct_2048": 185,
+        "schema_only_8192": 186
+      },
+      "sources": [
+        "BFCL Kimi paired deployments"
+      ],
+      "arm_names": [
+        "Code:GEPA_v3_dialect",
+        "Code:GEPA_v3_natural"
+      ],
+      "native_recipe": {
+        "enable_thinking": true,
+        "max_tokens": 2048,
+        "stream": true,
+        "temperature": 0.2,
+        "thinking_budget": 1024
+      },
+      "archived_interval95_pp": [
+        4.6875,
+        14.0625
+      ],
+      "paired_counts": [
+        21,
+        3,
+        162,
+        6
+      ]
+    },
+    {
+      "id": "bfcl-kimi",
+      "benchmark": "BFCL",
+      "model": "Pro/moonshotai/Kimi-K2.6",
+      "procedure": "GEPA procedure",
+      "reference": "Optimized English",
+      "scope": "Complete exposed panel",
+      "questions": 192,
+      "groups": 192,
+      "arms": [
+        {
+          "correct": 187,
+          "input_tokens": 158761,
+          "generation_tokens": 8368,
+          "latency_seconds": 446.437316,
+          "latency_statistic": "sum of successful attempt elapsed times",
+          "latency_rows": 192,
+          "reported_prior_unknown_attempts": 0,
+          "invoiced_cost": null
+        },
+        {
+          "correct": 181,
+          "input_tokens": 67753,
+          "generation_tokens": 40929,
+          "latency_seconds": 1559.027988,
+          "latency_statistic": "sum of successful attempt elapsed times",
+          "latency_rows": 192,
+          "reported_prior_unknown_attempts": 0,
+          "invoiced_cost": null
+        }
+      ],
+      "comparison_context": {
+        "direct_2048": 189,
+        "schema_only_8192": 186
+      },
+      "sources": [
+        "BFCL Kimi paired deployments"
+      ],
+      "arm_names": [
+        "Kimi:GEPA_v3_dialect",
+        "Kimi:GEPA_v3_natural"
+      ],
+      "native_recipe": {
+        "enable_thinking": false,
+        "max_tokens": 2048,
+        "stream": true,
+        "temperature": 0.2
+      },
+      "archived_interval95_pp": [
+        0.0,
+        6.25
+      ],
+      "paired_counts": [
+        8,
+        2,
+        179,
+        3
+      ]
+    },
+    {
+      "id": "bfcl-pro",
+      "benchmark": "BFCL",
+      "model": "deepseek-ai/DeepSeek-V4-Pro",
+      "procedure": "GEPA procedure",
+      "reference": "Optimized English",
+      "scope": "Complete exposed panel",
+      "questions": 192,
+      "groups": 192,
+      "arms": [
+        {
+          "correct": 180,
+          "input_tokens": 161491,
+          "generation_tokens": 14026,
+          "latency_seconds": 372.9197700000001,
+          "latency_statistic": "sum of successful attempt elapsed times",
+          "latency_rows": 192,
+          "reported_prior_unknown_attempts": 0,
+          "invoiced_cost": null
+        },
+        {
+          "correct": 174,
+          "input_tokens": 69907,
+          "generation_tokens": 12287,
+          "latency_seconds": 328.1779999999997,
+          "latency_statistic": "sum of successful attempt elapsed times",
+          "latency_rows": 192,
+          "reported_prior_unknown_attempts": 0,
+          "invoiced_cost": null
+        }
+      ],
+      "comparison_context": {
+        "direct_2048": 182,
+        "schema_only_8192": 180,
+        "sot_8192": 185
+      },
+      "sources": [
+        "BFCL DeepSeek and Qwen"
+      ],
+      "arm_names": [
+        "Pro:GEPA_v3_dialect",
+        "Pro:GEPA_v3_natural"
+      ],
+      "native_recipe": {
+        "enable_thinking": false,
+        "max_tokens": 2048,
+        "stream": false,
+        "temperature": 0.2
+      },
+      "archived_interval95_pp": [
+        -1.5625,
+        7.8125
+      ],
+      "paired_counts": [
+        13,
+        7,
+        167,
+        5
+      ]
+    },
+    {
+      "id": "bfcl-qwen",
+      "benchmark": "BFCL",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "procedure": "GEPA procedure",
+      "reference": "Optimized English",
+      "scope": "Complete exposed panel",
+      "questions": 192,
+      "groups": 192,
+      "arms": [
+        {
+          "correct": 180,
+          "input_tokens": 162242,
+          "generation_tokens": 18327,
+          "latency_seconds": 253.61730099999997,
+          "latency_statistic": "sum of successful attempt elapsed times",
+          "latency_rows": 192,
+          "reported_prior_unknown_attempts": 0,
+          "invoiced_cost": null
+        },
+        {
+          "correct": 178,
+          "input_tokens": 68930,
+          "generation_tokens": 47704,
+          "latency_seconds": 523.5212399999999,
+          "latency_statistic": "sum of successful attempt elapsed times",
+          "latency_rows": 192,
+          "reported_prior_unknown_attempts": 0,
+          "invoiced_cost": null
+        }
+      ],
+      "comparison_context": {
+        "direct_2048": 179,
+        "schema_only_8192": 180,
+        "raw_2048": 181,
+        "raw_8192": 181,
+        "parent_8192": 181
+      },
+      "sources": [
+        "BFCL DeepSeek and Qwen"
+      ],
+      "arm_names": [
+        "Qwen:GEPA_v3_dialect",
+        "Qwen:GEPA_v3_natural"
+      ],
+      "native_recipe": {
+        "enable_thinking": false,
+        "max_tokens": 2048,
+        "stream": true,
+        "temperature": 0.2
+      },
+      "archived_interval95_pp": [
+        -2.6041666666666665,
+        4.6875
+      ],
+      "paired_counts": [
+        8,
+        6,
+        172,
+        6
+      ]
+    },
+    {
+      "id": "math-flash",
+      "benchmark": "MATH",
+      "model": "deepseek-ai/DeepSeek-V4-Flash",
+      "procedure": "Derive and substitute",
+      "reference": "Paired English",
+      "scope": "Level 5; exposed, outcome-informed subgroup",
+      "questions": 56,
+      "groups": 56,
+      "arms": [
+        {
+          "correct": 46,
+          "input_tokens": 15598,
+          "generation_tokens": 23145,
+          "latency_seconds": 457.7942977286875,
+          "latency_statistic": "sum of available logical rows",
+          "latency_rows": 56,
+          "reported_prior_unknown_attempts": 0,
+          "invoiced_cost": null
+        },
+        {
+          "correct": 43,
+          "input_tokens": 15150,
+          "generation_tokens": 23440,
+          "latency_seconds": 515.0224521048367,
+          "latency_statistic": "sum of available logical rows",
+          "latency_rows": 56,
+          "reported_prior_unknown_attempts": 0,
+          "invoiced_cost": null
+        }
+      ],
+      "comparison_context": {
+        "Source:raw_2048": 51,
+        "Source:raw_8192": 52,
+        "Source:schema_only_2048": 49
+      },
+      "sources": [
+        "MATH difficulty strata"
+      ],
+      "arm_names": [
+        "MDia:derive_substitute",
+        "NL:derive_substitute"
+      ],
+      "native_recipe": {
+        "temperature": 0.2,
+        "max_tokens": 2048,
+        "enable_thinking": false,
+        "stream": true
+      },
+      "paired_counts": [
+        6,
+        3,
+        40,
+        7
+      ],
+      "archived_interval95_pp": [
+        -5.357142857142857,
+        16.071428571428573
+      ]
+    },
+    {
+      "id": "lcb-flash",
+      "benchmark": "LiveCodeBench",
+      "model": "deepseek-ai/DeepSeek-V4-Flash",
+      "procedure": "Symbolic procedure",
+      "reference": "Lexical procedure",
+      "scope": "Output prediction; ordinary-English reasoning frame",
+      "questions": 256,
+      "groups": 104,
+      "arms": [
+        {
+          "correct": 233,
+          "input_tokens": 68452,
+          "generation_tokens": 68411,
+          "latency_seconds": 1432.733448,
+          "latency_statistic": "sum of successful call latencies",
+          "latency_rows": 256,
+          "reported_prior_unknown_attempts": 0,
+          "invoiced_cost": null
+        },
+        {
+          "correct": 226,
+          "input_tokens": 74084,
+          "generation_tokens": 71576,
+          "latency_seconds": 1704.113878,
+          "latency_statistic": "sum of successful call latencies",
+          "latency_rows": 256,
+          "reported_prior_unknown_attempts": 0,
+          "invoiced_cost": null
+        }
+      ],
+      "comparison_context": {
+        "sot_8192": 234,
+        "raw_2048": 226,
+        "natural_2048": 236,
+        "raw_8192": 230
+      },
+      "sources": [
+        "LiveCodeBench procedure and frame"
+      ],
+      "arm_names": [
+        "symbolic_natural",
+        "lexical_natural"
+      ],
+      "native_recipe": {
+        "temperature": 0.2,
+        "max_tokens": 2048,
+        "enable_thinking": false,
+        "stream": true
+      },
+      "archived_interval95_pp": [
+        -0.796812749003984,
+        6.324110671936759
+      ],
+      "paired_counts": [
+        15,
+        8,
+        218,
+        15
+      ]
+    },
+    {
+      "id": "mmlu",
+      "benchmark": "MMLU-Pro",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "procedure": "Compiled card",
+      "reference": "Raw CoT (2048)",
+      "scope": "Complete exposed panel",
+      "questions": 256,
+      "groups": 256,
+      "arms": [
+        {
+          "correct": 196,
+          "input_tokens": 96339,
+          "generation_tokens": 175890,
+          "latency_seconds": 6.679154121557076,
+          "latency_statistic": "original per-arm statistic (seconds)",
+          "latency_rows": null,
+          "reported_prior_unknown_attempts": 0,
+          "invoiced_cost": null
+        },
+        {
+          "correct": 195,
+          "input_tokens": 70227,
+          "generation_tokens": 264461,
+          "latency_seconds": 10.874080496429087,
+          "latency_statistic": "original per-arm statistic (seconds)",
+          "latency_rows": null,
+          "reported_prior_unknown_attempts": 1,
+          "invoiced_cost": null
+        }
+      ],
+      "comparison_context": {
+        "raw_8192": 216,
+        "natural_2048": 198
+      },
+      "sources": [
+        "Four native Raw panels"
+      ],
+      "native_recipe": {
+        "temperature": 0.2,
+        "max_tokens": 2048,
+        "enable_thinking": false,
+        "stream": true
+      },
+      "arm_names": [
+        "compiled256_2048",
+        "raw_2048"
+      ],
+      "paired_counts": [
+        12,
+        11,
+        184,
+        49
+      ],
+      "archived_interval95_pp": [
+        -3.125,
+        3.90625
+      ]
+    },
+    {
+      "id": "folio",
+      "benchmark": "FOLIO",
+      "model": "deepseek-ai/DeepSeek-V4-Flash",
+      "procedure": "Contrastive card R1",
+      "reference": "Raw CoT (2048)",
+      "scope": "Complete exposed panel",
+      "questions": 204,
+      "groups": 73,
+      "arms": [
+        {
+          "correct": 156,
+          "input_tokens": 120794,
+          "generation_tokens": 31928,
+          "latency_seconds": 4.259476309514367,
+          "latency_statistic": "original per-arm statistic (seconds)",
+          "latency_rows": null,
+          "reported_prior_unknown_attempts": 0,
+          "invoiced_cost": null
+        },
+        {
+          "correct": 144,
+          "input_tokens": 37978,
+          "generation_tokens": 28578,
+          "latency_seconds": 5.811419201325442,
+          "latency_statistic": "original per-arm statistic (seconds)",
+          "latency_rows": null,
+          "reported_prior_unknown_attempts": 1,
+          "invoiced_cost": null
+        }
+      ],
+      "comparison_context": {
+        "natural_2048": 157
+      },
+      "sources": [
+        "Four native Raw panels"
+      ],
+      "native_recipe": {
+        "temperature": 0.2,
+        "max_tokens": 2048,
+        "enable_thinking": false,
+        "stream": true
+      },
+      "arm_names": [
+        "contrastive_r1",
+        "raw_2048"
+      ],
+      "paired_counts": [
+        22,
+        10,
+        134,
+        38
+      ],
+      "archived_interval95_pp": [
+        0.9852216748768473,
+        10.576923076923077
+      ]
+    },
+    {
+      "id": "musr",
+      "benchmark": "MuSR",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "procedure": "GEPA procedure",
+      "reference": "Raw CoT (2048)",
+      "scope": "Complete exposed panel",
+      "questions": 257,
+      "groups": 128,
+      "arms": [
+        {
+          "correct": 166,
+          "input_tokens": 380075,
+          "generation_tokens": 252254,
+          "latency_seconds": 9.437545641955959,
+          "latency_statistic": "original per-arm statistic (seconds)",
+          "latency_rows": null,
+          "reported_prior_unknown_attempts": 0,
+          "invoiced_cost": null
+        },
+        {
+          "correct": 152,
+          "input_tokens": 279074,
+          "generation_tokens": 220831,
+          "latency_seconds": 9.26473538587341,
+          "latency_statistic": "original per-arm statistic (seconds)",
+          "latency_rows": null,
+          "reported_prior_unknown_attempts": 0,
+          "invoiced_cost": null
+        }
+      ],
+      "comparison_context": {
+        "natural_2048": 176
+      },
+      "sources": [
+        "Four native Raw panels"
+      ],
+      "native_recipe": {
+        "temperature": 0.2,
+        "max_tokens": 2048,
+        "enable_thinking": false,
+        "stream": true
+      },
+      "arm_names": [
+        "GEPA_v3_dialect",
+        "raw_2048"
+      ],
+      "paired_counts": [
+        44,
+        30,
+        122,
+        61
+      ],
+      "archived_interval95_pp": [
+        -1.2396694214876034,
+        12.099644128113878
+      ]
+    },
+    {
+      "id": "bbeh",
+      "benchmark": "BBEH",
+      "model": "deepseek-ai/DeepSeek-V4-Flash",
+      "procedure": "Contrastive card R2",
+      "reference": "Raw CoT (2048)",
+      "scope": "Complete exposed panel",
+      "questions": 256,
+      "groups": 256,
+      "arms": [
+        {
+          "correct": 81,
+          "input_tokens": 355609,
+          "generation_tokens": 255428,
+          "latency_seconds": 15.292103356554435,
+          "latency_statistic": "original per-arm statistic (seconds)",
+          "latency_rows": null,
+          "reported_prior_unknown_attempts": 0,
+          "invoiced_cost": null
+        },
+        {
+          "correct": 75,
+          "input_tokens": 285721,
+          "generation_tokens": 264837,
+          "latency_seconds": 16.19339116226547,
+          "latency_statistic": "original per-arm statistic (seconds)",
+          "latency_rows": null,
+          "reported_prior_unknown_attempts": 0,
+          "invoiced_cost": null
+        }
+      ],
+      "comparison_context": {
+        "raw_8192": 88,
+        "natural_2048": 83
+      },
+      "sources": [
+        "Four native Raw panels"
+      ],
+      "native_recipe": {
+        "temperature": 0.2,
+        "max_tokens": 2048,
+        "enable_thinking": false,
+        "stream": true
+      },
+      "arm_names": [
+        "contrastive_r2",
+        "raw_2048"
+      ],
+      "paired_counts": [
+        31,
+        25,
+        50,
+        150
+      ],
+      "archived_interval95_pp": [
+        -3.515625,
+        8.203125
+      ]
+    }
+  ],
+  "diagnostics": {
+    "qa_extraction": {
+      "gpqa-pro": {
+        "bins": {
+          "both_accepted": [
+            255,
+            30,
+            15,
+            152,
+            58
+          ],
+          "only_method_accepted": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "only_comparator_accepted": [
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "neither_accepted": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "control_tokens": {
+          "Source:raw_2048": [
+            68085,
+            101729
+          ],
+          "Source:obligation_english": [
+            107253,
+            151998
+          ]
+        },
+        "paired_with_strong_controls": {
+          "Source:raw_2048": [
+            24,
+            21
+          ],
+          "Source:obligation_english": [
+            26,
+            21
+          ]
+        },
+        "partitions": {
+          "earlier_members": {
+            "questions": 96,
+            "counts": [
+              71,
+              68
+            ],
+            "control_counts": {
+              "Source:raw_2048": 71,
+              "Source:obligation_english": 70
+            }
+          },
+          "added_members": {
+            "questions": 160,
+            "counts": [
+              111,
+              100
+            ],
+            "control_counts": {
+              "Source:raw_2048": 108,
+              "Source:obligation_english": 107
+            }
+          }
+        }
+      },
+      "multihop-pro": {
+        "bins": {
+          "both_accepted": [
+            256,
+            19,
+            3,
+            187,
+            47
+          ],
+          "only_method_accepted": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "only_comparator_accepted": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "neither_accepted": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "control_tokens": {
+          "NL:flat_terminal": [
+            147349,
+            1949
+          ]
+        },
+        "paired_with_strong_controls": {
+          "NL:flat_terminal": [
+            12,
+            11
+          ]
+        },
+        "partitions": {
+          "earlier_members": {
+            "questions": 96,
+            "counts": [
+              79,
+              72
+            ],
+            "control_counts": {
+              "NL:flat_terminal": 76
+            }
+          },
+          "added_members": {
+            "questions": 160,
+            "counts": [
+              127,
+              118
+            ],
+            "control_counts": {
+              "NL:flat_terminal": 129
+            }
+          }
+        }
+      },
+      "multihop-qwen": {
+        "bins": {
+          "both_accepted": [
+            256,
+            48,
+            8,
+            166,
+            34
+          ],
+          "only_method_accepted": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "only_comparator_accepted": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "neither_accepted": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "control_tokens": {
+          "Target:TALE_EP_reimplementation": [
+            223004,
+            18892
+          ],
+          "Target:schema_only_8192": [
+            108604,
+            22632
+          ]
+        },
+        "paired_with_strong_controls": {
+          "Target:TALE_EP_reimplementation": [
+            10,
+            17
+          ],
+          "Target:schema_only_8192": [
+            8,
+            15
+          ]
+        },
+        "partitions": {
+          "earlier_members": {
+            "questions": 96,
+            "counts": [
+              80,
+              66
+            ],
+            "control_counts": {
+              "Target:TALE_EP_reimplementation": 79,
+              "Target:schema_only_8192": 83
+            }
+          },
+          "added_members": {
+            "questions": 160,
+            "counts": [
+              134,
+              108
+            ],
+            "control_counts": {
+              "Target:TALE_EP_reimplementation": 142,
+              "Target:schema_only_8192": 138
+            }
+          }
+        }
+      },
+      "aime-flash": {
+        "bins": {
+          "both_accepted": [
+            36,
+            7,
+            2,
+            18,
+            9
+          ],
+          "only_method_accepted": [
+            8,
+            4,
+            0,
+            0,
+            4
+          ],
+          "only_comparator_accepted": [
+            6,
+            0,
+            0,
+            0,
+            6
+          ],
+          "neither_accepted": [
+            10,
+            0,
+            0,
+            0,
+            10
+          ]
+        },
+        "control_tokens": {
+          "Source:raw_8192": [
+            9322,
+            132915
+          ],
+          "Source:parent_8192": [
+            39622,
+            132274
+          ]
+        },
+        "paired_with_strong_controls": {
+          "Source:raw_8192": [
+            5,
+            10
+          ],
+          "Source:parent_8192": [
+            4,
+            9
+          ]
+        },
+        "partitions": {
+          "earlier_members": {
+            "questions": 48,
+            "counts": [
+              25,
+              15
+            ],
+            "control_counts": {
+              "Source:raw_8192": 26,
+              "Source:parent_8192": 30
+            }
+          },
+          "added_members": {
+            "questions": 12,
+            "counts": [
+              4,
+              5
+            ],
+            "control_counts": {
+              "Source:raw_8192": 8,
+              "Source:parent_8192": 4
+            }
+          }
+        }
+      }
+    },
+    "strong_english_accuracy_intervals": {
+      "gpqa-pro": [
+        -3.125,
+        7.421875
+      ],
+      "multihop-pro": [
+        -3.125,
+        4.296875
+      ]
+    },
+    "crux_added": {
+      "procedure": 59,
+      "English piece trace": 64
+    },
+    "glm_bank_construction": {
+      "calls": 6,
+      "input_tokens": 22857,
+      "generated_tokens": 3265
+    },
+    "bfcl_search": {
+      "natural": {
+        "metric_evaluations": 192,
+        "proposals": 6,
+        "physical_attempts": 186,
+        "known_input": 99871,
+        "known_generated_including_reasoning": 40855
+      },
+      "dialect": {
+        "metric_evaluations": 192,
+        "proposals": 6,
+        "physical_attempts": 198,
+        "known_input": 142409,
+        "known_generated_including_reasoning": 20105
+      }
+    },
+    "bfcl_deployment": {
+      "optimized_English": {
+        "code_by_kimi_win_tie_loss": {
+          "loss": {
+            "loss": 1,
+            "tie": 2,
+            "win": 0
+          },
+          "tie": {
+            "loss": 1,
+            "tie": 162,
+            "win": 5
+          },
+          "win": {
+            "loss": 0,
+            "tie": 18,
+            "win": 3
+          }
+        },
+        "paired_interaction_interval95_pp": [
+          1.0416666666666667,
+          11.458333333333334
+        ]
+      },
+      "Direct": {
+        "code_by_kimi_win_tie_loss": {
+          "loss": {
+            "loss": 1,
+            "tie": 4,
+            "win": 0
+          },
+          "tie": {
+            "loss": 1,
+            "tie": 183,
+            "win": 0
+          },
+          "win": {
+            "loss": 0,
+            "tie": 3,
+            "win": 0
+          }
+        },
+        "paired_interaction_interval95_pp": [
+          -3.125,
+          3.125
+        ]
+      }
+    },
+    "bfcl_code_envelope": {
+      "procedure_only": {
+        "identical_call_objects": 15,
+        "different_call_objects": 5,
+        "structural_call_equality_unknown": 1
+      },
+      "parallel_procedure_only": {
+        "identical_call_objects": 10
+      }
+    },
+    "bfcl_common_errors": {
+      "common_reference_errors": 8,
+      "recovered_Pro": 4,
+      "recovered_Qwen": 4,
+      "recovered_by_both": 2
+    },
+    "math_partitions": {
+      "complement": {
+        "questions": 200,
+        "counts": [
+          186,
+          189
+        ]
+      },
+      "full": {
+        "questions": 256,
+        "counts": [
+          232,
+          232
+        ]
+      }
+    },
+    "lcb_machine_frame": [
+      225,
+      230
+    ],
+    "lcb_interaction_interval95_pp": [
+      -9.84251968503937,
+      0.39370078740157477
+    ],
+    "musr_replay_components": {
+      "multiquestion": {
+        "questions": 172,
+        "correct_questions": 115,
+        "whole_stories": 43,
+        "fully_correct_stories": 11
+      },
+      "single_question": {
+        "questions": 85,
+        "correct_questions": 67,
+        "whole_stories": 85,
+        "fully_correct_stories": 67
+      }
+    },
+    "raw_screen": {
+      "compatible": 10,
+      "positive": 4,
+      "negative": 6
+    },
+    "origin_transitions": {
+      "lsf": {
+        "equal_to_equal": 137,
+        "equal_to_different": 0,
+        "different_to_equal": 32,
+        "different_to_different": 23
+      },
+      "natural": {
+        "equal_to_equal": 137,
+        "equal_to_different": 0,
+        "different_to_equal": 32,
+        "different_to_different": 23
+      }
+    },
+    "converged_changed_family": {
+      "neither": 0,
+      "GLM_only": 32,
+      "Qwen_only": 0,
+      "both": 0
+    },
+    "synthetic_records": {
+      "glm52__full_generic_record": {
+        "notes": 16,
+        "tagged_choice": 2,
+        "own_matches": 2,
+        "other_matches": 2,
+        "other_jointly_readable": 30
+      },
+      "glm52__local_generic_record": {
+        "notes": 16,
+        "tagged_choice": 0,
+        "own_matches": 0,
+        "other_matches": 0,
+        "other_jointly_readable": 0
+      },
+      "qwen36__full_generic_record": {
+        "notes": 16,
+        "tagged_choice": 16,
+        "own_matches": 16,
+        "other_matches": 22,
+        "other_jointly_readable": 240
+      },
+      "qwen36__local_generic_record": {
+        "notes": 16,
+        "tagged_choice": 7,
+        "own_matches": 7,
+        "other_matches": 5,
+        "other_jointly_readable": 105
+      },
+      "kimi26__full_generic_record": {
+        "notes": 16,
+        "tagged_choice": 5,
+        "own_matches": 5,
+        "other_matches": 9,
+        "other_jointly_readable": 75
+      },
+      "kimi26__local_generic_record": {
+        "notes": 16,
+        "tagged_choice": 0,
+        "own_matches": 0,
+        "other_matches": 0,
+        "other_jointly_readable": 0
+      }
+    },
+    "synthetic_calibration": {
+      "C9": {
+        "full": {
+          "complete": 16,
+          "correct_observed": 15,
+          "raw_correct_observed": 6,
+          "render_changes": 10,
+          "raw_to_render_harms": 0
+        },
+        "local": {
+          "complete": 16,
+          "correct_observed": 0,
+          "raw_correct_observed": 0,
+          "render_changes": 0,
+          "raw_to_render_harms": 0
+        }
+      },
+      "C11a": {
+        "full": {
+          "complete": 16,
+          "correct_observed": 16,
+          "raw_correct_observed": 10,
+          "render_changes": 6,
+          "raw_to_render_harms": 0
+        },
+        "local": {
+          "complete": 16,
+          "correct_observed": 2,
+          "raw_correct_observed": 2,
+          "render_changes": 1,
+          "raw_to_render_harms": 0
+        }
+      }
+    },
+    "calibration_accounting": {
+      "C8": {
+        "physical_native_calls": 192,
+        "native_input_tokens": 128991,
+        "native_generation_tokens": 61004,
+        "summed_request_latency_s": 1176.263403,
+        "actual_invoice_CNY": null,
+        "unknown_usage_attempts": 0
+      },
+      "C9": {
+        "physical_native_calls": 64,
+        "native_input_tokens": 59824,
+        "native_generation_tokens": 36394,
+        "summed_request_latency_s": 366.5862147882581,
+        "actual_invoice_CNY": null,
+        "unknown_usage_attempts": 0
+      },
+      "C11a": {
+        "physical_native_calls": 64,
+        "native_input_tokens": 60445,
+        "native_generation_tokens": 36996,
+        "summed_request_latency_s": 324.15139786712825,
+        "actual_invoice_CNY": null,
+        "unknown_usage_attempts": 0
+      }
+    }
+  }
+}

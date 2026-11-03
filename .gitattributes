@@ -1,0 +1,5 @@
+# Preserve benchmark release bytes across Git clients and platforms.
+/artifacts/research/20261005/** -text
+/artifacts/research/20261005/results/*.csv whitespace=cr-at-eol
+/artifacts/research/20261005/results/*.svg whitespace=-blank-at-eol
+/releases/*.zip binary

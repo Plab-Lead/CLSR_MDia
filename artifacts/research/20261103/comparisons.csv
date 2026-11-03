@@ -1,0 +1,17 @@
+comparison,benchmark,model,procedure,reference,scope,questions,whole_groups,procedure_correct,reference_correct,difference_pp,archived_ci_lower_pp,archived_ci_upper_pp,recorded_total_tokens_change_pct
+gpqa-pro,GPQA,deepseek-ai/DeepSeek-V4-Pro,Typed bound,Paired English,Complete exposed panel,256,256,182,168,+5.47,+0.39,+10.55,+0.46
+multihop-pro,MultiHop-RAG,deepseek-ai/DeepSeek-V4-Pro,Selective evidence,Paired English,Complete exposed panel,256,256,206,190,+6.25,+3.13,+9.77,+2.69
+multihop-qwen,MultiHop-RAG,Qwen/Qwen3.6-35B-A3B,Typed query,Paired English,Complete exposed panel,256,256,214,174,+15.63,,,-0.82
+aime-flash,AIME,deepseek-ai/DeepSeek-V4-Flash,Counting equivalence,Paired English,Complete exposed panel,60,60,29,20,+15.00,,,+3.88
+crux-glm,CRUXEval,zai-org/GLM-5.2,Selective literal integrity,Raw CoT (2048),Complete exposed panel,256,256,241,229,+4.69,+0.39,+8.98,+16.41
+crux-glm-bank,CRUXEval,zai-org/GLM-5.2,Model-authored module bank,Paired English bank,Complete exposed panel,192,192,183,173,+5.21,+2.08,+8.85,+1.52
+bfcl-code,BFCL,moonshotai/Kimi-K2.7-Code,GEPA procedure,Optimized English,Complete exposed panel,192,192,183,165,+9.38,+4.69,+14.06,+72.15
+bfcl-kimi,BFCL,Pro/moonshotai/Kimi-K2.6,GEPA procedure,Optimized English,Complete exposed panel,192,192,187,181,+3.13,+0.00,+6.25,+53.78
+bfcl-pro,BFCL,deepseek-ai/DeepSeek-V4-Pro,GEPA procedure,Optimized English,Complete exposed panel,192,192,180,174,+3.13,-1.56,+7.81,+113.54
+bfcl-qwen,BFCL,Qwen/Qwen3.6-35B-A3B,GEPA procedure,Optimized English,Complete exposed panel,192,192,180,178,+1.04,-2.60,+4.69,+54.82
+math-flash,MATH,deepseek-ai/DeepSeek-V4-Flash,Derive and substitute,Paired English,"Level 5; exposed, outcome-informed subgroup",56,56,46,43,+5.36,-5.36,+16.07,+0.40
+lcb-flash,LiveCodeBench,deepseek-ai/DeepSeek-V4-Flash,Symbolic procedure,Lexical procedure,Output prediction; ordinary-English reasoning frame,256,104,233,226,+2.73,-0.80,+6.32,-6.04
+mmlu,MMLU-Pro,Qwen/Qwen3.6-35B-A3B,Compiled card,Raw CoT (2048),Complete exposed panel,256,256,196,195,+0.39,-3.13,+3.91,-18.66
+folio,FOLIO,deepseek-ai/DeepSeek-V4-Flash,Contrastive card R1,Raw CoT (2048),Complete exposed panel,204,73,156,144,+5.88,+0.99,+10.58,+129.46
+musr,MuSR,Qwen/Qwen3.6-35B-A3B,GEPA procedure,Raw CoT (2048),Complete exposed panel,257,128,166,152,+5.45,-1.24,+12.10,+26.49
+bbeh,BBEH,deepseek-ai/DeepSeek-V4-Flash,Contrastive card R2,Raw CoT (2048),Complete exposed panel,256,256,81,75,+2.34,-3.52,+8.20,+10.99
